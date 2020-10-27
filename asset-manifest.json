@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/https//bybeye.github.com/tmllab.ai/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/https//bybeye.github.com/tmllab.ai/static/js/main.9d58d8b4.chunk.js",
-    "main.js.map": "/https//bybeye.github.com/tmllab.ai/static/js/main.9d58d8b4.chunk.js.map",
-    "runtime-main.js": "/https//bybeye.github.com/tmllab.ai/static/js/runtime-main.75074c12.js",
-    "runtime-main.js.map": "/https//bybeye.github.com/tmllab.ai/static/js/runtime-main.75074c12.js.map",
-    "static/js/2.061f5aa8.chunk.js": "/https//bybeye.github.com/tmllab.ai/static/js/2.061f5aa8.chunk.js",
-    "static/js/2.061f5aa8.chunk.js.map": "/https//bybeye.github.com/tmllab.ai/static/js/2.061f5aa8.chunk.js.map",
-    "static/js/3.ad536fa0.chunk.js": "/https//bybeye.github.com/tmllab.ai/static/js/3.ad536fa0.chunk.js",
-    "static/js/3.ad536fa0.chunk.js.map": "/https//bybeye.github.com/tmllab.ai/static/js/3.ad536fa0.chunk.js.map",
-    "index.html": "/https//bybeye.github.com/tmllab.ai/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/https//bybeye.github.com/tmllab.ai/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.061f5aa8.chunk.js.LICENSE.txt": "/https//bybeye.github.com/tmllab.ai/static/js/2.061f5aa8.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/https//bybeye.github.com/tmllab.ai/static/media/logo.103b5fa1.svg"
+    "main.css": "/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/static/js/main.9d58d8b4.chunk.js",
+    "main.js.map": "/static/js/main.9d58d8b4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b81b3a68.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b81b3a68.js.map",
+    "static/js/2.061f5aa8.chunk.js": "/static/js/2.061f5aa8.chunk.js",
+    "static/js/2.061f5aa8.chunk.js.map": "/static/js/2.061f5aa8.chunk.js.map",
+    "static/js/3.ad536fa0.chunk.js": "/static/js/3.ad536fa0.chunk.js",
+    "static/js/3.ad536fa0.chunk.js.map": "/static/js/3.ad536fa0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.061f5aa8.chunk.js.LICENSE.txt": "/static/js/2.061f5aa8.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.75074c12.js",
+    "static/js/runtime-main.b81b3a68.js",
     "static/js/2.061f5aa8.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
     "static/js/main.9d58d8b4.chunk.js"
