@@ -14,7 +14,7 @@ class Dataset extends React.Component{
 				    <img src={this.props.image} alt={this.props.name} width="300" class="rounded-0"/>
 				</div>
 				<div class="col-6">
-				    <h3>{this.props.name}</h3>
+				    <h4>{this.props.name}</h4>
 				    {this.props.date}
 				</div>
 			    </div>

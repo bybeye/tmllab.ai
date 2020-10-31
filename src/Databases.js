@@ -14,7 +14,7 @@ function Databases() {
 	<div>
 	    <HeadWhite />
 	    <Banner title="RESEARCH" subtitle="Databases" />
-
+	    <div class="container justify-content-md-center">
 	    <div class="row">
 		<div class="col-3">
 		    <h4 >Research</h4> <br/> 
@@ -31,6 +31,7 @@ function Databases() {
 		    <Dataset image={Data_blank} name="CIFAR-10/100" date="Oct 30, 2020"/>
 		    <Dataset image={Data_blank} name="MNIST" date="Oct 30, 2020"/>
 		</div>
+	    </div>
 	    </div>
 	</div>
     );

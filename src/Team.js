@@ -30,9 +30,10 @@ class Team extends React.Component{
 		    <div class="row">
 			<div class="col-3">
 			    <h4>Team Organization</h4> <br/> 
-			    <a onClick={()=>this.scrollToAnchor('dir')} class="btn btn-outline-primary active">Director</a> <br/> <br/> 
+			    <a onClick={()=>this.scrollToAnchor('dir')} class="btn btn-outline-primary active">Directors</a> <br/> <br/> 
 			    <a onClick={()=>this.scrollToAnchor('phd')} class="btn btn-outline-primary">PhD Students</a> <br/> <br/> 
-			    <a onClick={()=>this.scrollToAnchor('master')} class="btn btn-outline-primary">Master Students</a> <br/> <br/> 
+			    <a onClick={()=>this.scrollToAnchor('master')} class="btn btn-outline-primary">Master Students</a> <br/> <br/>
+			    <a onClick={()=>this.scrollToAnchor('honour')} class="btn btn-outline-primary">Honours Students</a> <br/> <br/> 
 			    <a onClick={()=>this.scrollToAnchor('gra')} class="btn btn-outline-primary">Graduated Students</a>
 			</div>
 
@@ -61,7 +62,7 @@ class Team extends React.Component{
 				<Person img={p2} name="Jialiang Shen"/>
 			    </div>
 			    <hr></hr><br/>
-			    <a id="gra"><h4 class="text-primary" >Honours Students</h4> </a> <br/>
+			    <a id="honour"><h4 class="text-primary" >Honours Students</h4> </a> <br/>
 			    <div class="row">
 				<Person img={p2} name="Zhengning Wu"/>
 				<Person img={p2} name="Kangzhao Xia"/>
