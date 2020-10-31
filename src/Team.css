@@ -1,0 +1,13 @@
+
+
+.Person-container {
+    width: 100px;
+    background: red;
+    margin: 0 auto;
+    @include make-container();
+}
+
+
+.Person-float {
+  float: left;
+}
