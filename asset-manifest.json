@@ -1,30 +1,37 @@
 {
   "files": {
-    "main.css": "/tmllab.ai/static/css/main.8a618d50.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.9cc9d203.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.9cc9d203.chunk.js.map",
-    "runtime-main.js": "/tmllab.ai/static/js/runtime-main.d2bd4f8c.js",
-    "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.d2bd4f8c.js.map",
+    "main.css": "/tmllab.ai/static/css/main.28abed0c.chunk.css",
+    "main.js": "/tmllab.ai/static/js/main.93455fb2.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.93455fb2.chunk.js.map",
+    "runtime-main.js": "/tmllab.ai/static/js/runtime-main.37b3bef2.js",
+    "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.37b3bef2.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.e518e8b5.chunk.js": "/tmllab.ai/static/js/2.e518e8b5.chunk.js",
-    "static/js/2.e518e8b5.chunk.js.map": "/tmllab.ai/static/js/2.e518e8b5.chunk.js.map",
-    "static/js/3.75b4ea0c.chunk.js": "/tmllab.ai/static/js/3.75b4ea0c.chunk.js",
-    "static/js/3.75b4ea0c.chunk.js.map": "/tmllab.ai/static/js/3.75b4ea0c.chunk.js.map",
+    "static/js/2.d33389e3.chunk.js": "/tmllab.ai/static/js/2.d33389e3.chunk.js",
+    "static/js/2.d33389e3.chunk.js.map": "/tmllab.ai/static/js/2.d33389e3.chunk.js.map",
+    "static/js/3.cf1b516c.chunk.js": "/tmllab.ai/static/js/3.cf1b516c.chunk.js",
+    "static/js/3.cf1b516c.chunk.js.map": "/tmllab.ai/static/js/3.cf1b516c.chunk.js.map",
     "index.html": "/tmllab.ai/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.8a618d50.chunk.css.map": "/tmllab.ai/static/css/main.8a618d50.chunk.css.map",
-    "static/js/2.e518e8b5.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.e518e8b5.chunk.js.LICENSE.txt",
+    "static/css/main.28abed0c.chunk.css.map": "/tmllab.ai/static/css/main.28abed0c.chunk.css.map",
+    "static/js/2.d33389e3.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.d33389e3.chunk.js.LICENSE.txt",
     "static/media/Data_blank.28c42567.png": "/tmllab.ai/static/media/Data_blank.28c42567.png",
     "static/media/Model_blank.76a94cf6.jpg": "/tmllab.ai/static/media/Model_blank.76a94cf6.jpg",
+    "static/media/Home.css": "/tmllab.ai/static/media/ban.241f45c1.png",
     "static/media/group_logo.fa61714f.png": "/tmllab.ai/static/media/group_logo.fa61714f.png",
     "static/media/logo.2a0d9749.png": "/tmllab.ai/static/media/logo.2a0d9749.png",
-    "static/media/tongliang.c3da5144.jpeg": "/tmllab.ai/static/media/tongliang.c3da5144.jpeg"
+    "static/media/new-r.012afee5.jpg": "/tmllab.ai/static/media/new-r.012afee5.jpg",
+    "static/media/p1.23dd33ca.jpg": "/tmllab.ai/static/media/p1.23dd33ca.jpg",
+    "static/media/p2.a92a09cf.jpg": "/tmllab.ai/static/media/p2.a92a09cf.jpg",
+    "static/media/p3.c7779801.gif": "/tmllab.ai/static/media/p3.c7779801.gif",
+    "static/media/p4.1e004ea1.jpg": "/tmllab.ai/static/media/p4.1e004ea1.jpg",
+    "static/media/tongliang.c3da5144.jpeg": "/tmllab.ai/static/media/tongliang.c3da5144.jpeg",
+    "static/media/university.fe4c1976.gif": "/tmllab.ai/static/media/university.fe4c1976.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2bd4f8c.js",
+    "static/js/runtime-main.37b3bef2.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.e518e8b5.chunk.js",
-    "static/css/main.8a618d50.chunk.css",
-    "static/js/main.9cc9d203.chunk.js"
+    "static/js/2.d33389e3.chunk.js",
+    "static/css/main.28abed0c.chunk.css",
+    "static/js/main.93455fb2.chunk.js"
   ]
 }
