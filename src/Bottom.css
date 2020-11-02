@@ -68,17 +68,15 @@ a.link:hover {
 
 /*footer*/
 .footer{
-	width:100%;
-	background:#2a2a2a;
-	height:auto;
-	color:#949695;
-	font-size:14px;
-
-  clear: both;
+    width:100%;
+    background:#2a2a2a;
+    height:auto;
+    color:#949695;
+    font-size:14px;
+    clear: both;
 
 }
 .footer-cont{
-	width:1040px;
 	height:auto;
 	overflow: hidden;
 	margin:0 auto;

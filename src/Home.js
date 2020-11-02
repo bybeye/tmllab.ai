@@ -15,10 +15,12 @@ class Home extends React.Component{
     state = {
 	deskHeight: window.innerHeight,
 	deskWidth: window.innerWidth,
+	halfWidth: 500,
 	topClassName:"home-top",
     }
     
     componentDidMount() {
+	this.handleSize()
 	window.addEventListener('resize', this.handleSize);
 	window.addEventListener('scroll', this.handleTopFix);
     }
@@ -29,18 +31,23 @@ class Home extends React.Component{
     }
     
     handleSize = () => {
-	var height=window.innerHeight
-	var width=window.innerWidth
+	var height = window.innerHeight
+	var width = window.innerWidth
+	var hwidth = window.innerWidth-50
+
 	if(height<500){
 	    height=500;
 	}
-	if(width>=1000){
-	    width = 1080
-	}
 	
+	if(width>=800){
+	    width = 1080
+	    hwidth = 500
+	}
+
 	this.setState({
             deskHeight:height,
 	    deskWidth:width,
+	    halfWidth:hwidth
 	});
     }
 
@@ -61,11 +68,11 @@ class Home extends React.Component{
     }
     
     render() {
-	const { deskHeight, deskWidth, topClassName } = this.state;
+	const { deskHeight, deskWidth, halfWidth, topClassName } = this.state;
 	return (
 	    <div>
 		<div class="home-container">
-		    <div class="clearfix home-contain-inner" style={{height: deskHeight}}>
+		    <div class="clearfix home-contain-inner" style={{width: deskWidth, height: deskHeight}}>
 			<div className={topClassName}>
 			    <div class="home-top-inner" style={{width: deskWidth}}>
 			    <Link class="nav-link head-link" to="/"><img src={logo} alt="" class="logo fl"/></Link>
@@ -88,15 +95,15 @@ class Home extends React.Component{
 			    </div>
 			</div>
 			<div class="b-text clearfix">
-			    Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.
+			    <span>Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span>
 			</div>
 		    </div>
 		</div>	
-		<div class="new-r">
-		    <div style={{paddingLeft:"50px",height: deskHeight}}>
+		<div class="new-r" style={{ width: deskWidth}}>
+		    <div style={{height: deskHeight}}>
 			<h3>TML News</h3>
 			<div class="fl l-img"><img src={rimg} Alt=""/></div>
-			<div class="fl l-text">
+			<div class="fl l-text" style={{paddingRight:"50px", width: halfWidth}}>
 			    <ul style={{listStyleType: "circle"}}>
 				<li style={{listStyleType: "disc"}}><a href="" >We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!</a></li>
 				<li style={{listStyleType: "disc"}}><a href="https://specialreports.theaustralian.com.au/1540291/27/" target="_blank">Dr Tongliang Liu was named in the Early Achievers Leaderboard by The Asutralian.</a></li>
@@ -108,9 +115,9 @@ class Home extends React.Component{
 		    </div>
 		</div>
 		<div class="research clearfix">
-		    <div class="research-cont" style={{paddingLeft:"50px", height: deskHeight}}>
-			<h1>TML Research</h1>
-			<div class="cont-l fl">
+		    <div class="research-cont" style={{width: deskWidth, height: deskHeight}}>
+			<h2>TML Research</h2>
+			<div class="cont-l fl" style={{ width: halfWidth}}>
 			We are working together to promote trustworthy machine learning algorithms and push their boundaries. Specifically, together with practitioners, we find promising applications, address critical issues in emerging trends, and deal with open/long-standing problems.</div>
 			<div class="cont-r fr">
 			    <p><NavLink className="nav-link" to="/team" onClick={this.backTop}>Team  <Spacer amount={8}/> <span> > </span></NavLink></p>
@@ -120,12 +127,12 @@ class Home extends React.Component{
 		    </div>
 		</div>
 		<div class="cooperate">
-		    <div class="coo-1">
-			<div class="coo-1-text fl" style={{paddingLeft:"50px"}}>
-			    <h1>Research Collaboration</h1>
+		    <div class="coo-1" style={{ width: deskWidth}}>
+			<div class="coo-1-text fl" style={{ width: halfWidth}}>
+			    <h2>Research Collaboration</h2>
 			    We collaborate with leading researchers in the area. For example, we exchange staff and students, scientific and technological information, research ideas and materials. We jointly apply for and conduct research activities.
 			</div>
-			<div class="coo-1-pic fr">
+			<div class="coo-1-pic fr" style={{ width: halfWidth}}>
 			    <img src={rimg2} alt=""/>
 			    <p>
 				<a href="http://www.andrew.cmu.edu/user/kunz1/index.html" target="_blank">CMU team</a>
@@ -136,18 +143,18 @@ class Home extends React.Component{
 			</div>
 		    </div>
 
-		    <div class="clearfix coo-2">
+		    <div class="clearfix coo-2" style={{ width: deskWidth}}>
 			<div class="coo-2-text">
-			    <h1>Industry Collaboration</h1>
+			    <h2>Industry Collaboration</h2>
 			    We collaborate with our industry partners to identify practical challenges, promote economic prosperity, and improve our quality of life. Our students can also gain focused experience related to their research.<br/><br/>
 			</div>
 			<div class="coo-2-pic">
-			    <div class="first-pic fl"><img src={p1} alt=""/><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
-			    <div class="second-pic fr"><img src={p2} alt=""/><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
+			    <div class="first-pic fl"><img src={p1} alt="" class="img-fluid" /><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
+			    <div class="second-pic fr"><img src={p2} alt="" class="img-fluid" /><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
 			</div>
 			<div class="coo-2-pic">
-			    <div class="second-pic fl"><img src={p3} alt=""/><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
-			    <div class="first-pic fr"><img src={p4} alt=""/><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
+			    <div class="second-pic fl"><img src={p3} alt="" class="img-fluid" /><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
+			    <div class="first-pic fr"><img src={p4} alt="" class="img-fluid" /><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
 			</div>
 		    </div>
 		</div>

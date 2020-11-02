@@ -16,13 +16,13 @@ function Databases() {
 	    <Banner title="RESEARCH" />
 	    <div class="container justify-content-md-center">
 	    <div class="row">
-		<div class="col-3">
+		<div class="col-md-3 col-12" style={{paddingBottom:"50px"}}>
    		    <Link to="/Research" class="btn btn-outline-primary">Publications</Link> <br/> <br/> 
 		    <Link to="/Models" class="btn btn-outline-primary">Models</Link> <br/> <br/> 
    		    <Link to="/Databases" class="btn btn-outline-primary active">Databases</Link>
 		</div>
 
-		<div class="col-9">
+		<div class="col-md-9 col-12">
 		    <div class="row">
 			<h4 class="text-primary" >Databases</h4><br/><br/><br/>
 		    </div>

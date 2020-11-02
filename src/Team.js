@@ -30,7 +30,7 @@ class Team extends React.Component{
 
 		<div class="container justify-content-md-center">
 		    <div class="row">
-			<div class="col-3">
+			<div class="col-md-3 col-12" style={{paddingBottom:"50px"}}>
 			    <a onClick={()=>this.scrollToAnchor('dir')} class="btn btn-outline-primary active">Directors</a> <br/> <br/> 
 			    <a onClick={()=>this.scrollToAnchor('phd')} class="btn btn-outline-primary">PhD Students</a> <br/> <br/> 
 			    <a onClick={()=>this.scrollToAnchor('master')} class="btn btn-outline-primary">Master Students</a> <br/> <br/>
@@ -38,7 +38,7 @@ class Team extends React.Component{
 			    <a onClick={()=>this.scrollToAnchor('gra')} class="btn btn-outline-primary">Graduated Students</a>
 			</div>
 
-			<div class="col-9">
+			<div class="col-md-9 col-12">
 			    <a id="dir"><h4 class="text-primary">Directors</h4> </a><br/>
 			    <div class="row">
 				<Person img={p1} name="Tongliang Liu"/>

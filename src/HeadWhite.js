@@ -12,10 +12,40 @@ class HeadWhite extends React.Component{
         document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
 
+    state = {
+	deskWidth: window.innerWidth,
+	halfWidth: 600,
+    }
+
+    componentDidMount() {
+	this.handleSize()
+	window.addEventListener('resize', this.handleSize);
+    }
+    
+    componentWillUnmount() {
+	window.removeEventListener('resize', this.handleSize);
+    }
+
+    handleSize = () => {
+	var width = window.innerWidth
+	var hwidth = window.innerWidth
+
+	if(width>=800){
+	    width = 1080
+	    hwidth = 600
+	}
+
+	this.setState({
+	    deskWidth:width,
+	    halfWidth:hwidth
+	});
+    }
+    
     render(){
+	const { deskWidth, halfWidth } = this.state;
 	return (
 	    <div class="head-container">
-		<div class="clearfix head-contain-inner">
+		<div class="clearfix head-contain-inner" style={{ width: deskWidth}}>
 		    <Link class="nav-link head-link" to="/"><img src={logo} class="logo fl" alt=""/></Link>
 		    <div class="head-nav fr">
 			<ul class="head-nav justify-content-end">

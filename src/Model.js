@@ -5,7 +5,7 @@ class Model extends React.Component{
     
     render() {
 	return (
-	    <div class="col-sm-6 col-md-4">
+	    <div class="col-sm-12 col-md-4">
 		<br/>
 		<div class="card">
 		    <div class="card-body">

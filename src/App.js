@@ -63,7 +63,7 @@ function About() {
 		<div class="row ">
 		    <div class="col-10">
 			<br/><br/>
-				<h5>Founded in 2020, together with industry partners, the Trustworthy Machine Learning Lab (TML Lab) at the University of Sydney hosts, attracts, and connects the best global talents to develop trustworthy machine learning techniques and tools, which are explainable, robust, fair, causally responsible, and privacy-preserving. The mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</h5>
+				Founded in 2020, together with industry partners, the Trustworthy Machine Learning Lab (TML Lab) at the University of Sydney hosts, attracts, and connects the best global talents to develop trustworthy machine learning techniques and tools, which are explainable, robust, fair, causally responsible, and privacy-preserving. The mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.
 			<br/><br/><br/><br/>
 			</div>
 		</div>

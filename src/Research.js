@@ -15,18 +15,17 @@ function Research() {
 	    <Banner title="RESEARCH"/>
 	    <div class="container justify-content-md-center">
 	    <div class="row">
-		<div class="col-3">
+		<div class="col-md-3 col-12" style={{paddingBottom:"50px"}}>
 		    <Link to="/Research" class="btn btn-outline-primary active">Publications</Link> <br/> <br/> 
 		    <Link to="/Models" class="btn btn-outline-primary">Models</Link> <br/> <br/> 
    		    <Link to="/Databases" class="btn btn-outline-primary">Databases</Link>
 		</div>
 
-		<div class="col-9">
+		<div class="col-md-9 col-12">
 		    <nav>
 			<div class="nav nav-tabs" id="nav-tab" role="tablist">
 			    <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Conference papers</a>
 			    <a class="nav-link" id="nav-journal-tab" data-toggle="tab" href="#nav-journal" role="tab" aria-controls="nav-journal" aria-selected="false">Journal Papers</a>
-			    
 			</div>
 		    </nav>
 		    <div class="tab-content" id="nav-tabContent">
