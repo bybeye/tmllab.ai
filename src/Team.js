@@ -5,13 +5,15 @@ import Banner from './Banner'
 import Person from './Person'
 import './Team.css';
 
-
 import p1 from './images/tongliang.jpeg'; 
-import p2 from './images/Person_blank.jpeg'; 
+import p2 from './images/Person_blank.jpeg';
+import xinyu from './images/Xinyu.png'; 
+import erkun from './images/Erkun.jpeg'; 
+import yuxuan from './images/Yuxuan.jpeg';
+import chencheng from './images/ChenCheng.jpeg';
+import yingbin from './images/Yingbin.jpg';
 
 class Team extends React.Component{
-    
-    
 
     scrollToAnchor = (anchorName) => {
 	if (anchorName) {
@@ -29,7 +31,6 @@ class Team extends React.Component{
 		<div class="container justify-content-md-center">
 		    <div class="row">
 			<div class="col-3">
-			    <h4>Team Organization</h4> <br/> 
 			    <a onClick={()=>this.scrollToAnchor('dir')} class="btn btn-outline-primary active">Directors</a> <br/> <br/> 
 			    <a onClick={()=>this.scrollToAnchor('phd')} class="btn btn-outline-primary">PhD Students</a> <br/> <br/> 
 			    <a onClick={()=>this.scrollToAnchor('master')} class="btn btn-outline-primary">Master Students</a> <br/> <br/>
@@ -48,7 +49,7 @@ class Team extends React.Component{
 			    <div class="row">
 				<Person img={p2} name="Yu Yao"/>
 				<Person img={p2} name="Songhua Wu"/>
-				<Person img={p2} name="Yingbin Bai"/>
+				<Person img={yingbin} name="Yingbin Bai"/>
 				<Person img={p2} name="Chaojian Yu" />
 				<Person img={p2} name="Xiaobo Xia"/>
 				<Person img={p2} name="Yuxuan Du" description="(Co-supervised)"/>
@@ -73,10 +74,10 @@ class Team extends React.Component{
 			    <hr></hr><br/>
 			    <a id="gra"><h4 class="text-primary" >Graduated Research Students</h4> </a> <br/>
 			    <div class="row">
-				<Person img={p2} name="Erkun Yang"/>
-				<Person img={p2} name="Xiyu Yu"/>
-				<Person img={p2} name="Cheng Chen"/>
-				<Person img={p2} name="Yuxuan Du"/>
+				<Person img={erkun} name="Erkun Yang"/>
+				<Person img={xinyu} name="Xiyu Yu"/>
+				<Person img={chencheng} name="Cheng Chen"/>
+				<Person img={yuxuan} name="Yuxuan Du"/>
 			    </div>
 
 			    

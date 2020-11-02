@@ -2,7 +2,7 @@ import React from 'react';
 import './Bottom.css';
 
 import logo from './images/logo.png';
-import group_logo from './images/group_logo.png'; 
+import group_logo from './images/bottom_logo.png'; 
 import f1 from './images/f1.jpg';
 import f2 from './images/f2.jpg'; 
 import f3 from './images/f3.jpg'; 
@@ -19,7 +19,7 @@ function Bottom(){
 	<div class="footer">
 	    <div class="footer-cont">
 		<div class="cont-fl fl">
-		    <p class="flogo"><img src={logo} width="120" alt=""/> <img src={group_logo} width="40" alt=""/></p>
+		    <p class="flogo"><img src={logo} width="120" alt=""/> <img src={group_logo} width="100" alt=""/></p>
 		    <p><h4> <i>Trustworthiness is a foundation</i></h4></p>
 		    <p class="link"></p>
 		</div>

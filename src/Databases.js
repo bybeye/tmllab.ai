@@ -13,11 +13,10 @@ function Databases() {
     return (
 	<div>
 	    <HeadWhite />
-	    <Banner title="RESEARCH" subtitle="Databases" />
+	    <Banner title="RESEARCH" />
 	    <div class="container justify-content-md-center">
 	    <div class="row">
 		<div class="col-3">
-		    <h4 >Research</h4> <br/> 
    		    <Link to="/Research" class="btn btn-outline-primary">Publications</Link> <br/> <br/> 
 		    <Link to="/Models" class="btn btn-outline-primary">Models</Link> <br/> <br/> 
    		    <Link to="/Databases" class="btn btn-outline-primary active">Databases</Link>

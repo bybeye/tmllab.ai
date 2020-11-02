@@ -3,7 +3,7 @@ import './App.css';
 
 import Team from './Team';
 import Home from './Home';
-import Head from './Head';
+import HeadWhite from './HeadWhite';
 import Banner from './Banner'
 import Bottom from './Bottom'
 import Research from './Research';
@@ -22,34 +22,29 @@ function App() {
     return (
 	<div>
 	    
-		<HashRouter >
-		    <Switch>
-			<Route exact path="/">
-			    <Home />
-			</Route>
+	    <HashRouter >
+		<Switch>
+		    <Route exact path="/">
+			<Home />
+		    </Route>
+		    <Route path="/research">
+			<Research />
+		    </Route>
+		    <Route path="/Models">
+			<Models />
+		    </Route>
+		    <Route path="/Databases">
+			<Databases />
+		    </Route>
+		    <Route path="/team">
+			<Team />
+		    </Route>
+		    <Route path="/about">
+			<About />
+		    </Route>
 
-
-			<div>
-			    
-			    
-			    <Route path="/research">
-				<Research />
-			    </Route>
-			    <Route path="/Models">
-				<Models />
-			    </Route>
-			    <Route path="/Databases">
-				<Databases />
-			    </Route>
-			    <Route path="/team">
-				<Team />
-			    </Route>
-			    <Route path="/about">
-				<About />
-			    </Route>
-			    </div>
-		    </Switch>
-		</HashRouter>
+		</Switch>
+	    </HashRouter>
 	    
 	    <Bottom />
 	</div>
@@ -62,12 +57,18 @@ function App() {
 function About() {
     return (
 	<div>
-	    <Head />
-	    <Banner title="About Us" />
+	    <HeadWhite />
+	    <Banner title="About us" />
 	    <div class="container justify-content-md-center">
-		About Us
+		<div class="row ">
+		    <div class="col-10">
+			<br/><br/>
+				<h5>Founded in 2020, together with industry partners, the Trustworthy Machine Learning Lab (TML Lab) at the University of Sydney hosts, attracts, and connects the best global talents to develop trustworthy machine learning techniques and tools, which are explainable, robust, fair, causally responsible, and privacy-preserving. The mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</h5>
+			<br/><br/><br/><br/>
+			</div>
+		</div>
 	    </div>
-	 </div>
+	</div>
     );
 }
 

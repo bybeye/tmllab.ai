@@ -1,0 +1,309 @@
+html, body{
+overflow-x: hidden;
+}
+
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+body,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+li,
+ul {
+  list-style: none;
+}
+body {
+  color: #474747;
+  background:#ffffff;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.clearfix {
+  clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.home-container{
+    margin-top:0px;
+    width:100%;
+    height:auto;
+    background:url(./images/ban.png) no-repeat;
+    background-size:100% 100%;
+	
+}
+
+.home-contain-inner{
+	width:1080px;
+	height:660px;
+	margin:0 auto;
+}
+
+.home-contain-inner img{
+	height:60px;
+	margin-top:20px;
+}
+
+.home-top-fixed{
+    top:0px;
+    left:0px;
+    position:fixed;
+    padding-bottom:10px;
+    width:100%;
+    height:auto;
+    background:#fff;
+    background-size:100% 100%;
+    z-index:9999;
+}
+
+.home-top-inner{
+    height:auto;
+    margin:0 auto;
+}
+
+.home-top-fixed  ul li{
+    color:#007bff;
+}
+
+.home-nav ul li{
+	margin:20px 40px 0 0;
+	float: left;
+}
+
+.home-top ul li a{
+	color:#fff;
+}
+
+.home-top ul li a:hover{
+	color:#0072b9;
+}
+
+.b-text{
+	width:90%;
+	padding-top:220px;
+	padding-left:50px;
+	font-size:30px;
+	line-height:40px;
+	color:#fff;
+}
+.f16{
+    font-size:16px;
+}
+.f16 a{
+    color:#fff;
+}
+
+.f16 a:hover{
+    color:#0072b9;	
+}   
+.new-r{
+	width:1080px;
+	margin:0 auto;
+	height:auto;
+}
+ 
+.new-r h2{
+    height:100px;
+    line-height:120px;
+    font-size:38px;
+    color:#404040;
+}
+.new-r h3{
+    padding-top:200px;
+    font-size:32px;
+    color:#404040;
+}
+.new-r .l-img img{
+	margin-right:50px;
+	width:300px;
+} 
+.new-r .l-text{
+	width:650px;
+	height:250px;
+	border-top:1px solid #797979;
+	border-bottom:1px solid #797979;
+	margin-bottom:80px;
+	padding-top:20px;
+	padding-left:50px;
+}
+.new-r .l-text a{
+	color:#212529;
+} 
+.research{
+	width:100%;
+	height:auto;
+	background:url(./images/ban2.png) no-repeat;
+	background-size:100% 100%;
+	color:#fff;
+}
+.research-cont{
+	width:1065px;
+	height:600px;
+	padding-left:15px;
+	margin:0 auto;
+}
+.research-cont h1{
+	padding:200px 0 0px 0;
+	font-size:48px;
+	color: #fff;
+}
+.cont-l{
+	width:450px;
+	line-height:28px;
+	color:#fff;
+	padding-top:30px;
+}
+.cont-r{
+	font-size:22px;
+}
+.cont-r p{
+	height:60px;
+	line-height:60px;
+}
+.cont-r p a{
+	color:#fff;
+}
+.cont-r p a:hover{
+	color:#0072b9;	
+}
+.cont-r p span{
+	display:inline-block;
+	width:200px;
+	text-align:right;
+}
+.cont-r p.bor-tb{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.cooperate{
+	width:100%;
+	padding-top:120px;
+} 
+.coo-1,.coo-2{
+	width:1080px;
+	margin:0 auto;
+}
+.coo-1-text{
+    width:400px;
+}
+.coo-1-text h1{
+    padding:30px 0 30px 0;
+    font-size:28px;
+    color:#404040;
+}
+.coo-1-text h1,.coo-2-text h1{
+	font-size:38px;
+	color:#404040;
+}
+.coo-1-text h5{
+	line-height:24px;
+	margin-top:30px;
+}
+.coo-1-pic{
+	width:650px;
+	text-align:center;
+}
+.coo-1-pic img{
+	width:512px;
+	height:269px;
+	margin-bottom:10px;
+}
+.coo-1-pic a{
+	color:#333333;
+	margin:0 25px;
+}
+.coo-1-pic a.active{
+	color:#1179c0;
+	text-decoration: underline;
+}
+.coo-2{
+	padding-top:120px;
+}
+.coo-2-text{
+    padding-left:50px;
+    width:900px;
+}
+.coo-2-text h5{
+	padding-right:400px;
+	line-height:24px;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.first-pic{
+	width:720px;
+}
+.first-pic img{
+	width:720px;
+	height:300px;
+}
+.second-pic{
+	width:340px;
+}
+.second-pic img{
+	width:340px;
+	height:300px;
+}
+
+.first-pic span,.second-pic span{
+	position:relative;
+	left:10px;
+	top:-70px;
+	bottom:0px;
+}
+.first-pic span h6,.second-pic span h6{
+	color:#f2f2f2;
+}
+.first-pic span h4,.second-pic span h4{
+	color:#fff;
+	margin-top:5px;
+}
+.mar-t30{
+	margin-top:-30px;
+	position:relative;
+	top:-20px;
+}
+.oppo{
+	background:#f2f2f2;
+	width:100%;
+	height:200px;
+}
+.oppo-cont{
+	width:1080px;
+	margin:0 auto;
+}

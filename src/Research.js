@@ -12,18 +12,16 @@ function Research() {
     return (
 	<div>
 	    <HeadWhite />
-	    <Banner title="RESEARCH" subtitle="Publications"/>
+	    <Banner title="RESEARCH"/>
 	    <div class="container justify-content-md-center">
 	    <div class="row">
 		<div class="col-3">
-		    <h4>Research</h4> <br/> 
 		    <Link to="/Research" class="btn btn-outline-primary active">Publications</Link> <br/> <br/> 
 		    <Link to="/Models" class="btn btn-outline-primary">Models</Link> <br/> <br/> 
    		    <Link to="/Databases" class="btn btn-outline-primary">Databases</Link>
 		</div>
 
 		<div class="col-9">
-
 		    <nav>
 			<div class="nav nav-tabs" id="nav-tab" role="tablist">
 			    <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Conference papers</a>
@@ -161,8 +159,12 @@ function Research() {
 				<h4 class="Head4">2018</h4>
 			    </div>
 			    <Paper title="Fast Supervised Discrete Hashing. " authors="J. Gui*, T. Liu*, Z. Sun, D. Tao, and T. Tan." pdf="https://tongliang-liu.github.io/papers/TPAMI_Fastdhc.pdf" conference="IEEE T-PAMI, 40(2): 490-496, 2018." highlight=""/>
-			    <Paper title="" authors="" pdf="" conference="" highlight=""/>
-			    <Paper title="" authors="" pdf="" conference="" highlight=""/>
+			    <Paper title="Continuous Dropout. " authors="X. Shen, X. Tian, F. Xu, T. Liu, and D. Tao." pdf="https://tongliang-liu.github.io/papers/08057594.pdf" conference="IEEE T-NNLS, 29(9): 3926-3937, 2018." highlight=""/>
+<Paper title="Multi-class Learning with Partially Corrupted Labels." authors="R. Wang, T. Liu, and D. Tao." pdf="https://tongliang-liu.github.io/papers/07929355.pdf" conference="IEEE T-NNLS, 29(6): 2568-2580, 2018." highlight=""/>
+<Paper title="On Better Exploring and Exploiting Task Relationship in Multi-Task Learning: Joint Model and Feature Learning." authors="Y. Li, X. Tian, T. Liu, and D. Tao." pdf="https://tongliang-liu.github.io/papers/07902220.pdf" conference="IEEE T-NNLS, 29(5): 1975-1985, 2018." highlight=""/>
+<Paper title="Supervised Discrete Hashing with Relaxation." authors="J. Gui*, T. Liu*, Z. Sun, D. Tao, and T. Tan." pdf="https://tongliang-liu.github.io/papers/guiSupervised.pdf" conference="IEEE T-NNLS, 29(3): 608-617, 2018." highlight=""/>
+<Paper title="Deep Blur Mapping: Exploiting High-Level Semantics by Deep Neural Networks." authors="K. Ma, H. Fu, T. Liu, Z. Wang, and D. Tao." pdf="https://tongliang-liu.github.io/papers/08386849.pdf" conference="IEEE T-IP, 27(10): 5155-5166, 2018." highlight=""/>
+<Paper title="A Regularization Approach for Instance-Based Superset Label Learning." authors="C. Gong, T. Liu, Y. Tang, J. Yang, J. Yang, and D. Tao." pdf="https://tongliang-liu.github.io/papers/gongARegularization.pdf" conference="IEEE T-CYB, 48(3): 967-978, 2018." highlight=""/>
 			    
 			    <br/><hr/><br/>
 			    <div class="row align-items-center">
@@ -182,23 +184,27 @@ function Research() {
 			    
 			    <Paper title="Classification with Noisy Labels by Importance Reweighting." authors="Tongliang Liu and Dacheng Tao" pdf="https://arxiv.org/pdf/1411.7718.pdf" conference="IEEE T-PAMI, 38(3): 447-461, 2016."/>
 			    <Paper title="Dimensionality-Dependent Generalization Bounds for k-Dimensional Coding Schemes." authors="T. Liu, D. Tao, and D. Xu." pdf="https://arxiv.org/pdf/1601.00238.pdf" conference="NECO, 28(10): 2213-2249, 2016." highlight=""/>
-			    <Paper title="" authors="" pdf="" conference="" highlight=""/>
-			    
-
+			    <Paper title="On the Performance of MahNMF Manhattan Non-negative Matrix Factorization." authors="T. Liu and D. Tao." pdf="https://tongliang-liu.github.io/papers/TNNLSManhNMF.pdf" conference="IEEE T-NNLS, 27(9): 1851-1863, 2016." highlight=""/>
+<Paper title="Dual Diversified Dynamical Gaussian Process Latent Variable Model for Video Repair." authors="H. Xiong, T. Liu, D. Tao, and H. T. Shen." pdf="https://tongliang-liu.github.io/papers/TIPvideorepair.pdf" conference="IEEE T-IP, 25(8): 3626-3637, 2016." highlight=""/>
+<Paper title="Local Rademacher Complexity for Multi-Label Learning. " authors="C. Xu, T. Liu, D. Tao, and C. Xu." pdf="https://tongliang-liu.github.io/papers/TIPLocalRademacher.pdf" conference="IEEE T-IP, 25(3): 1495-1507, 2016." highlight=""/>
+<Paper title="Representative Vector Machines: A Unified Framework for Classical Classifiers." authors="J. Gui*, T. Liu*, D. Tao, Z. Sun, and T. Tan." pdf="https://tongliang-liu.github.io/papers/TCYBRVM.pdf" conference="IEEE T-CYB, 46(8): 1877-1888, 2016." highlight=""/>
+<Paper title="Video Face Editing Using Temporal-Spatial-Smooth Warping." authors="X. Li, T. Liu*, J. Deng, and D. Tao." pdf="https://tongliang-liu.github.io/papers/ACMTISTFaceEditing.pdf" conference="ACM T-IST, 7(3): 32, 2016." highlight=""/>
+ 
 			    <br/><hr/><br/>
 			    <div class="row align-items-center">
 				<h4 class="Head4">2015</h4>
 			    </div>
-			    <Paper title="" authors="" pdf="" conference="" highlight=""/>
-			    <Paper title="" authors="" pdf="" conference="" highlight=""/>
-			    <Paper title="" authors="" pdf="" conference="" highlight=""/>
+			    <Paper title="Deformed Graph Laplacian for Semisupervised Learning." authors="C. Gong, T. Liu, D. Tao, K. Fu, E. Tu, and J. Yang." pdf="https://tongliang-liu.github.io/papers/TNNLSDeformedGraphLaplacian.pdf" conference="IEEE T-NNLS, 26(10): 2261-2274, 2015." highlight=""/>
+<Paper title="Multiview Matrix Completion for Multilabel Image Classification." authors="Y. Luo, T. Liu, D. Tao, and C. Xu." pdf="https://tongliang-liu.github.io/papers/TIP-Multiview.pdf" conference="IEEE T-IP, 24(8): 2261-2274, 2015." highlight=""/>
+<Paper title="No Reference Quality Assessment for Multiply-Distorted Images Based on an Improved Bag-of-Words Model." authors="Y. Lu, F. Xie, T. Liu, Z. Jiang, and D. Tao." pdf="https://tongliang-liu.github.io/papers/IEEESPLNoReferenceIQA.pdf" conference="IEEE SPL, 22(10): 1811-1815, 2015." highlight=""/>
+			    
 
 			    <br/><hr/><br/>
 			    <div class="row align-items-center">
 				<h4 class="Head4">2014</h4>
 			    </div>
 			    <Paper title="Decomposition-Based Transfer Distance Metric Learning for Image Classification." authors="Y. Luo, T. Liu, D. Tao, and C. Xu." pdf="https://tongliang-liu.github.io/papers/TIPMetricTransfer.pdf" conference="IEEE T-IP, 23(9): 3789-3801, 2014." highlight=""/>
-
+			    <Paper title="" authors="" pdf="" conference="" highlight=""/>
 			    <br/>
 			</div>
 		    </div>

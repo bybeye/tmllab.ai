@@ -8958,6 +8958,11 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-add-space@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-add-space/-/react-add-space-1.0.7.tgz#8419bc989c18ab7f954ba7b162618394831f357f"
+  integrity sha512-KTr3q1GGTtCqldgY/auQskg2rgVmB5PKOvUhr7sZ7NQ8aqiN4GPXsnR0uhzNJZgzOEUJSeCi3DAx4cwVPgQ1ng==
+
 react-app-polyfill@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-2.0.0.tgz"
