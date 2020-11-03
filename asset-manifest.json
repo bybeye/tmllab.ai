@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tmllab.ai/static/css/main.bcae3fcb.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.180b0eee.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.180b0eee.chunk.js.map",
+    "main.css": "/tmllab.ai/static/css/main.c031bcbc.chunk.css",
+    "main.js": "/tmllab.ai/static/js/main.0d73b9d3.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.0d73b9d3.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.e02ad82c.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.e02ad82c.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.d905f8a5.chunk.js": "/tmllab.ai/static/js/2.d905f8a5.chunk.js",
-    "static/js/2.d905f8a5.chunk.js.map": "/tmllab.ai/static/js/2.d905f8a5.chunk.js.map",
+    "static/js/2.f8a7cc75.chunk.js": "/tmllab.ai/static/js/2.f8a7cc75.chunk.js",
+    "static/js/2.f8a7cc75.chunk.js.map": "/tmllab.ai/static/js/2.f8a7cc75.chunk.js.map",
     "static/js/3.dd5b409b.chunk.js": "/tmllab.ai/static/js/3.dd5b409b.chunk.js",
     "static/js/3.dd5b409b.chunk.js.map": "/tmllab.ai/static/js/3.dd5b409b.chunk.js.map",
     "index.html": "/tmllab.ai/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.bcae3fcb.chunk.css.map": "/tmllab.ai/static/css/main.bcae3fcb.chunk.css.map",
-    "static/js/2.d905f8a5.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.d905f8a5.chunk.js.LICENSE.txt",
+    "static/css/main.c031bcbc.chunk.css.map": "/tmllab.ai/static/css/main.c031bcbc.chunk.css.map",
+    "static/js/2.f8a7cc75.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.f8a7cc75.chunk.js.LICENSE.txt",
     "static/media/ChenCheng.9100188c.jpeg": "/tmllab.ai/static/media/ChenCheng.9100188c.jpeg",
     "static/media/Data_blank.28c42567.png": "/tmllab.ai/static/media/Data_blank.28c42567.png",
     "static/media/Erkun.191c84f1.jpeg": "/tmllab.ai/static/media/Erkun.191c84f1.jpeg",
@@ -26,18 +26,18 @@
     "static/media/group_logo.0bc7436f.png": "/tmllab.ai/static/media/group_logo.0bc7436f.png",
     "static/media/logo.2a0d9749.png": "/tmllab.ai/static/media/logo.2a0d9749.png",
     "static/media/new-r.f199fc11.jpeg": "/tmllab.ai/static/media/new-r.f199fc11.jpeg",
-    "static/media/p1.7f3d9dd4.png": "/tmllab.ai/static/media/p1.7f3d9dd4.png",
+    "static/media/p1.74c09891.png": "/tmllab.ai/static/media/p1.74c09891.png",
     "static/media/p2.b6251948.jpg": "/tmllab.ai/static/media/p2.b6251948.jpg",
     "static/media/p3.85d1105c.jpg": "/tmllab.ai/static/media/p3.85d1105c.jpg",
     "static/media/p4.ee557593.jpg": "/tmllab.ai/static/media/p4.ee557593.jpg",
     "static/media/tongliang.c3da5144.jpeg": "/tmllab.ai/static/media/tongliang.c3da5144.jpeg",
-    "static/media/university.b3ca3807.png": "/tmllab.ai/static/media/university.b3ca3807.png"
+    "static/media/university.72602d2b.png": "/tmllab.ai/static/media/university.72602d2b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e02ad82c.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.d905f8a5.chunk.js",
-    "static/css/main.bcae3fcb.chunk.css",
-    "static/js/main.180b0eee.chunk.js"
+    "static/js/2.f8a7cc75.chunk.js",
+    "static/css/main.c031bcbc.chunk.css",
+    "static/js/main.0d73b9d3.chunk.js"
   ]
 }
