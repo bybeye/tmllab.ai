@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tmllab.ai/static/css/main.c031bcbc.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.f3fd3808.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.f3fd3808.chunk.js.map",
+    "main.js": "/tmllab.ai/static/js/main.04161bc6.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.04161bc6.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.e02ad82c.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.e02ad82c.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/ChenCheng.9100188c.jpeg": "/tmllab.ai/static/media/ChenCheng.9100188c.jpeg",
     "static/media/Data_blank.28c42567.png": "/tmllab.ai/static/media/Data_blank.28c42567.png",
     "static/media/Erkun.191c84f1.jpeg": "/tmllab.ai/static/media/Erkun.191c84f1.jpeg",
+    "static/media/Jerry.1e842028.jpg": "/tmllab.ai/static/media/Jerry.1e842028.jpg",
     "static/media/Model_blank.76a94cf6.jpg": "/tmllab.ai/static/media/Model_blank.76a94cf6.jpg",
     "static/media/XiaoboXia.47cde058.jpg": "/tmllab.ai/static/media/XiaoboXia.47cde058.jpg",
     "static/media/Xinyu.583ea73a.png": "/tmllab.ai/static/media/Xinyu.583ea73a.png",
@@ -48,6 +49,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.1a086eae.chunk.js",
     "static/css/main.c031bcbc.chunk.css",
-    "static/js/main.f3fd3808.chunk.js"
+    "static/js/main.04161bc6.chunk.js"
   ]
 }
