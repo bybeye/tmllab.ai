@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tmllab.ai/static/css/main.c031bcbc.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.cd6fd4ad.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.cd6fd4ad.chunk.js.map",
+    "main.js": "/tmllab.ai/static/js/main.f3fd3808.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.f3fd3808.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.e02ad82c.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.e02ad82c.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
@@ -39,7 +39,7 @@
     "static/media/sonhua.e1bd758b.jpeg": "/tmllab.ai/static/media/sonhua.e1bd758b.jpeg",
     "static/media/tongliang.c3da5144.jpeg": "/tmllab.ai/static/media/tongliang.c3da5144.jpeg",
     "static/media/university.72602d2b.png": "/tmllab.ai/static/media/university.72602d2b.png",
-    "static/media/xuefeng.104f0191.jpg": "/tmllab.ai/static/media/xuefeng.104f0191.jpg",
+    "static/media/xuefeng.37d9da3a.jpg": "/tmllab.ai/static/media/xuefeng.37d9da3a.jpg",
     "static/media/yuyao.41cde183.jpeg": "/tmllab.ai/static/media/yuyao.41cde183.jpeg",
     "static/media/zhengning.8f203da4.jpg": "/tmllab.ai/static/media/zhengning.8f203da4.jpg"
   },
@@ -48,6 +48,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.1a086eae.chunk.js",
     "static/css/main.c031bcbc.chunk.css",
-    "static/js/main.cd6fd4ad.chunk.js"
+    "static/js/main.f3fd3808.chunk.js"
   ]
 }
