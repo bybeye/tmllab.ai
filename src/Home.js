@@ -40,7 +40,7 @@ class Home extends React.Component{
 	}
 	
 	if(width>=800){
-	    width = 1080
+	    width = 1200
 	    hwidth = 500
 	}
 
@@ -75,20 +75,20 @@ class Home extends React.Component{
 		    <div class="clearfix home-contain-inner" style={{width: deskWidth, height: deskHeight}}>
 			<div className={topClassName}>
 			    <div class="home-top-inner" style={{width: deskWidth}}>
-			    <Link class="nav-link head-link" to="/"><img src={logo} alt="" class="logo fl"/></Link>
+			    <Link to="/"><img src={logo} alt="" class="logo fl"/></Link>
 			    <div class="home-nav fr">
 				<ul class="nav justify-content-end">
-				    <li class="nav-item">
-					<NavLink className="nav-link" to="/" onClick={this.backTop}>Home</NavLink>
+				    <li>
+					<NavLink className="nav-title" to="/" onClick={this.backTop}>Home</NavLink>
 				    </li>
-				    <li class="nav-item">
-					<NavLink className="nav-link" to="/research" onClick={this.backTop}>Research</NavLink>
+				    <li>
+					<NavLink className="nav-title" to="/research" onClick={this.backTop}>Research</NavLink>
 				    </li>
-				    <li class="nav-item">
-					<NavLink className="nav-link" to="/team" onClick={this.backTop}>Team</NavLink>
+				    <li>
+					<NavLink className="nav-title" to="/team" onClick={this.backTop}>Team</NavLink>
 				    </li>
-				    <li class="nav-item">
-					<NavLink className="nav-link" to="/about" onClick={this.backTop}>About</NavLink>
+				    <li>
+					<NavLink className="nav-title" to="/about" onClick={this.backTop}>About</NavLink>
 				    </li>
 				</ul>
 				</div>

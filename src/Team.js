@@ -24,6 +24,7 @@ import chaojian from './images/ChaojianYu.jpeg';
 import zhengning from './images/zhengning.jpg';
 import Yuhao from './images/Yuhao.jpeg';
 import jerry from './images/Jerry.jpg';
+import Kewei from './images/Kewei.jpeg'
 
 
 class Team extends React.Component{
@@ -72,7 +73,7 @@ class Team extends React.Component{
 			    <hr></hr><br/>
 			    <a id="master"><h4 class="text-primary" >Master Students</h4> </a> <br/>
 			    <div class="row">
-				<Person img={p2} name="Kewei Wang"/>
+				<Person img={Kewei} name="Kewei Wang"/>
 				<Person img={jialiang} name="Jialiang Shen"/>
 			    </div>
 			    <hr></hr><br/>

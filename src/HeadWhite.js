@@ -31,7 +31,7 @@ class HeadWhite extends React.Component{
 	var hwidth = window.innerWidth
 
 	if(width>=800){
-	    width = 1080
+	    width = 1200
 	    hwidth = 600
 	}
 
