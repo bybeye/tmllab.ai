@@ -3,12 +3,6 @@ import './Bottom.css';
 
 import logo from './images/logo.png';
 import group_logo from './images/bottom_logo.png'; 
-import f1 from './images/f1.jpg';
-import f2 from './images/f2.jpg'; 
-import f3 from './images/f3.jpg'; 
-import f4 from './images/f4.jpg'; 
-import f5 from './images/f5.jpg';
-import f6 from './images/f6.jpg';
 import f7 from './images/f7.jpg'; 
 import f8 from './images/f8.jpg'; 
 import f9 from './images/f9.jpg'; 
@@ -18,7 +12,6 @@ class Bottom extends React.Component{
 
     state = {
 	deskWidth: window.innerWidth,
-	halfWidth: 600,
     }
 
     componentDidMount() {
@@ -32,21 +25,18 @@ class Bottom extends React.Component{
 
     handleSize = () => {
 	var width = window.innerWidth
-	var hwidth = window.innerWidth
 
 	if(width>=800){
 	    width = 1200
-	    hwidth = 600
 	}
 
 	this.setState({
 	    deskWidth:width,
-	    halfWidth:hwidth
 	});
     }
     
     render(){
-	const { deskWidth, halfWidth } = this.state;
+	const { deskWidth } = this.state;
 	
 	return (
 	    <div class="footer">

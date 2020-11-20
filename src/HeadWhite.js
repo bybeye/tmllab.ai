@@ -28,21 +28,18 @@ class HeadWhite extends React.Component{
 
     handleSize = () => {
 	var width = window.innerWidth
-	var hwidth = window.innerWidth
 
 	if(width>=800){
 	    width = 1200
-	    hwidth = 600
 	}
 
 	this.setState({
 	    deskWidth:width,
-	    halfWidth:hwidth
 	});
     }
     
     render(){
-	const { deskWidth, halfWidth } = this.state;
+	const { deskWidth } = this.state;
 	return (
 	    <div class="head-container">
 		<div class="clearfix head-contain-inner" style={{ width: deskWidth}}>
