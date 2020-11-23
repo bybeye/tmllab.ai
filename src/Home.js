@@ -83,6 +83,9 @@ class Home extends React.Component{
 				    <li>
 					<NavLink className="nav-title" to="/about" onClick={this.backTop}>About</NavLink>
 				    </li>
+				     <li>
+					 <NavLink className="nav-title" to="/" onClick={this.backTop}>Join Us</NavLink>
+				    </li>
 				</ul>
 				</div>
 			    </div>
@@ -90,7 +93,7 @@ class Home extends React.Component{
 			<div className="b-div container-fluid">
 			    <div class="row w-100 justify-content-center align-items-center" style={{height: deskHeight-80}}>
 				<div class="col-9 col-xl-9 nopadding">
-				    <span class="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><span className="b-learn-more">Learn More </span>
+				    <span class="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/><span className="b-learn-more">Learn More </span>
 				</div>
 				<div class = "col-3 col-xl-3 nopadding">
 				</div>
@@ -111,7 +114,9 @@ class Home extends React.Component{
 			<div class="col-6 col-xl-6 nopadding" >
 			    <h2 class="h2-title title"> &nbsp;</h2>
 			    <div class="r-text">
-				<a href="/#" >We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!</a>
+				<div class="r-inner-text">
+				    <a href="/#" >We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!</a>
+				</div>
 			    </div>
 			</div>
 		    </div>
@@ -120,16 +125,22 @@ class Home extends React.Component{
 		<div class="research clearfix">
 		    <div class="container-fluid" style={{width: deskWidth, height: deskHeight}}>
 			<div class="row w-100 h-100 justify-content-center align-items-center">
-			    <div class="col-6 col-xl-6 nopadding">
-				<h2 class="h2-title">TML Research</h2>
-				<div class="h3-content"> We are working together to promote trustworthy machine learning algorithms and push their boundaries. Specifically, together with practitioners, we find promising applications, address critical issues in emerging trends, and deal with open/long-standing problems.</div>
-			    </div>
-			    <div class="col-6 col-xl-6 nopadding">
-				<div class="right-text fr">
-				    <p class="bottom-line"><NavLink className="nav-link nopadding" to="/team" onClick={this.backTop}>Team <Spacer amount={30}/> <span> > </span></NavLink></p>
-				    <p class="bottom-line"><NavLink className="nav-link nopadding" to="/research" onClick={this.backTop}>Publications <Spacer amount={18}/><span> ></span></NavLink></p>  
-				    <p><NavLink className="nav-link nopadding" to="/models" onClick={this.backTop}>Models <Spacer amount={26}/> <span> > </span></NavLink></p>
+			    <div class="container-fluid">
+				<div class = "row">
+				    <h2 class="h2-title-black">TML Research</h2>
+				</div>
+				<div class = "row">
+				    <div class="col-6 col-xl-6 nopadding">
+					<div class="h3-content"> We are working together to promote trustworthy machine learning algorithms and push their boundaries. Specifically, together with practitioners, we find promising applications, address critical issues in emerging trends, and deal with open/long-standing problems.</div>
 				    </div>
+				    <div class="col-6 col-xl-6 nopadding">
+					<div class="right-text fr">
+					    <p class="bottom-line" style={{ paddingTop: 0}}><NavLink className="nav-link nopadding" to="/team" onClick={this.backTop}>Team <Spacer amount={30}/> <span> > </span></NavLink></p>
+					    <p class="bottom-line"><NavLink className="nav-link nopadding" to="/research" onClick={this.backTop}>Publications <Spacer amount={18}/><span> ></span></NavLink></p>  
+					    <p><NavLink className="nav-link nopadding" to="/models" onClick={this.backTop}>Models <Spacer amount={26}/> <span> > </span></NavLink></p>
+					</div>
+				    </div>
+				</div>
 			    </div>
 			</div>
 		    </div>
