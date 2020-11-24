@@ -19,11 +19,13 @@ class Home extends React.Component{
 	this.handleSize()
 	window.addEventListener('resize', this.handleSize);
 	window.addEventListener('scroll', this.handleTopFix);
+	document.addEventListener("keydown", this.handleSpaceBarDown);
     }
     
     componentWillUnmount() {
 	window.removeEventListener('resize', this.handleSize);
 	window.removeEventListener('scroll', this.handleTopFix);
+	document.removeEventListener("keydown", this.handleSpaceBarDown);
     }
     
     handleSize = () => {
@@ -55,20 +57,36 @@ class Home extends React.Component{
 	    });
 	}else{
 	    this.setState({
-		topClassName:"home-top",
+		// topClassName:"home-top-fixed",
+		topClassName:"home-top", 
 	    });
 	}
     }
-    
+
+    handleSpaceBarDown = (event) => {
+	var Space_KEY = 32;
+	
+	if(event.keyCode === Space_KEY ){
+	    event.preventDefault();
+	    // window.scrollBy(0, 20)
+	    var pageNum = window.scrollY / this.state.deskHeight + 1
+	    window.scroll(0, this.state.deskHeight * pageNum)
+	    //alert(window.scrollY  + ", " +this.state.deskHeight * pageNum)
+	}
+    }
+
     render() {
 	const { deskHeight, deskWidth, topClassName } = this.state;
+	
 	return (
 	    <div>
 		<div class="home-container">
 		    <div class="clearfix home-contain-inner" style={{width: deskWidth, height: deskHeight}}>
 			<div className={topClassName}>
 			    <div class="home-top-inner" style={{width: deskWidth}}>
-			    <Link to="/"><img src={logo} alt="" class="logo fl"/></Link>
+				<Link to="/">
+				    <img src={logo} alt="" class="logo fl"/>
+				</Link>
 			    <div class="home-nav fr">
 				<ul class="nav justify-content-end">
 				    <li>
@@ -83,7 +101,7 @@ class Home extends React.Component{
 				    <li>
 					<NavLink className="nav-title" to="/about" onClick={this.backTop}>About</NavLink>
 				    </li>
-				     <li>
+				    <li>
 					 <NavLink className="nav-title" to="/" onClick={this.backTop}>Join Us</NavLink>
 				    </li>
 				</ul>
@@ -93,7 +111,8 @@ class Home extends React.Component{
 			<div className="b-div container-fluid">
 			    <div class="row w-100 justify-content-center align-items-center" style={{height: deskHeight-80}}>
 				<div class="col-9 col-xl-9 nopadding">
-				    <span class="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/><span className="b-learn-more">Learn More </span>
+				    <span class="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/>
+				    <span className="b-learn-more">Learn More </span><br/><br/><br/><br/><br/><br/>
 				</div>
 				<div class = "col-3 col-xl-3 nopadding">
 				</div>
@@ -107,7 +126,7 @@ class Home extends React.Component{
 			<div class="col-6 col-xl-6 nopadding">
 			    <h2 class="h2-title title">TML News</h2>
 			    <div class="fl l-img">
-				<img src={rimg} Alt=""/>
+				<img src={rimg} alt=""/>
 			    </div>
 			</div>
 			
@@ -150,7 +169,7 @@ class Home extends React.Component{
 		    <div class="container-fluid" style={{ width: deskWidth, height: deskHeight}}>
 			<div class="row w-100 h-100 justify-content-center align-items-center">
 			    <div class="col-12 nopadding">
-				<div class="container-fluid">
+				<div class="container-fluid nopadding">
 				    <div class="row ">
 					<div class="col-10 nopadding">
 					    <h2 class="h2-title">Research Collaboration</h2>
@@ -159,9 +178,9 @@ class Home extends React.Component{
 				    </div>
 				</div>
 				<div class="container-fluid">
-				    <div class="row ">
+				    <div class="row justify-content-center align-items-center">
 					<div class="col-12 nopadding">
-					    <img src={rimg2} width="100%" alt=""/>
+					    <img src={rimg2} class="unimg" alt=""/>
 					    <ul class="unis">
 						<li><a href="http://www.andrew.cmu.edu/user/kunz1/index.html" target="_blank" rel="noreferrer">CMU team</a></li>
 						<li><a href="https://aip.riken.jp/labs/generic_tech/imperfect_inf_learn/)" target="_blank" rel="noreferrer">RIKEN & UTokyo team</a></li>
@@ -184,9 +203,9 @@ class Home extends React.Component{
 				    <div class="row w-60">
 					<div class="col-9 nopadding">
 					    <h2 class="h2-title">Industry Collaboration</h2>
-					    <h3 class="h3-content">
+					    <div class="h3-content">
 						We collaborate with our industry partners to identify practical challenges, promote economic prosperity, and improve our quality of life. Our students can also gain focused experience related to their research.
-					    </h3>
+					    </div>
 					</div>
 				    </div>
 				</div>
@@ -194,10 +213,10 @@ class Home extends React.Component{
 				<div class="container-fluid">
 				    <div class="row">
 					<div class="col-8 nopadding">
-					    <div class="first-pic fl"><img src={p1} alt="" class="img-fluid" /><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
+					    <div class="first-pic fl"><img src={p1} alt="" /><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
 					</div>
 					<div class="col-4 nopadding"> 
-					    <div class="second-pic fr"><img src={p2} alt="" class="img-fluid" /><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
+					    <div class="second-pic fr"><img src={p2} alt="" /><span><h6> <Spacer amount={4}/></h6><h4> <Spacer amount={8}/></h4></span></div>
 					</div>
 				    </div>
 				</div>

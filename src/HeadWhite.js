@@ -1,9 +1,10 @@
 import React from 'react';
 import {
-    Link
+    Link, NavLink
 } from "react-router-dom";
 import logo from './images/group_logo.png'; 
 import './Head.css';
+
 
 
 class HeadWhite extends React.Component{
@@ -41,27 +42,30 @@ class HeadWhite extends React.Component{
     render(){
 	const { deskWidth } = this.state;
 	return (
-	    <div class="head-container">
-		<div class="clearfix head-contain-inner" style={{ width: deskWidth}}>
-		    <Link class="nav-link head-link" to="/"><img src={logo} class="logo fl" alt=""/></Link>
-		    <div class="head-nav fr">
-			<ul class="head-nav justify-content-end">
-			    <li class="head-li">
-				<Link class="nav-link head-link" to="/" onClick={this.backTop}>Home</Link>
-			    </li>
-			    <li class="head-li">
-				<Link class="nav-link head-link" to="/research" onClick={this.backTop}>Research</Link>
-			    </li>
-			    <li class="head-li">
-				<Link class="nav-link head-link" to="/team" onClick={this.backTop}>Team</Link>
-			    </li>
-			    <li class="head-li">
-				<Link class="nav-link head-link" to="/about" onClick={this.backTop}>About</Link>
-			    </li>
-			</ul>
+		<div className="head-container">
+		    <div class="head-contain-inner" style={{width: deskWidth}}>
+			<Link to="/"><img src={logo} alt="" class="logo fl"/></Link>
+			<div class="head-nav fr">
+			    <ul class="nav justify-content-end">
+				<li>
+				    <NavLink className="nav-title" to="/" onClick={this.backTop}>Home</NavLink>
+				</li>
+				<li>
+				    <NavLink className="nav-title" to="/research" onClick={this.backTop}>Research</NavLink>
+				</li>
+				<li>
+				    <NavLink className="nav-title" to="/team" onClick={this.backTop}>Team</NavLink>
+				</li>
+				<li>
+				    <NavLink className="nav-title" to="/about" onClick={this.backTop}>About</NavLink>
+				</li>
+				<li>
+				    <NavLink className="nav-title" to="/" onClick={this.backTop}>Join Us</NavLink>
+				</li>
+			    </ul>
+			</div>
 		    </div>
 		</div>
-	    </div>
 	)}
 
 }

@@ -1,10 +1,9 @@
 .head-container{
-    top:0px;
-    position:fixed;
-    padding-top:20px;
-    padding-bottom:10px;
+    margin-top:0px;
     width:100%;
     height:auto;
+    top:0px;
+    position:fixed;
     background:#fff;
     background-size:100% 100%;
     z-index:9999;
@@ -13,24 +12,28 @@
 .head-contain-inner{
     width:1200px;
     margin:0 auto;
-    height:100%;
 }
 
 .head-contain-inner img{
-    height:60px;
-    margin-top:0px;
-    margin-bottom:10px;
+    width:95px;
+    margin-top:19px;
+    margin-bottom:19px;
 }
 
-.head-li{
-    margin:0px 20px 0 0;
+.head-nav ul li{
+    margin:33px 0 0 86px;
     float: left;
+    line-height:16px;
+    list-style: none;
 }
 
-.head-link a{
-    color:#212529;
+
+.head-nav ul li a{
+    color:#000;
+    font-size:20px;
+    font-weight:700;
 }
 
-.head-link a:hover{
-    color:#0072b9;
+.head-nav ul li a:hover{
+    color:#007bff;
 }

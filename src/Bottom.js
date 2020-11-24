@@ -2,7 +2,7 @@ import React from 'react';
 import './Bottom.css';
 
 import logo from './images/logo.png';
-import group_logo from './images/bottom_logo.png'; 
+import group_logo from './images/group_logo.png'; 
 import f7 from './images/f7.jpg'; 
 import f8 from './images/f8.jpg'; 
 import f9 from './images/f9.jpg'; 
@@ -42,7 +42,7 @@ class Bottom extends React.Component{
 	    <div class="footer">
 		<div class="footer-cont" style={{ width: deskWidth}}>
 		    <div class="cont-fl fl">
-			<p class="flogo"><img src={logo} width="120" alt=""/> <img src={group_logo} width="100" alt=""/></p>
+			<p class="flogo"><img src={logo} width="120" alt=""/> <img src={group_logo} width="85" alt=""/></p>
 			<p><h4> <i>Trustworthiness is a foundation</i></h4></p>
 			<p class="link"></p>
 		    </div>
