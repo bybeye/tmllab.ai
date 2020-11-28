@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tmllab.ai/static/css/main.2393d0be.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.1dcbc5d3.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.1dcbc5d3.chunk.js.map",
+    "main.js": "/tmllab.ai/static/js/main.b3b94eeb.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.b3b94eeb.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.dc43ed54.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.dc43ed54.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
@@ -34,8 +34,8 @@
     "static/media/logo.2a0d9749.png": "/tmllab.ai/static/media/logo.2a0d9749.png",
     "static/media/logo_blue.3bb3d130.png": "/tmllab.ai/static/media/logo_blue.3bb3d130.png",
     "static/media/new-r.4cdcb160.png": "/tmllab.ai/static/media/new-r.4cdcb160.png",
-    "static/media/p1.e375b26c.png": "/tmllab.ai/static/media/p1.e375b26c.png",
-    "static/media/p2.056ab07a.png": "/tmllab.ai/static/media/p2.056ab07a.png",
+    "static/media/p1.ff46c927.png": "/tmllab.ai/static/media/p1.ff46c927.png",
+    "static/media/p2.3dd687ee.png": "/tmllab.ai/static/media/p2.3dd687ee.png",
     "static/media/shijun.67b5c546.jpg": "/tmllab.ai/static/media/shijun.67b5c546.jpg",
     "static/media/sonhua.e1bd758b.jpeg": "/tmllab.ai/static/media/sonhua.e1bd758b.jpeg",
     "static/media/tongliang.c3da5144.jpeg": "/tmllab.ai/static/media/tongliang.c3da5144.jpeg",
@@ -49,6 +49,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.80717d41.chunk.js",
     "static/css/main.2393d0be.chunk.css",
-    "static/js/main.1dcbc5d3.chunk.js"
+    "static/js/main.b3b94eeb.chunk.js"
   ]
 }
