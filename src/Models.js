@@ -38,10 +38,9 @@ function Models() {
 			</div>
 			
 			<div class="row">
-			    <Model image={Model_blank} name="Double T" des="Oct 30, 2020"/>
-			    <Model image={Model_blank} name="Me-Momentum" des="Oct 30, 2020"/>
-			    <Model image={Model_blank} name="T-revision" des="Oct 30, 2020"/>
-			    <Model image={Model_blank} name="Importance Reweighting" des="Oct 30, 2020"/>
+			    <Model image={Model_blank} name="Me-Momentum" />
+			    <Model image={Model_blank} name="T-revision" />
+			    <Model image={Model_blank} name="Importance Reweighting" />
 			</div>
 			<br/> <br/> <br/> <br/> 
 		    </div>

@@ -39,8 +39,8 @@ function App() {
 		    <Route path="/team">
 			<Team />
 		    </Route>
-		    <Route path="/about">
-			<About />
+		    <Route path="/join">
+			<Join />
 		    </Route>
 
 		</Switch>
@@ -54,11 +54,11 @@ function App() {
 
 
 
-function About() {
+function Join() {
     return (
 	<div>
 	    <HeadWhite />
-	    <Banner title="About us" />
+	    <Banner title="JOIN US" />
 	    <div class="container justify-content-md-center">
 		<div class="row w-100 justify-content-center align-items-center" style={{height:450}}>
 		    <div class="col-12 col-md-10">

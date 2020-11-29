@@ -77,11 +77,12 @@ body {
 .h2-title-black{
     font-size:70px;
     line-height: 1.2;
+    margin-bottom: 50px;
 }
 
 
 .h3-content{
-    font-size:24px;
+    font-size:20px;
     line-height: 1.7;
 }
 
@@ -97,7 +98,7 @@ body {
     margin:0 auto;
 }
 
-.home-contain-inner img{
+.logo{
     width:95px;
     margin-top:19px;
     margin-bottom:19px;
@@ -155,11 +156,11 @@ body {
 }
 
 .unimg{
-    width:75%;
+    width:100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    padding-top:15px;
 }
 
 .unis{
@@ -171,14 +172,18 @@ body {
 
 .unis li{
     display:inline-block;
-    margin:33px 0 0 50px;
+    margin:5px 0 0 0px;
+    padding: 0px 25px 0 25px;
     float:left;
     line-height:1.2em;
     font-size:26px;
 }
 
 .unis li a{
-    color:#000;
+    color: #495057;
+    font-size: 20px;
+    font-weight: 500;
+    line-height:1em;
 }
 
 .nopadding {
@@ -199,7 +204,7 @@ body {
 }
 
 .b-learn-more{
-    font-size:23px;
+    font-size:24px;
     color:#007bff;
     font-weight:700;
 }
@@ -228,7 +233,7 @@ body {
 }
 
 .news .l-img img{
-    width:460px;
+    width:580px;
     height:400px;
 }
 
@@ -241,7 +246,7 @@ body {
 
 .news .r-inner-text{
     position: relative;
-    top:30%;
+    top:15%;
     width:80%;
     height:80%;
     margin: auto;
@@ -249,11 +254,10 @@ body {
 
 .news .r-text a{
     color:#212529;
-    font-size:24px;
-    line-height: 1.7em;
+    line-height: 1.5em;
+    font-size: 24px;
+    font-weight: 700;
 }
-
-
 
 .research{
     width:100%;
@@ -279,20 +283,15 @@ body {
     border-bottom: 1px solid #fff;
 }
 
-.research p{
-    text-align: right;
-    padding-top:40px;
-    padding-bottom:40px;
-    margin-block-start:0em;
-    margin-block-end:0em;
-}
-
-
-
-.research p a{
-    font-size:37px;
+.research a{
+    font-size:30px;
     line-height:1em;
     color:#fff;
+    font-weight: 700;
+}
+
+.research a:hover{
+    color:#0072b9;	
 }
 
 .p-top a{
@@ -301,16 +300,16 @@ body {
     color:#fff;
 }
 
-.research p a:hover{
-    color:#0072b9;	
-}
-
 .right-text{
     width:400px;
 }
 
 .bottom-line{
     border-bottom: 1px solid #fff;
+}
+
+.right-line{
+    border-right: 2px solid #F1F1F1;
 }
 
 .research-cooperate{
@@ -341,12 +340,12 @@ body {
 
 .first-pic img{
     width: 100%;
-    height: 325px;
+    height: 460px;
 }
 
 .second-pic img{
     width: 100%;
-    height: 325px;
+    height: 460px;
     padding-left:20px;
 }
 

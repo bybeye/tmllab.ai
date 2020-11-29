@@ -14,7 +14,7 @@ function Research() {
     return (
 	<div>
 	    <HeadWhite />
-	    <Banner title="RESEARCH"/>
+	    <Banner title="PUBLICATIONS"/>
 	    <div class="container justify-content-md-center">
 	    <div class="row">
 		<div class="col-md-3 col-12" style={{paddingBottom:"50px"}}>

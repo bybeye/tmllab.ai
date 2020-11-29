@@ -33,9 +33,9 @@ function Databases() {
 			<div class="row">
 			    <h4 class="text-primary" >Databases</h4><br/><br/><br/>
 			</div>
-			<Dataset image={Data_blank} name="Clothing1M" date="Oct 30, 2020"/>
-			<Dataset image={Data_blank} name="CIFAR-10/100" date="Oct 30, 2020"/>
-			<Dataset image={Data_blank} name="MNIST" date="Oct 30, 2020"/>
+			<Dataset image={Data_blank} name="Clothing1M" />
+			<Dataset image={Data_blank} name="CIFAR-10/100" />
+			<Dataset image={Data_blank} name="MNIST" />
 		    </div>
 		</div>
 	    </div>

@@ -25,6 +25,8 @@ import zhengning from './images/zhengning.jpg';
 import Yuhao from './images/Yuhao.jpeg';
 import jerry from './images/Jerry.jpg';
 import Kewei from './images/Kewei.jpeg'
+import rihui from './images/Rihui.jpg'
+import Michael from './images/Michael.jpeg'
 
 
 class Team extends React.Component{
@@ -56,7 +58,7 @@ class Team extends React.Component{
 			    <h4 id="dir" class="text-primary">Directors</h4> <br/>
 			    <div class="row">
 				<Person img={p1} name="Tongliang Liu"/>
-				<Person img={p2} name="Michael Huang"  description="(Industry Partner)"/>
+				<Person img={Michael} name="Michael Huang"  description="(Industry Partner)"/>
 			    </div>
 			    <hr></hr><br/>
 			    <h4 id="phd" class="text-primary" >PhD Students</h4> <br/>
@@ -75,6 +77,7 @@ class Team extends React.Component{
 			    <div class="row">
 				<Person img={Kewei} name="Kewei Wang"/>
 				<Person img={jialiang} name="Jialiang Shen"/>
+				<Person img={rihui} name="Rihui Wu"/>
 			    </div>
 			    <hr></hr><br/>
 			    <h4 id="honour" class="text-primary" >Honours Students</h4> <br/>
