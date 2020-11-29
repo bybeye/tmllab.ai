@@ -34,7 +34,10 @@ class Team extends React.Component{
     scrollToAnchor = (anchorName) => {
 	if (anchorName) {
             let anchorElement = document.getElementById(anchorName);
-            if(anchorElement) { anchorElement.scrollIntoView(); }
+            if(anchorElement) {
+		//alert(anchorElement.offsetTop)
+		document.body.scrollTop  = document.documentElement.scrollTop = anchorElement.offsetTop + 120
+	    }
 	}
     }
 
