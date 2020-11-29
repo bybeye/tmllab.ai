@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tmllab.ai/static/css/main.c3069ea3.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.7a79e4c6.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.7a79e4c6.chunk.js.map",
+    "main.js": "/tmllab.ai/static/js/main.0c37323e.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.0c37323e.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.dc43ed54.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.dc43ed54.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/Erkun.191c84f1.jpeg": "/tmllab.ai/static/media/Erkun.191c84f1.jpeg",
     "static/media/Jerry.1e842028.jpg": "/tmllab.ai/static/media/Jerry.1e842028.jpg",
     "static/media/Kewei.55396d3d.jpeg": "/tmllab.ai/static/media/Kewei.55396d3d.jpeg",
+    "static/media/Michael.bbe65f79.jpeg": "/tmllab.ai/static/media/Michael.bbe65f79.jpeg",
     "static/media/Model_blank.76a94cf6.jpg": "/tmllab.ai/static/media/Model_blank.76a94cf6.jpg",
     "static/media/Rihui.a70a990d.jpg": "/tmllab.ai/static/media/Rihui.a70a990d.jpg",
     "static/media/XiaoboXia.47cde058.jpg": "/tmllab.ai/static/media/XiaoboXia.47cde058.jpg",
@@ -49,6 +50,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.80717d41.chunk.js",
     "static/css/main.c3069ea3.chunk.css",
-    "static/js/main.7a79e4c6.chunk.js"
+    "static/js/main.0c37323e.chunk.js"
   ]
 }
