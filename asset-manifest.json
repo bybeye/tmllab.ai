@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tmllab.ai/static/css/main.cc4471e1.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.6e38336b.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.6e38336b.chunk.js.map",
+    "main.css": "/tmllab.ai/static/css/main.8b9c2777.chunk.css",
+    "main.js": "/tmllab.ai/static/js/main.27d76244.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.27d76244.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.2c8e075a.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.2c8e075a.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.d7ab65f4.chunk.js.map": "/tmllab.ai/static/js/3.d7ab65f4.chunk.js.map",
     "index.html": "/tmllab.ai/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.cc4471e1.chunk.css.map": "/tmllab.ai/static/css/main.cc4471e1.chunk.css.map",
+    "static/css/main.8b9c2777.chunk.css.map": "/tmllab.ai/static/css/main.8b9c2777.chunk.css.map",
     "static/js/2.b823b1fe.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.b823b1fe.chunk.js.LICENSE.txt",
     "static/media/ChaojianYu.2830700d.jpeg": "/tmllab.ai/static/media/ChaojianYu.2830700d.jpeg",
     "static/media/ChenCheng.9100188c.jpeg": "/tmllab.ai/static/media/ChenCheng.9100188c.jpeg",
@@ -20,7 +20,6 @@
     "static/media/Erkun.191c84f1.jpeg": "/tmllab.ai/static/media/Erkun.191c84f1.jpeg",
     "static/media/Jerry.1e842028.jpg": "/tmllab.ai/static/media/Jerry.1e842028.jpg",
     "static/media/Kewei.55396d3d.jpeg": "/tmllab.ai/static/media/Kewei.55396d3d.jpeg",
-    "static/media/Liaoning_uni_logo.e804fa36.png": "/tmllab.ai/static/media/Liaoning_uni_logo.e804fa36.png",
     "static/media/Michael.bbe65f79.jpeg": "/tmllab.ai/static/media/Michael.bbe65f79.jpeg",
     "static/media/Model_blank.76a94cf6.jpg": "/tmllab.ai/static/media/Model_blank.76a94cf6.jpg",
     "static/media/Rihui.a70a990d.jpg": "/tmllab.ai/static/media/Rihui.a70a990d.jpg",
@@ -51,7 +50,7 @@
     "static/js/runtime-main.2c8e075a.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.b823b1fe.chunk.js",
-    "static/css/main.cc4471e1.chunk.css",
-    "static/js/main.6e38336b.chunk.js"
+    "static/css/main.8b9c2777.chunk.css",
+    "static/js/main.27d76244.chunk.js"
   ]
 }
