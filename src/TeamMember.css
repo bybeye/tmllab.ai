@@ -1,0 +1,47 @@
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.l_info{
+    color: #999;
+    font-size:14px;
+    font-weight: 500;
+    padding-right:50px;
+    padding-left:50px;
+}
+
+.l_info .m_name{
+    font-size:16px;
+    color:#000;
+}
+
+
+.content-container{
+    width:1200px;
+    margin:0 auto;
+    padding-top:50px;
+}
+
+.l_info a{
+    color: #AEAFB3;
+    font-size:14px;
+    font-weight: 500;
+}
+
+.mem_content{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
+.r_info{
+    font-size:16px;
+    padding-left:50px;
+}
+
+.r_info h2{
+    font-size:22px;
+    font-weight: 600;
+}
+
