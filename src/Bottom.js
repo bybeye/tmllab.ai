@@ -39,18 +39,18 @@ class Bottom extends React.Component{
 	const { deskWidth } = this.state;
 	
 	return (
-	    <div class="footer">
-		<div class="footer-cont" style={{ width: deskWidth}}>
-		    <div class="cont-fl fl">
-			<p class="flogo"><img src={logo} width="120" alt=""/> <img src={group_logo} width="85" alt=""/></p>
-			<p><h4> <i>Trustworthiness is a foundation</i></h4></p>
-			<p class="link"></p>
+	    <div className="footer">
+		<div className="footer-cont" style={{ width: deskWidth}}>
+		    <div className="cont-fl fl">
+			<p className="flogo"><img src={logo} width="120" alt=""/> <img src={group_logo} width="85" alt=""/></p>
+			<h3> <i>Trustworthiness is a foundation</i></h3>
+			<p className="link"></p>
 		    </div>
-		    <div class="cont-fm fl">
-			<p class="f16"><h5>Connect</h5></p>
-			<p class="f7s"><img src={f7} alt=""/>Address: 1 Cleveland St, Darlington, NSW 2008, Australia</p>
-			<p class="f8s"><img src={f8} alt=""/>Tel: +61 2 8627 5966</p>
-			<p class="f9s"><img src={f9} alt=""/>Email: tml.laboratory@gmail.com</p> 
+		    <div className="cont-fm fl">
+			<p className="f16">Connect</p>
+			<p className="f7s"><img src={f7} alt=""/>Address: 1 Cleveland St, Darlington, NSW 2008, Australia</p>
+			<p className="f8s"><img src={f8} alt=""/>Tel: +61 2 8627 5966</p>
+			<p className="f9s"><img src={f9} alt=""/>Email: tml.laboratory@gmail.com</p> 
 		    </div>
 		</div>
 	    </div>	

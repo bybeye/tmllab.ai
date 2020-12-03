@@ -5,16 +5,16 @@ class Dataset extends React.Component{
     
     render() {
 	return (
-	    <div class="row">
-		<div class="col-12 col-md-10">
-		    <div class="card">
-			<div class="card-body">
-			    <div class="row">
-				<div class="col-6">
-				    <img src={this.props.image} alt={this.props.name} class="rounded-0 img-fluid"/>
+	    <div className="row">
+		<div className="col-12 col-md-10">
+		    <div className="card">
+			<div className="card-body">
+			    <div className="row">
+				<div className="col-6">
+				    <img src={this.props.image} alt={this.props.name} className="rounded-0 img-fluid"/>
 				</div>
-				<div class="col-6">
-				    <h4>{this.props.name}</h4>
+				<div className="col-6">
+				    <h3>{this.props.name}</h3>
 				    {this.props.date}
 				</div>
 			    </div>

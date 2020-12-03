@@ -15,29 +15,29 @@ function Models() {
 	<div>
 	    <HeadWhite />
 	    <Banner title="RESEARCH" />
-	    <div class="container justify-content-md-center">
+	    <div className="container justify-content-md-center">
 
-		<div class="row">
-		    <div class="col-md-3 col-12" style={{paddingBottom:"50px"}}>
-			<div class="row">
-			    <div class="col-md-12 col-5">
-   				<Link to="/Research" class="btn btn-outline-primary rounded-pill">Publications</Link><br/><br/>
+		<div className="row">
+		    <div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
+			<div className="row">
+			    <div className="col-md-12 col-5">
+   				<Link to="/Research" className="btn btn-outline-primary rounded-pill">Publications</Link><br/><br/>
 			    </div>
-			    <div class="col-md-12 col-5">
-				<Link to="/Models" class="btn btn-outline-primary rounded-pill active"><Spacer amount={3}/>Models<Spacer amount={3}/></Link><br/><br/>
+			    <div className="col-md-12 col-5">
+				<Link to="/Models" className="btn btn-outline-primary rounded-pill active"><Spacer amount={3}/>Models<Spacer amount={3}/></Link><br/><br/>
 			    </div>
-			    <div class="col-md-12 col-5">
-   				<Link to="/Databases" class="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Databases<Spacer amount={2}/></Link><br/><br/>
+			    <div className="col-md-12 col-5">
+   				<Link to="/Databases" className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Databases<Spacer amount={2}/></Link><br/><br/>
 			    </div>
 			</div>
 		    </div>
 
-		    <div class="col-md-9 col-12">
-			<div class="row">
-			    <h4 class="text-primary">Models</h4> <br/><br/>
+		    <div className="col-md-9 col-12">
+			<div className="row">
+			    <h3 className="text-primary">Models</h3> <br/><br/>
 			</div>
 			
-			<div class="row">
+			<div className="row">
 			    <Model image={Model_blank} name="Me-Momentum" />
 			    <Model image={Model_blank} name="T-revision" />
 			    <Model image={Model_blank} name="Importance Reweighting" />

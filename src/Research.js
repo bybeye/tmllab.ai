@@ -1,13 +1,11 @@
 // import './Team.css';
 import React from 'react';
-import HeadWhite from './HeadWhite'
-import Banner from './Banner'
-import Paper from './Paper'
+import HeadWhite from './HeadWhite';
+import Banner from './Banner';
+import Paper from './Paper';
 import {Link} from "react-router-dom";
 import Spacer from 'react-add-space';
 
-
-// import p1 from './images/Person15.png'; 
 
 
 function Research() {
@@ -15,35 +13,35 @@ function Research() {
 	<div>
 	    <HeadWhite />
 	    <Banner title="PUBLICATIONS"/>
-	    <div class="container justify-content-md-center">
-	    <div class="row">
-		<div class="col-md-3 col-12" style={{paddingBottom:"50px"}}>
-		    <div class="row">
-			    <div class="col-md-12 col-5">
-   				<Link to="/Research" class="btn btn-outline-primary rounded-pill active">Publications</Link><br/><br/>
-			    </div>
-			    <div class="col-md-12 col-5">
-				<Link to="/Models" class="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Models<Spacer amount={3}/></Link><br/><br/>
-			    </div>
-			    <div class="col-md-12 col-5">
-   				<Link to="/Databases" class="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Databases<Spacer amount={2}/></Link><br/><br/>
-			    </div>
+	    <div className="container justify-content-md-center">
+	    <div className="row">
+		<div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
+		    <div className="row">
+			<div className="col-md-12 col-5">
+   			    <Link to="/Research" className="btn btn-outline-primary rounded-pill active">Publications</Link><br/><br/>
+			</div>
+			<div className="col-md-12 col-5">
+			    <Link to="/Models" className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Models<Spacer amount={3}/></Link><br/><br/>
+			</div>
+			<div className="col-md-12 col-5">
+   			    <Link to="/Databases" className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Databases<Spacer amount={2}/></Link><br/><br/>
+			</div>
 		    </div>
 		</div>
 
-		<div class="col-md-9 col-12">
+		<div className="col-md-9 col-12">
 		    <nav>
-			<div class="nav nav-tabs" id="nav-tab" role="tablist">
-			    <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Conference papers</a>
-			    <a class="nav-link" id="nav-journal-tab" data-toggle="tab" href="#nav-journal" role="tab" aria-controls="nav-journal" aria-selected="false">Journal Papers</a>
+			<div className="nav nav-tabs" id="nav-tab" role="tablist">
+			    <a className="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Conference papers</a>
+			    <a className="nav-link" id="nav-journal-tab" data-toggle="tab" href="#nav-journal" role="tab" aria-controls="nav-journal" aria-selected="false">Journal Papers</a>
 			</div>
 		    </nav>
-		    <div class="tab-content" id="nav-tabContent">
-			<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+		    <div className="tab-content" id="nav-tabContent">
+			<div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 			    <br/><br/>
 
-			    <div class="row align-items-center">
-				<h4 class="Head4">2020</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2020</h3>
 			    </div>
 
 			    <Paper title="Part-dependent Label Noise: Towards Instance-dependent Label Noise." authors="X. Xia, T. Liu, B. Han, N. Wang, M. Gong, H. Liu, G. Niu, D. Tao, and M. Sugiyama." pdf="https://arxiv.org/abs/2006.07836" conference="In NeurIPS, 2020." highlight="Spotlight"/>
@@ -61,8 +59,8 @@ function Research() {
 
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2019</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2019</h3>
 			    </div>
 			    <Paper title="Are Anchor Points Really Indispensable in Label-Noise Learning?" authors="Xiaobo Xia, Tongliang Liu, Nannan Wang, Bo Han, Chen Gong, Gang Niu, and Masashi Sugiyama" pdf="https://arxiv.org/abs/1906.00189" code="https://github.com/xiaoboxia/T-Revision" project="https://github.com/xiaoboxia/T-Revision" conference="In NeurIPS, 2019."/>
 			    <Paper title="Control Batch Size and Learning Rate to Generalize Well: Theoretical and Empirical Evidence." authors="F. He, T. Liu, and D. Tao" pdf="https://papers.nips.cc/paper/8398-control-batch-size-and-learning-rate-to-generalize-well-theoretical-and-empirical-evidence.pdf" conference="In NeurIPS, 2019."/>
@@ -73,8 +71,8 @@ function Research() {
 			    <Paper title="Towards Digital Retina in Smart Cities: A Model Generation, Utilization and Communication Paradigm." authors="Y. Lou, L. Duan, Y. Luo, Z. Chen, T. Liu, S. Wang, and W. Gao." conference="In ICME, 2019." pdf="https://arxiv.org/pdf/1907.13368.pdf" highlight="Best Paper Award"/>
 			    
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2018</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2018</h3>
 			    </div>
 			    <Paper title="An Efficient and Provable Approach for Mixture Proportion Estimation Using Linear Independence Assumption." authors="X. Yu, T. Liu, M. Gong, K. Batmanghelich, and D. Tao." pdf="https://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_An_Efficient_and_CVPR_2018_paper.pdf" conference="In CVPR, 2018."/>
 			    
@@ -94,8 +92,8 @@ function Research() {
 			    <Paper title="Robust Angular Local Descriptor Learning. " authors="Y. Xu, M. Gong, T. Liu, K. Batmanghelich, C. Wang." pdf="https://arxiv.org/abs/1901.07076" conference="In ACCV, 2018."/>
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2017</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2017</h3>
 			    </div>
 			    
 			    <Paper title="Algorithmic Stability and Hypothesis Complexity." authors="T. Liu, G. Lugosi, G. Neu and D. Tao." pdf="http://proceedings.mlr.press/v70/liu17c/liu17c.pdf" conference="In ICML , 2017."/>
@@ -108,8 +106,8 @@ function Research() {
 
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2016</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2016</h3>
 			    </div>
 			    
 			    <Paper title="Domain Adaptation with Conditional Transferable Components." authors="M. Gong, K. Zhang, T. Liu, D. Tao, C. Glymour, and B. Schölkopf." pdf="http://proceedings.mlr.press/v48/gong16.pdf" conference="In ICML, 2106."/>
@@ -118,16 +116,16 @@ function Research() {
 			    
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2015</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2015</h3>
 			    </div>
-			    <Paper title="Spectral Ensemble Clustering." authors="H. Liu*, T. Liu*, J. Wu, D. Tao, and Y. Fu." pdf="https://tongliang-liu.github.io/papers/KDDEnsembleClustering.pdf" conference="In KDD, 2015."/>
-			    <Paper title="Multi-Task Model and Feature Joint Learning. " authors="Y. Li, X. Tian, T. Liu*, and D. Tao." pdf="https://tongliang-liu.github.io/papers/IJCAIMultiTask.pdf" conference="In IJCAI, 2015." highlight="Best Paper Award candidate"/>
-			    <Paper title="Learning Relative Features through Adaptive Pooling for Image Classification. " authors="M. Shao, S. Li, T. Liu*, D. Tao, T. S. Huang, and Y. Fu." pdf="https://tongliang-liu.github.io/papers/ICMELearningFeatures.pdf" conference="In ICME, 2014."/>
+			    <Paper title="Spectral Ensemble Clustering." authors="H. Liu, T. Liu, J. Wu, D. Tao, and Y. Fu." pdf="https://tongliang-liu.github.io/papers/KDDEnsembleClustering.pdf" conference="In KDD, 2015."/>
+			    <Paper title="Multi-Task Model and Feature Joint Learning. " authors="Y. Li, X. Tian, T. Liu, and D. Tao." pdf="https://tongliang-liu.github.io/papers/IJCAIMultiTask.pdf" conference="In IJCAI, 2015." highlight="Best Paper Award candidate"/>
+			    <Paper title="Learning Relative Features through Adaptive Pooling for Image Classification. " authors="M. Shao, S. Li, T. Liu, D. Tao, T. S. Huang, and Y. Fu." pdf="https://tongliang-liu.github.io/papers/ICMELearningFeatures.pdf" conference="In ICME, 2014."/>
 			    <Paper title="On the Robustness and Generalization of Cauchy Regression." authors="T. Liu and D. Tao." pdf="https://tongliang-liu.github.io/papers/ICISTCauchyRegression.pdf" conference="In ICIST, 2014." highlight="Best Paper Award"/>
 			</div>
 			
-			<div class="tab-pane fade" id="nav-journal" role="tabpanel" aria-labelledby="nav-journal-tab">
+			<div className="tab-pane fade" id="nav-journal" role="tabpanel" aria-labelledby="nav-journal-tab">
 			    <br/><br/>
 
 			    <Paper title="Heterogeneous Graph Attention Network for Unsupervised Multiple-Target Domain Adaptation." authors="X. Yang, C. Deng, T. Liu, and D. Tao." pdf="" conference="IEEE T-PAMI, accepted." highlight=""/>
@@ -137,12 +135,10 @@ function Research() {
 			    <Paper title="Label Propagated Nonnegative Matrix Factorization for Clustering." authors="L. Lan, T. Liu, X. Zhang, C. Xu, and Z. Luo." pdf="" conference="IEEE T-KDE, Accepted." highlight=""/>
 			    <Paper title="Laplacian Welsch Regularization for Robust Semi-Supervised Learning." authors="J. Ke, C. Gong, T. Liu, L. Zhao, J. Yang, and D. Tao." pdf="" conference="IEEE T-CYB, Accepted." highlight=""/>
 			    
-			    
-			    
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2020</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2020</h3>
 			    </div>
 
 			    <Paper title="Towards Efficient Front-end Visual Sensing for Digital Retina: A Model-Centric Paradigm." authors="Y. Lou, L. Duan, Y. Luo, Z. Chen, T. Liu, S. Wang, and W. Gao." conference="IEEE T-MM, 22(11): 3002-3013, 2020."/>
@@ -153,31 +149,31 @@ function Research() {
 			    <Paper title="Adversarial Examples for Hamming Space Search." authors="E. Yang, T. Liu, C. Deng, and D. Tao." pdf="https://tongliang-liu.github.io/papers/08573146.pdf" conference="IEEE T-CYB, 50(4): 1473-1484, 2020." highlight=""/>
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2019</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2019</h3>
 			    </div>
 			    <Paper title="Transferring Knowledge Fragments for Learning Distance Metric from A Heterogeneous Domain." authors="Y. Luo, Y. Wen, T. Liu, and D. Tao." pdf="" conference="IEEE T-PAMI, 41(4): 1013-1026, 2019." highlight=""/>
-			    <Paper title="Truncated Cauchy Non-negative Matrix Factorization." authors="N. Guan*, T. Liu*, Y. Zhang, D. Tao, and L. S. Davis." pdf="https://tongliang-liu.github.io/papers/TPAMITruncatedNMF.pdf" conference="IEEE T-PAMI, 41(1): 246-259, 2019." highlight=""/>
+			    <Paper title="Truncated Cauchy Non-negative Matrix Factorization." authors="N. Guan, T. Liu, Y. Zhang, D. Tao, and L. S. Davis." pdf="https://tongliang-liu.github.io/papers/TPAMITruncatedNMF.pdf" conference="IEEE T-PAMI, 41(1): 246-259, 2019." highlight=""/>
 			    <Paper title="Large-Margin Label-Calibrated Support Vector Machines for Positive and Unlabeled Learning." authors="C. Gong, T. Liu, J. Yang, and D. Tao." pdf="https://tongliang-liu.github.io/papers/08636540.pdf" conference="IEEE T-NNLS, 30(11): 3471-3483, 2019." highlight=""/>
 			    <Paper title="Eigenfunction-Based Multitask Learning in a Reproducing Kernel Hilbert Space." authors="X. Tian, Y. Li, T. Liu, X. Wang, and D. Tao." pdf="https://tongliang-liu.github.io/papers/08513983.pdf" conference="IEEE T-NNLS, 30(6): 1818-1830, 2019." highlight=""/>
 			    <Paper title="Adaptive Morphological Reconstruction for Seeded Image Segmentation." authors="T. Lei, X. Jia, T. Liu, S. Liu, H. Meng, and A. K. Nandi." pdf="https://tongliang-liu.github.io/papers/08733206.pdf" conference="IEEE T-IP, 28(11): 5510-5523, 2019." highlight=""/>
 			    <Paper title="Unsupervised Semantic-Preserving Adversarial Hashing for Image Search." authors="C. Deng, E. Yang, T. Liu, J. Li, W. Liu, and D. Tao." pdf="https://tongliang-liu.github.io/papers/08666767.pdf" conference="IEEE T-IP, 28(8): 4032-4044, 2019." highlight=""/>
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2018</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2018</h3>
 			    </div>
-			    <Paper title="Fast Supervised Discrete Hashing. " authors="J. Gui*, T. Liu*, Z. Sun, D. Tao, and T. Tan." pdf="https://tongliang-liu.github.io/papers/TPAMI_Fastdhc.pdf" conference="IEEE T-PAMI, 40(2): 490-496, 2018." highlight=""/>
+			    <Paper title="Fast Supervised Discrete Hashing. " authors="J. Gui, T. Liu, Z. Sun, D. Tao, and T. Tan." pdf="https://tongliang-liu.github.io/papers/TPAMI_Fastdhc.pdf" conference="IEEE T-PAMI, 40(2): 490-496, 2018." highlight=""/>
 			    <Paper title="Continuous Dropout. " authors="X. Shen, X. Tian, F. Xu, T. Liu, and D. Tao." pdf="https://tongliang-liu.github.io/papers/08057594.pdf" conference="IEEE T-NNLS, 29(9): 3926-3937, 2018." highlight=""/>
 <Paper title="Multi-class Learning with Partially Corrupted Labels." authors="R. Wang, T. Liu, and D. Tao." pdf="https://tongliang-liu.github.io/papers/07929355.pdf" conference="IEEE T-NNLS, 29(6): 2568-2580, 2018." highlight=""/>
 <Paper title="On Better Exploring and Exploiting Task Relationship in Multi-Task Learning: Joint Model and Feature Learning." authors="Y. Li, X. Tian, T. Liu, and D. Tao." pdf="https://tongliang-liu.github.io/papers/07902220.pdf" conference="IEEE T-NNLS, 29(5): 1975-1985, 2018." highlight=""/>
-<Paper title="Supervised Discrete Hashing with Relaxation." authors="J. Gui*, T. Liu*, Z. Sun, D. Tao, and T. Tan." pdf="https://tongliang-liu.github.io/papers/guiSupervised.pdf" conference="IEEE T-NNLS, 29(3): 608-617, 2018." highlight=""/>
+<Paper title="Supervised Discrete Hashing with Relaxation." authors="J. Gui, T. Liu, Z. Sun, D. Tao, and T. Tan." pdf="https://tongliang-liu.github.io/papers/guiSupervised.pdf" conference="IEEE T-NNLS, 29(3): 608-617, 2018." highlight=""/>
 <Paper title="Deep Blur Mapping: Exploiting High-Level Semantics by Deep Neural Networks." authors="K. Ma, H. Fu, T. Liu, Z. Wang, and D. Tao." pdf="https://tongliang-liu.github.io/papers/08386849.pdf" conference="IEEE T-IP, 27(10): 5155-5166, 2018." highlight=""/>
 <Paper title="A Regularization Approach for Instance-Based Superset Label Learning." authors="C. Gong, T. Liu, Y. Tang, J. Yang, J. Yang, and D. Tao." pdf="https://tongliang-liu.github.io/papers/gongARegularization.pdf" conference="IEEE T-CYB, 48(3): 967-978, 2018." highlight=""/>
 			    
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2017</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2017</h3>
 			    </div>
 			    <Paper title="Algorithm-Dependent Generalization Bounds for Multi-Task Learning." authors="T. Liu, D. Tao, M. Song, and S. J. Maybank." pdf="https://tongliang-liu.github.io/papers/TPAMIAlgorithmBounds.pdf" conference="IEEE T-PAMI, 39(2): 227-241, 2017." highlight=""/>
 			    <Paper title="Large Cone Non-negative Matrix Factorization." authors="T. Liu, M. Gong, and D. Tao." pdf="https://tongliang-liu.github.io/papers/TNNLSLCNMF.pdf" conference="IEEE T-NNLS, 28(9): 2129-2141, 2017." highlight=""/>
@@ -187,8 +183,8 @@ function Research() {
 			    <Paper title="Joint Sparse Representation and Multitask Learning for Hyperspectral Target Detection." authors="Y. Zhang, B. Du, L. Zhang, and T. Liu." pdf="https://tongliang-liu.github.io/papers/07769257.pdf" conference="IEEE T-GRS, 55(2): 894-906, 2017." highlight=""/>
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2016</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2016</h3>
 			    </div>
 			    
 			    <Paper title="Classification with Noisy Labels by Importance Reweighting." authors="Tongliang Liu and Dacheng Tao" pdf="https://arxiv.org/pdf/1411.7718.pdf" conference="IEEE T-PAMI, 38(3): 447-461, 2016."/>
@@ -196,12 +192,12 @@ function Research() {
 			    <Paper title="On the Performance of MahNMF Manhattan Non-negative Matrix Factorization." authors="T. Liu and D. Tao." pdf="https://tongliang-liu.github.io/papers/TNNLSManhNMF.pdf" conference="IEEE T-NNLS, 27(9): 1851-1863, 2016." highlight=""/>
 <Paper title="Dual Diversified Dynamical Gaussian Process Latent Variable Model for Video Repair." authors="H. Xiong, T. Liu, D. Tao, and H. T. Shen." pdf="https://tongliang-liu.github.io/papers/TIPvideorepair.pdf" conference="IEEE T-IP, 25(8): 3626-3637, 2016." highlight=""/>
 <Paper title="Local Rademacher Complexity for Multi-Label Learning. " authors="C. Xu, T. Liu, D. Tao, and C. Xu." pdf="https://tongliang-liu.github.io/papers/TIPLocalRademacher.pdf" conference="IEEE T-IP, 25(3): 1495-1507, 2016." highlight=""/>
-<Paper title="Representative Vector Machines: A Unified Framework for Classical Classifiers." authors="J. Gui*, T. Liu*, D. Tao, Z. Sun, and T. Tan." pdf="https://tongliang-liu.github.io/papers/TCYBRVM.pdf" conference="IEEE T-CYB, 46(8): 1877-1888, 2016." highlight=""/>
-<Paper title="Video Face Editing Using Temporal-Spatial-Smooth Warping." authors="X. Li, T. Liu*, J. Deng, and D. Tao." pdf="https://tongliang-liu.github.io/papers/ACMTISTFaceEditing.pdf" conference="ACM T-IST, 7(3): 32, 2016." highlight=""/>
+<Paper title="Representative Vector Machines: A Unified Framework for Classical Classifiers." authors="J. Gui, T. Liu, D. Tao, Z. Sun, and T. Tan." pdf="https://tongliang-liu.github.io/papers/TCYBRVM.pdf" conference="IEEE T-CYB, 46(8): 1877-1888, 2016." highlight=""/>
+<Paper title="Video Face Editing Using Temporal-Spatial-Smooth Warping." authors="X. Li, T. Liu, J. Deng, and D. Tao." pdf="https://tongliang-liu.github.io/papers/ACMTISTFaceEditing.pdf" conference="ACM T-IST, 7(3): 32, 2016." highlight=""/>
  
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2015</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2015</h3>
 			    </div>
 			    <Paper title="Deformed Graph Laplacian for Semisupervised Learning." authors="C. Gong, T. Liu, D. Tao, K. Fu, E. Tu, and J. Yang." pdf="https://tongliang-liu.github.io/papers/TNNLSDeformedGraphLaplacian.pdf" conference="IEEE T-NNLS, 26(10): 2261-2274, 2015." highlight=""/>
 <Paper title="Multiview Matrix Completion for Multilabel Image Classification." authors="Y. Luo, T. Liu, D. Tao, and C. Xu." pdf="https://tongliang-liu.github.io/papers/TIP-Multiview.pdf" conference="IEEE T-IP, 24(8): 2261-2274, 2015." highlight=""/>
@@ -209,8 +205,8 @@ function Research() {
 			    
 
 			    <br/><hr/><br/>
-			    <div class="row align-items-center">
-				<h4 class="Head4">2014</h4>
+			    <div className="row align-items-center">
+				<h3 className="Head4">2014</h3>
 			    </div>
 			    <Paper title="Decomposition-Based Transfer Distance Metric Learning for Image Classification." authors="Y. Luo, T. Liu, D. Tao, and C. Xu." pdf="https://tongliang-liu.github.io/papers/TIPMetricTransfer.pdf" conference="IEEE T-IP, 23(9): 3789-3801, 2014." highlight=""/>
 			    <Paper title="" authors="" pdf="" conference="" highlight=""/>

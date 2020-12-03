@@ -43,10 +43,10 @@ class HeadWhite extends React.Component{
 	const { deskWidth } = this.state;
 	return (
 		<div className="head-container">
-		    <div class="head-contain-inner" style={{width: deskWidth}}>
-			<Link to="/"><img src={logo} alt="" class="logo fl"/></Link>
-			<div class="head-nav fr">
-			    <ul class="nav justify-content-end">
+		    <div className="head-contain-inner" style={{width: deskWidth}}>
+			<Link to="/"><img src={logo} alt="" className="logo fl"/></Link>
+			<div className="head-nav fr">
+			    <ul className="nav justify-content-end">
 				<li>
 				    <NavLink className="nav-title" to="/" onClick={this.backTop}>Home</NavLink>
 				</li>

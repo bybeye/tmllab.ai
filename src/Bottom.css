@@ -20,9 +20,6 @@ div,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 ul,
 li {
   padding: 0;
@@ -109,7 +106,8 @@ a.link:hover {
 }
 .cont-fm p.f16,.cont-fr p.f16{
 	color:#fff;
-	font-size:16px;
+	font-size:20px;
+	font-weight:700;
 	margin-top:20px;
 }
 .cont-fm p img{

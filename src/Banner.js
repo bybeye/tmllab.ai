@@ -9,10 +9,10 @@ class Banner extends React.Component {
     
     render() {
 	return (
-	    <div class="banner-cont">
-		<div class="banner-text">
-			<p class="f30">{this.props.title}</p>
-			<p class="f16">{this.props.subtitle}</p>
+	    <div className="banner-cont">
+		<div className="banner-text">
+			<p className="f30">{this.props.title}</p>
+			<p className="f16">{this.props.subtitle}</p>
 		</div>
 	    </div>
 	)
