@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tmllab.ai/static/css/main.c2012de3.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.89f65ad4.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.89f65ad4.chunk.js.map",
+    "main.css": "/tmllab.ai/static/css/main.4e886b2b.chunk.css",
+    "main.js": "/tmllab.ai/static/js/main.4fe29d1f.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.4fe29d1f.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.6e69e234.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.6e69e234.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.2074f952.chunk.js": "/tmllab.ai/static/js/2.2074f952.chunk.js",
-    "static/js/2.2074f952.chunk.js.map": "/tmllab.ai/static/js/2.2074f952.chunk.js.map",
+    "static/js/2.50aba86f.chunk.js": "/tmllab.ai/static/js/2.50aba86f.chunk.js",
+    "static/js/2.50aba86f.chunk.js.map": "/tmllab.ai/static/js/2.50aba86f.chunk.js.map",
     "static/js/3.4ff7205a.chunk.js": "/tmllab.ai/static/js/3.4ff7205a.chunk.js",
     "static/js/3.4ff7205a.chunk.js.map": "/tmllab.ai/static/js/3.4ff7205a.chunk.js.map",
     "index.html": "/tmllab.ai/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.c2012de3.chunk.css.map": "/tmllab.ai/static/css/main.c2012de3.chunk.css.map",
-    "static/js/2.2074f952.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.2074f952.chunk.js.LICENSE.txt",
+    "static/css/main.4e886b2b.chunk.css.map": "/tmllab.ai/static/css/main.4e886b2b.chunk.css.map",
+    "static/js/2.50aba86f.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.50aba86f.chunk.js.LICENSE.txt",
     "static/media/ChaojianYu.2830700d.jpeg": "/tmllab.ai/static/media/ChaojianYu.2830700d.jpeg",
     "static/media/ChenCheng.9100188c.jpeg": "/tmllab.ai/static/media/ChenCheng.9100188c.jpeg",
     "static/media/Data_blank.28c42567.png": "/tmllab.ai/static/media/Data_blank.28c42567.png",
@@ -28,7 +28,7 @@
     "static/media/Yingbin.d1fdc902.jpg": "/tmllab.ai/static/media/Yingbin.d1fdc902.jpg",
     "static/media/Yuhao.08bf3479.jpeg": "/tmllab.ai/static/media/Yuhao.08bf3479.jpeg",
     "static/media/Yuxuan.4191d476.jpeg": "/tmllab.ai/static/media/Yuxuan.4191d476.jpeg",
-    "static/media/Home.css": "/tmllab.ai/static/media/ban3.550b25a7.jpeg",
+    "static/media/Home.css": "/tmllab.ai/static/media/ban2.480451ed.png",
     "static/media/group_logo.a03e9c93.png": "/tmllab.ai/static/media/group_logo.a03e9c93.png",
     "static/media/jialiang.f1bca5ce.png": "/tmllab.ai/static/media/jialiang.f1bca5ce.png",
     "static/media/kangzhao.6afbce63.jpeg": "/tmllab.ai/static/media/kangzhao.6afbce63.jpeg",
@@ -50,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.6e69e234.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.2074f952.chunk.js",
-    "static/css/main.c2012de3.chunk.css",
-    "static/js/main.89f65ad4.chunk.js"
+    "static/js/2.50aba86f.chunk.js",
+    "static/css/main.4e886b2b.chunk.css",
+    "static/js/main.4fe29d1f.chunk.js"
   ]
 }
