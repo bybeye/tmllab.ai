@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tmllab.ai/static/css/main.5a110ddc.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.4fb325fd.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.4fb325fd.chunk.js.map",
+    "main.css": "/tmllab.ai/static/css/main.b6e287e8.chunk.css",
+    "main.js": "/tmllab.ai/static/js/main.4b7685be.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.4b7685be.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.6e69e234.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.6e69e234.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.4ff7205a.chunk.js.map": "/tmllab.ai/static/js/3.4ff7205a.chunk.js.map",
     "index.html": "/tmllab.ai/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.5a110ddc.chunk.css.map": "/tmllab.ai/static/css/main.5a110ddc.chunk.css.map",
+    "static/css/main.b6e287e8.chunk.css.map": "/tmllab.ai/static/css/main.b6e287e8.chunk.css.map",
     "static/js/2.38463a3c.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.38463a3c.chunk.js.LICENSE.txt",
     "static/media/ChaojianYu.2830700d.jpeg": "/tmllab.ai/static/media/ChaojianYu.2830700d.jpeg",
     "static/media/ChenCheng.9100188c.jpeg": "/tmllab.ai/static/media/ChenCheng.9100188c.jpeg",
@@ -35,6 +35,7 @@
     "static/media/linkedin.ac0dfac3.png": "/tmllab.ai/static/media/linkedin.ac0dfac3.png",
     "static/media/logo.2a0d9749.png": "/tmllab.ai/static/media/logo.2a0d9749.png",
     "static/media/logo_blue.3bb3d130.png": "/tmllab.ai/static/media/logo_blue.3bb3d130.png",
+    "static/media/new-icon.31faba8f.png": "/tmllab.ai/static/media/new-icon.31faba8f.png",
     "static/media/new-r.4cdcb160.png": "/tmllab.ai/static/media/new-r.4cdcb160.png",
     "static/media/p1.ff46c927.png": "/tmllab.ai/static/media/p1.ff46c927.png",
     "static/media/p2.3dd687ee.png": "/tmllab.ai/static/media/p2.3dd687ee.png",
@@ -50,7 +51,7 @@
     "static/js/runtime-main.6e69e234.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.38463a3c.chunk.js",
-    "static/css/main.5a110ddc.chunk.css",
-    "static/js/main.4fb325fd.chunk.js"
+    "static/css/main.b6e287e8.chunk.css",
+    "static/js/main.4b7685be.chunk.js"
   ]
 }
