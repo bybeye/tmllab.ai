@@ -1,0 +1,19 @@
+
+.news_content{
+    padding-bottom: 50px;
+}
+
+.news_content_year{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.news_item{
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+}
+
+.new_icon{
+    height: 20px;
+}

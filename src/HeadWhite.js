@@ -19,7 +19,7 @@ class HeadWhite extends React.Component{
     }
 
     componentDidMount() {
-	this.handleSize()
+	this.handleSize();
 	window.addEventListener('resize', this.handleSize);
     }
     
@@ -28,10 +28,10 @@ class HeadWhite extends React.Component{
     }
 
     handleSize = () => {
-	var width = window.innerWidth
+	var width = window.innerWidth;
 
 	if(width>=800){
-	    width = 1200
+	    width = 1200;
 	}
 
 	this.setState({
@@ -51,7 +51,7 @@ class HeadWhite extends React.Component{
 				    <NavLink className="nav-title" to="/" onClick={this.backTop}>Home</NavLink>
 				</li>
 				<li>
-				    <NavLink className="nav-title" to="/" onClick={this.backTop}>News</NavLink>
+				    <NavLink className="nav-title" to="/news" onClick={this.backTop}>News</NavLink>
 				</li>
 				<li>
 				    <NavLink className="nav-title" to="/research" onClick={this.backTop}>Publications</NavLink>
@@ -66,8 +66,8 @@ class HeadWhite extends React.Component{
 			</div>
 		    </div>
 		</div>
-	)}
+	);}
 
 }
 
-export default HeadWhite
+export default HeadWhite;

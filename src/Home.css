@@ -237,12 +237,13 @@ body {
 .news .r-text{
     border-top:1px solid #797979;
     border-bottom:1px solid #797979;
-    height:400px;
+    height:440px;
     margin-left: 25px;
 }
 
 .news .r-inner-text{
     position: relative;
+    font-size:24px;
     top:15%;
     width:80%;
     height:80%;

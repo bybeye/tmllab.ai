@@ -10,6 +10,7 @@ import Bottom from './Bottom';
 import Research from './Research';
 import Databases from './Databases';
 import Models from './Models';
+import News from './News';
 
 import {
     Switch,
@@ -39,6 +40,9 @@ function App() {
 	      </Route>
 	      <Route path="/team">
 		<Team />
+	      </Route>
+              <Route path="/news">
+		<News />
 	      </Route>
 	      <Route path="/member">
 		<TeamMember />

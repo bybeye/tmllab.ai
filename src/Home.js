@@ -97,7 +97,7 @@ class Home extends React.Component{
 					<NavLink className="nav-title" to="/" onClick={this.backTop}>Home</NavLink>
 				    </li>
 				    <li>
-					<NavLink className="nav-title" to="/" onClick={this.backTop}>News</NavLink>
+					<NavLink className="nav-title" to="/news" onClick={this.backTop}>News</NavLink>
 				    </li>
 				    <li>
 					<NavLink className="nav-title" to="/research" onClick={this.backTop}>Publications</NavLink>
@@ -138,7 +138,7 @@ class Home extends React.Component{
 			    <h2 className="h2-title title"> &nbsp;</h2>
 			    <div className="r-text">
 				<div className="r-inner-text">
-				    <a href="/#" >We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!</a><br/><br/><br/><a href="/#" style={{color:"#0072b9"}}>Read More</a> &nbsp; <img src={arrow} style={{height:"27px", width:"10px", paddingBottom:8}} alt=""/>
+				    We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!<br/><br/><br/><a href="#/news" style={{color:"#0072b9"}}>Read More</a> &nbsp; <img src={arrow} style={{height:"27px", width:"10px", paddingBottom:8}} alt=""/>
 				</div>
 			    </div>
 			</div>
