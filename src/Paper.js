@@ -24,10 +24,8 @@ class Paper extends React.Component{
 		<div className="Paper">
 		  {this.props.authors} &nbsp; <br/>
 		  <b>{this.props.title} &nbsp;</b><br/>
-		  {this.props.conference}  &nbsp; {pdf_out}{source_out}&nbsp;{code_out}{highlight_out}<br/>
-		  
-		  
-		</div>	
+		  {this.props.conference}  &nbsp; {pdf_out}{source_out}&nbsp;{code_out}{highlight_out}
+		</div>
 	      </div>
 	    </div>
 	);

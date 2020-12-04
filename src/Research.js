@@ -112,8 +112,6 @@ function Research() {
 			    
 			    <Paper title="Domain Adaptation with Conditional Transferable Components." authors="M. Gong, K. Zhang, T. Liu, D. Tao, C. Glymour, and B. Schölkopf." pdf="http://proceedings.mlr.press/v48/gong16.pdf" conference="In ICML, 2106."/>
 			    <Paper title="Diversified Dynamical Gaussian Process Latent Variable Model for Video Repair." authors="H. Xiong, T. Liu, and D. Tao." conference="In AAAI, 2016." source="https://dl.acm.org/doi/10.5555/3016387.3016415"/>
-`
-			    
 
 			    <br/><hr/><br/>
 			    <div className="row align-items-center">
@@ -122,7 +120,8 @@ function Research() {
 			    <Paper title="Spectral Ensemble Clustering." authors="H. Liu, T. Liu, J. Wu, D. Tao, and Y. Fu." conference="In KDD, 2015." source="https://dl.acm.org/doi/10.1145/2783258.2783287"/>
 			    <Paper title="Multi-Task Model and Feature Joint Learning. " authors="Y. Li, X. Tian, T. Liu, and D. Tao." pdf="https://www.ijcai.org/Proceedings/15/Papers/512.pdf" conference="In IJCAI, 2015." highlight="Best Paper Award candidate"/>
 			    <Paper title="Learning Relative Features through Adaptive Pooling for Image Classification. " authors="M. Shao, S. Li, T. Liu, D. Tao, T. S. Huang, and Y. Fu." conference="In ICME, 2014." source="https://ieeexplore.ieee.org/document/6890269"/>
-			    <Paper title="On the Robustness and Generalization of Cauchy Regression." authors="T. Liu and D. Tao." conference="In ICIST, 2014." source="https://ieeexplore.ieee.org/document/6920341" highlight="Best Paper Award"/>
+			  <Paper title="On the Robustness and Generalization of Cauchy Regression." authors="T. Liu and D. Tao." conference="In ICIST, 2014." source="https://ieeexplore.ieee.org/document/6920341" highlight="Best Paper Award"/>
+                          <br/><br/>
 			</div>
 			
 			<div className="tab-pane fade" id="nav-journal" role="tabpanel" aria-labelledby="nav-journal-tab">
@@ -165,11 +164,11 @@ function Research() {
 			    </div>
 			    <Paper title="Fast Supervised Discrete Hashing. " authors="J. Gui, T. Liu, Z. Sun, D. Tao, and T. Tan." pdf="" conference="IEEE T-PAMI, 40(2): 490-496, 2018." highlight="" source="https://ieeexplore.ieee.org/document/7873258"/>
 			    <Paper title="Continuous Dropout. " authors="X. Shen, X. Tian, F. Xu, T. Liu, and D. Tao." pdf="https://arxiv.org/abs/1911.12675" conference="IEEE T-NNLS, 29(9): 3926-3937, 2018." highlight=""/>
-                <Paper title="Multi-class Learning with Partially Corrupted Labels." authors="R. Wang, T. Liu, and D. Tao." pdf="" conference="IEEE T-NNLS, 29(6): 2568-2580, 2018." highlight="" source="https://ieeexplore.ieee.org/document/7929355"/>
-                <Paper title="On Better Exploring and Exploiting Task Relationship in Multi-Task Learning: Joint Model and Feature Learning." authors="Y. Li, X. Tian, T. Liu, and D. Tao." pdf="https://arxiv.org/abs/1904.01747" conference="IEEE T-NNLS, 29(5): 1975-1985, 2018." highlight=""/>
-                <Paper title="Supervised Discrete Hashing with Relaxation." authors="J. Gui, T. Liu, Z. Sun, D. Tao, and T. Tan." pdf="https://arxiv.org/abs/1904.03549" conference="IEEE T-NNLS, 29(3): 608-617, 2018." highlight=""/>
-                <Paper title="Deep Blur Mapping: Exploiting High-Level Semantics by Deep Neural Networks." authors="K. Ma, H. Fu, T. Liu, Z. Wang, and D. Tao." pdf="https://arxiv.org/abs/1612.01227" conference="IEEE T-IP, 27(10): 5155-5166, 2018." highlight=""/>
-                <Paper title="A Regularization Approach for Instance-Based Superset Label Learning." authors="C. Gong, T. Liu, Y. Tang, J. Yang, J. Yang, and D. Tao." pdf="https://arxiv.org/pdf/1904.02832.pdf" conference="IEEE T-CYB, 48(3): 967-978, 2018." highlight=""/>
+                          <Paper title="Multi-class Learning with Partially Corrupted Labels." authors="R. Wang, T. Liu, and D. Tao." pdf="" conference="IEEE T-NNLS, 29(6): 2568-2580, 2018." highlight="" source="https://ieeexplore.ieee.org/document/7929355"/>
+                          <Paper title="On Better Exploring and Exploiting Task Relationship in Multi-Task Learning: Joint Model and Feature Learning." authors="Y. Li, X. Tian, T. Liu, and D. Tao." pdf="https://arxiv.org/abs/1904.01747" conference="IEEE T-NNLS, 29(5): 1975-1985, 2018." highlight=""/>
+                          <Paper title="Supervised Discrete Hashing with Relaxation." authors="J. Gui, T. Liu, Z. Sun, D. Tao, and T. Tan." pdf="https://arxiv.org/abs/1904.03549" conference="IEEE T-NNLS, 29(3): 608-617, 2018." highlight=""/>
+                          <Paper title="Deep Blur Mapping: Exploiting High-Level Semantics by Deep Neural Networks." authors="K. Ma, H. Fu, T. Liu, Z. Wang, and D. Tao." pdf="https://arxiv.org/abs/1612.01227" conference="IEEE T-IP, 27(10): 5155-5166, 2018." highlight=""/>
+                          <Paper title="A Regularization Approach for Instance-Based Superset Label Learning." authors="C. Gong, T. Liu, Y. Tang, J. Yang, J. Yang, and D. Tao." pdf="https://arxiv.org/pdf/1904.02832.pdf" conference="IEEE T-CYB, 48(3): 967-978, 2018." highlight=""/>
 			    
 			    <br/><hr/><br/>
 			    <div className="row align-items-center">
