@@ -71,7 +71,7 @@ class Team extends React.Component{
 				<Person img={sonhua} name="Songhua Wu"/>
 				<Person id="12" img={yingbin} name="Yingbin Bai"/>
 			        <Person img={chaojian} name="Chaojian Yu" />
-				<Person img={xiaobo} name="Xiaobo Xia"/>
+				<Person id="14" img={xiaobo} name="Xiaobo Xia"/>
 				<Person img={yuxuan} name="Yuxuan Du" description="(Co-supervised)"/>
 				<Person img={xuefeng} name="Xuefeng Li" description="(Co-supervised)"/>
 				<Person img={shijun} name="Shijun Cai" description="(Co-supervised)"/>

@@ -30,7 +30,7 @@ class TeamMember extends React.Component{
 		}
 		return null;
 	    }).filter(item => item != null)[0];
-        console.dir(person);
+        
 
         const listUnis = person.education.map((item, i) =>
             <MemEducation key={i} image_url={item.image_url} uni={item.uni} time={item.time} speciality={item.speciality}/>
@@ -45,7 +45,7 @@ class TeamMember extends React.Component{
         );
 
         const listPublications = person.publications.map((item, i) =>
-            <Paper  key={i} title={item.title} authors={item.authors} pdf={item.pdf} conference={item.conference} highlight={item.hightlight}/>
+            <Paper  key={i} title={item.title} authors={item.authors} pdf={item.pdf} conference={item.conference} highlight={item.highlight} code={item.code}/>
         );
 
 
@@ -104,7 +104,7 @@ class TeamMember extends React.Component{
 		      
 		    </div>
 		  </div>
-		  <div className="col-12 col-md-6 h-100 nopadding">
+		  <div className="col-12 col-md-7 h-100 nopadding">
 		    <div className="r_info">
 		      <div className="row">
 			<h2>About me</h2>
