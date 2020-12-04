@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tmllab.ai/static/css/main.4e886b2b.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.4fe29d1f.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.4fe29d1f.chunk.js.map",
+    "main.js": "/tmllab.ai/static/js/main.a5e1eb78.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.a5e1eb78.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.6e69e234.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.6e69e234.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/tmllab.ai/static/css/2.20aa2d7b.chunk.css",
@@ -52,6 +52,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.50aba86f.chunk.js",
     "static/css/main.4e886b2b.chunk.css",
-    "static/js/main.4fe29d1f.chunk.js"
+    "static/js/main.a5e1eb78.chunk.js"
   ]
 }
