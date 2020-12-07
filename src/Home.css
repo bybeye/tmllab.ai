@@ -200,10 +200,14 @@ body {
     color:#fff;
 }
 
-.b-learn-more{
+.b-learn-more a{
     font-size:24px;
-    color:#007bff;
+    color:#fff;
     font-weight:700;
+}
+
+.b-learn-more a:hover{
+    color:#fff;
 }
 
 .f16{

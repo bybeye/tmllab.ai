@@ -2,7 +2,7 @@ import React from 'react';
 import HeadWhite from './HeadWhite';
 import Banner from './Banner';
 import teamData from './teamData';
-import Paper from './Paper';
+import MemPaper from './MemPaper';
 import MemHonor from './MemHonor';
 import MemActivity from './MemActivity';
 import MemEducation from './MemEducation';
@@ -19,7 +19,6 @@ class TeamMember extends React.Component{
 	super(props);
         var js_url = window.location.href;
         this.state={ user_id : parseInt(js_url.substring(js_url.lastIndexOf("/")+1, js_url.length))};
-
     }
     
     render() {
@@ -37,15 +36,15 @@ class TeamMember extends React.Component{
         );
 
         const listHonors = person.honors.map((item, i) =>
-            <MemHonor  key={i} content={item.content} year={item.year} />
+            <MemHonor key={i} content={item.content} year={item.year} />
         );
 
         const listActivies = person.activity.map((item, i) =>
-            <MemActivity  key={i} content={item.content} year={item.year} />
+            <MemActivity key={i} content={item.content} year={item.year} />
         );
 
         const listPublications = person.publications.map((item, i) =>
-            <Paper  key={i} title={item.title} authors={item.authors} pdf={item.pdf} conference={item.conference} highlight={item.highlight} code={item.code}/>
+            <MemPaper key={i} title={item.title} authors={item.authors} pdf={item.pdf} conference={item.conference} highlight={item.highlight} code={item.code}/>
         );
 
 
@@ -58,8 +57,7 @@ class TeamMember extends React.Component{
 		  <div className="col-12 col-md-3 h-100 nopadding">
 		    <div className="l_info">
 		      <div className="row justify-content-center">
-			<img src={person.image_url} alt={person.name} width="150" className="rounded-circle"/>
-			
+			<img src={person.image_url} alt={person.name} width="150" className="rounded-circle"/>	
 		      </div>
 		      <div className="row m_name justify-content-center">
 			{person.name}
@@ -101,7 +99,6 @@ class TeamMember extends React.Component{
                             <img src={scholar} alt="Google Scholar" style={{width:"16px", paddingTop:"3px"}} /> &nbsp;
 			    <a href={person.google_scholar}>Google Scholar</a>
 			  </div>) : (" ") }
-		      
 		    </div>
 		  </div>
 		  <div className="col-12 col-md-7 h-100 nopadding">
@@ -111,23 +108,19 @@ class TeamMember extends React.Component{
 		      </div>
 		      <div className="row mem_content border-top">
 			<p>
-			  {person.about_me}
+			  {person.about_me} <br/><br/>
+                          {person.interests}
 			</p>
 		      </div>
-		      <div className="row">
-			<h2>Education</h2>
-		      </div>
-                      <div className="row mem_content border-top">
-                        {listUnis}
+                      
+                      <div>
+		        <div className="row align-items-start">
+			  <h2>Education</h2>
+		        </div>
+                        <div className="row mem_content border-top" style={{paddingLeft:"20px"}}>
+                          {listUnis}
+                        </div>
                       </div>
-		      <div className="row">
-			<h2>Research interests</h2>
-		      </div>
-		      <div className="row mem_content border-top">
-			<p>
-			  {person.interests}
-			</p>
-		      </div>
 
                       {listActivies.length>0 && listActivies!==null ?(
                           <div>

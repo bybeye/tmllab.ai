@@ -51,10 +51,10 @@ class Team extends React.Component{
 		<div className="container justify-content-md-center">
 		    <div className="row">
 			<div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
-			    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={6}/>Directors<Spacer amount={6}/></button> <br/> <br/> 
-			    <button onClick={()=>this.scrollToAnchor('phd')} className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>PhD Students<Spacer amount={3}/></button> <br/> <br/> 
-			    <button onClick={()=>this.scrollToAnchor('master')} className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Master Students<Spacer amount={2}/></button> <br/> <br/>
-			    <button onClick={()=>this.scrollToAnchor('honour')} className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Honours Students<Spacer amount={1}/></button> <br/> <br/> 
+			    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={9}/>Directors<Spacer amount={10}/></button> <br/> <br/> 
+			    <button onClick={()=>this.scrollToAnchor('phd')} className="btn btn-outline-primary rounded-pill"><Spacer amount={5}/>PhD Students<Spacer amount={6}/></button> <br/> <br/> 
+			    <button onClick={()=>this.scrollToAnchor('master')} className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Master Students<Spacer amount={3}/></button> <br/> <br/>
+			    <button onClick={()=>this.scrollToAnchor('honour')} className="btn btn-outline-primary rounded-pill"><Spacer amount={2}/>Honours Students<Spacer amount={1}/></button> <br/> <br/> 
 			    <button onClick={()=>this.scrollToAnchor('gra')} className="btn btn-outline-primary rounded-pill">Graduated Students</button>
 			</div>
 
@@ -68,9 +68,9 @@ class Team extends React.Component{
 			    <h3 id="phd" className="text-primary" >PhD Students</h3> <br/>
 			    <div className="row">
 				<Person id="10" img={yuyao} name="Yu Yao"/>
-				<Person img={sonhua} name="Songhua Wu"/>
+				<Person id="11" img={sonhua} name="Songhua Wu"/>
 				<Person id="12" img={yingbin} name="Yingbin Bai"/>
-			        <Person img={chaojian} name="Chaojian Yu" />
+			        <Person id="13" img={chaojian} name="Chaojian Yu" />
 				<Person id="14" img={xiaobo} name="Xiaobo Xia"/>
 				<Person img={yuxuan} name="Yuxuan Du" description="(Co-supervised)"/>
 				<Person img={xuefeng} name="Xuefeng Li" description="(Co-supervised)"/>
@@ -80,7 +80,7 @@ class Team extends React.Component{
 			    <h3 id="master" className="text-primary" >Master Students</h3> <br/>
 			    <div className="row">
 				<Person img={Kewei} name="Kewei Wang"/>
-				<Person img={jialiang} name="Jialiang Shen"/>
+				<Person id="21" img={jialiang} name="Jialiang Shen"/>
 				<Person img={rihui} name="Rihui Wu"/>
 			    </div>
 			    <hr></hr><br/>

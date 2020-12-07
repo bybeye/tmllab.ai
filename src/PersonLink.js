@@ -1,6 +1,5 @@
 import React from 'react';
 import './Team.css';
-import {Link} from "react-router-dom";
 
 
 class PersonLink extends React.Component{

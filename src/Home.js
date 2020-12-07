@@ -39,6 +39,10 @@ class Home extends React.Component{
 	if(height<750){
 	    height=750;
 	}
+
+        if(height>1200){
+	    height=1200;
+	}
 	
 	if(width>=800){
 	    width = 1200;
@@ -116,7 +120,7 @@ class Home extends React.Component{
 			    <div className="row w-100 justify-content-center align-items-center" style={{height: deskHeight-80}}>
 				<div className="col-9 col-xl-9 nopadding">
 				    <span className="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/>
-				    <span className="b-learn-more">Learn More </span> &nbsp; <img src={arrow} style={{height:"27px", width:"10px", paddingBottom:8}} alt=""/><br/><br/><br/><br/><br/><br/>
+				  <span className="b-learn-more"><Link to="/join" onClick={this.backTop}>Learn More</Link> </span> &nbsp; <img src={white_arrow} style={{height:"27px", width:"10px", paddingBottom:8}} alt=""/><br/><br/><br/><br/><br/><br/>
 				</div>
 				<div className= "col-3 col-xl-3 nopadding">
 				</div>
