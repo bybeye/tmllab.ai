@@ -1,7 +1,7 @@
 // import './Team.css';
 import React from 'react';
-import HeadWhite from './HeadWhite'
-import Banner from './Banner'
+import HeadWhite from './HeadWhite';
+import Banner from './Banner';
 import {Link} from "react-router-dom";
 import Model from "./Model";
 import Spacer from 'react-add-space';
@@ -27,7 +27,7 @@ function Models() {
 				<Link to="/Models" className="btn btn-outline-primary rounded-pill active"><Spacer amount={3}/>Models<Spacer amount={3}/></Link><br/><br/>
 			    </div>
 			    <div className="col-md-12 col-5">
-   				<Link to="/Databases" className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Databases<Spacer amount={2}/></Link><br/><br/>
+   				<Link to="/Datasets" className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Datasets<Spacer amount={2}/></Link><br/><br/>
 			    </div>
 			</div>
 		    </div>
@@ -38,9 +38,9 @@ function Models() {
 			</div>
 			
 			<div className="row">
-			    <Model image={Model_blank} name="Me-Momentum" />
-			    <Model image={Model_blank} name="T-revision" />
-			    <Model image={Model_blank} name="Importance Reweighting" />
+			  <Model image={Model_blank} name="T-revision" link="https://github.com/xiaoboxia/T-Revision"/>
+                          <Model image={Model_blank} name="Truncated Cauchy NMF" link="https://github.com/NaiyangGuan/Truncated-Cauchy-Non-Negative-Matrix-Factorization" />
+			  <Model image={Model_blank} name="Importance Reweighting" />
 			</div>
 			<br/> <br/> <br/> <br/> 
 		    </div>

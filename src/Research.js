@@ -24,7 +24,7 @@ function Research() {
 			    <Link to="/Models" className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Models<Spacer amount={3}/></Link><br/><br/>
 			</div>
 			<div className="col-md-12 col-5">
-   			    <Link to="/Databases" className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Databases<Spacer amount={2}/></Link><br/><br/>
+   			    <Link to="/Datasets" className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Datasets<Spacer amount={2}/></Link><br/><br/>
 			</div>
 		    </div>
 		</div>

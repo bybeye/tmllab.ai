@@ -1,5 +1,5 @@
 import React from 'react';
-// import './Research.css';
+
 
 class Dataset extends React.Component{
     
@@ -14,7 +14,7 @@ class Dataset extends React.Component{
 				    <img src={this.props.image} alt={this.props.name} className="rounded-0 img-fluid"/>
 				</div>
 				<div className="col-6">
-				    <h3>{this.props.name}</h3>
+				    <h4>{this.props.name}</h4>
 				    {this.props.date}
 				</div>
 			    </div>
@@ -23,11 +23,11 @@ class Dataset extends React.Component{
 		    <br/>
 		</div>
 	    </div>
-	)
+	);
 	
     }
 
 }
 
 
-export default Dataset
+export default Dataset;
