@@ -7,11 +7,11 @@
 import yingbin from './images/Yingbin.jpg';
 import sonhua from './images/sonhua.jpeg';
 import yuyao from './images/yuyao.jpeg';
-// import shijun from './images/shijun.jpg';
+import shijun from './images/shijun.jpg';
 import jialiang from './images/jialiang.png';
 import xiaobo from './images/XiaoboXia.jpg';
 // import kangzhao from './images/kangzhao.jpeg';
-// import xuefeng from './images/xuefeng.jpg';
+import xuefeng from './images/xuefeng.jpg';
 import chaojian from './images/ChaojianYu.jpeg';
 // import zhengning from './images/zhengning.jpg';
 
@@ -117,76 +117,6 @@ var teamData = [
 
     },
 
-    {
-        "id": 14,
-        "name": "Xiaobo Xia",
-        "type": "PhD Student",
-        "image_url": xiaobo,
-        "address": "Sydeny, Australia",
-        "email": "xiaoboxia.uni@gmail.com",
-        "linkedin": "",
-        "github": "https://github.com/xiaoboxia",
-        "google_scholar": "",
-        "about_me": "Hi, I am Xiaobo Xia. I am a coming PhD student in USYD, supervised by Prof. Tongliang Liu. I just obtained my Bachelor’s degree from Xidian University. I had the privilege of working with Prof. Nannan Wang in XDU. I love playing basketball and board games in spare time. I have been playing LoL a lot. Find me out! ",
-        "education": [
-            {
-                "uni": "Xidian University",
-                "time": "Sep, 2016 - Jun, 2020",
-                "speciality": "Bachelor of Communication Engineering"
-            }
-        ],
-        "interests": "My study interest lies in machine learning, with a particular emphasis on weakly supervised learning. My long-term goal is to make intelligent machines trustworthy.",
-        "activity": [
-            {
-                "content": "I accepted the invitation to serve as a reviewer for CVPR 2021.",
-                "year": "12/2020"
-            },
-            {
-                "content": "Invited Talk, “Part-dependent Label Noise: Towards Instance-dependent Label Noise”, ACML 2020 Workshop on Weakly-supervised Representation Learning, Online.",
-                "year": "11/2020"
-            },
-            {
-                "content": "I accepted the invitation to serve as a reviewer for NeurIPS 2020.",
-                "year": "05/2020"
-            },
-            {
-                "content": "I accepted the invitation to serve as a reviewer for ICML 2020.",
-                "year": "02/2020"
-            }
-        ],
-        "honors": [
-            {
-                "content": "Faculty of Engineering Research Scholarship, University of Sydney",
-                "year": "2020"
-            },
-            {
-                "content": "Top 10 Undergraduate Excellence Award (only 10 awardees university-wide per year)",
-                "year": "2020"
-            },
-            {
-                "content": "China National Scholarship",
-                "year": "2019"
-            }
-        ],
-        "publications": [
-            {
-                "title": "Part-dependent Label Noise: Towards Instance-dependent Label Noise",
-                "authors": "Xiaobo Xia, Tongliang Liu, Bo Han, Nannan Wang, Mingming Gong, Haifeng Liu, Gang Niu, Dacheng Tao, Masashi Sugiyama",
-                "conference": "NeurIPS 2020",
-                "code": "https://github.com/xiaoboxia/Part-dependent-label-noise",
-                "pdf": "https://arxiv.org/pdf/2006.07836.pdf",
-                "highlight": "Spotlight"
-            },
-            {
-                "title": "Are Anchor Points Really Indispensable in Label-Noise Learning?",
-                "authors": "Xiaobo Xia, Tongliang Liu, Nannan Wang, Bo Han, Chen Gong, Gang Niu, Masashi Sugiyama",
-                "conference": "NeurIPS 2019",
-                "code": "https://github.com/xiaoboxia/T-Revision",
-                "pdf": "https://arxiv.org/pdf/1906.00189.pdf",
-                "highlight": ""
-            }
-        ]
-    },
     {
         "id": 11,
         "name": "Songhua Wu",
@@ -318,6 +248,175 @@ var teamData = [
                 "conference": "ECCV 2018",
                 "code": "https://github.com/ChaojianYu/Hierarchical-Bilinear-Pooling",
                 "pdf": "https://arxiv.org/pdf/1807.09915.pdf",
+                "highlight": ""
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Xuefeng Li",
+        "type": "PhD Student",
+        "image_url": xuefeng,
+        "address": "Sydeny, Australia",
+        "email": "xuefeng.li1@unsw.edu.au",
+        "linkedin": "https://www.linkedin.com/in/xuefeng-li-852823145/",
+        "github": "https://github.com/XuefengLee",
+        "google_scholar": "",
+        "about_me": "I am a PhD student at the School of Computer Science and Engineering, University of New South Wales (UNSW), Australia. My supervisors are Dr Alan Blair and Dr Tongliang Liu. I was graduated from the University of New South Wales with a Bachelor of Science (Computer Science).",
+        "education": [
+            {
+                "uni": "University of New South Wales",
+                "time": "Aug, 2018 - ",
+                "speciality": "PhD - Computer Science"
+            },
+            {
+                "uni": "University of New South Wales",
+                "time": "Jul, 2015 - Jul, 2018",
+                "speciality": "Bachelor of Science - Computer Science"
+            }
+        ],
+        "interests": "My research interests are in computer vision and deep learning.",
+        "activity": [
+            
+        ],
+        "honors": [
+            {
+                "content": "RTP Scholarship",
+                "year": "2018-2021"
+            },
+            {
+                "content": "Dean’s Honours List",
+                "year": "2017"
+            }
+        ],
+        "publications": [
+            {
+                "title": "",
+                "authors": "",
+                "conference": "",
+                "code": "",
+                "pdf": "",
+                "highlight": ""
+            }
+        ]
+    },
+    {
+	"id": 17,
+	"name": "Shijun Cai",
+	"type": "PhD Student",
+	"image_url": shijun,
+	"address": "Sydeny, Australia",
+	"email": "scai5619@uni.sydney.edu",
+	"linkedin": "",
+	"github": "",
+	"google_scholar": "",
+	"about_me": "My name is Shijun. I am a PhD student at the University of Sydney",
+	"education":[
+            {"uni": "The University of Sydney",
+             "time": "Feb, 2015 - Aug, 2017",
+             "speciality": "Master of IT/ITM"
+            }
+	],
+	"interests": "My study interests are Data Visualisation and Machine Learning.",
+	"activity":[
+	    
+	],
+	"honors": [
+	    
+	],
+	"publications":[
+	    
+	]
+
+    },
+
+    {
+        "id": 14,
+        "name": "Xiaobo Xia",
+        "type": "PhD Student",
+        "image_url": xiaobo,
+        "address": "Sydeny, Australia",
+        "email": "xiaoboxia.uni@gmail.com",
+        "linkedin": "",
+        "github": "https://github.com/xiaoboxia",
+        "google_scholar": "",
+        "about_me": "Hi, I am Xiaobo Xia. I am a coming PhD student in USYD, supervised by Prof. Tongliang Liu. I just obtained my Bachelor’s degree from Xidian University. I had the privilege of working with Prof. Nannan Wang in XDU. I love playing basketball and board games in spare time. I have been playing LoL a lot. Find me out! ",
+        "education": [
+            {
+                "uni": "Xidian University",
+                "time": "Sep, 2016 - Jun, 2020",
+                "speciality": "Bachelor of Communication Engineering"
+            }
+        ],
+        "interests": "My study interest lies in machine learning, with a particular emphasis on weakly supervised learning. My long-term goal is to make intelligent machines trustworthy.",
+        "activity": [
+            {
+                "content": "I accepted the invitation to serve as a reviewer for CVPR 2021.",
+                "year": "12/2020"
+            },
+            {
+                "content": "Invited Talk, “Part-dependent Label Noise: Towards Instance-dependent Label Noise”, ACML 2020 Workshop on Weakly-supervised Representation Learning, Online.",
+                "year": "11/2020"
+            },
+            {
+                "content": "I accepted the invitation to serve as a reviewer for NeurIPS 2020.",
+                "year": "05/2020"
+            },
+            {
+                "content": "I accepted the invitation to serve as a reviewer for ICML 2020.",
+                "year": "02/2020"
+            }
+        ],
+        "honors": [
+            {
+                "content": "Faculty of Engineering Research Scholarship, University of Sydney",
+                "year": "2020"
+            },
+            {
+                "content": "Top 10 Undergraduate Excellence Award (only 10 awardees university-wide per year)",
+                "year": "2020"
+            },
+            {
+                "content": "China National Scholarship",
+                "year": "2019"
+            }
+        ],
+        "publications": [
+            {
+                "title": "Part-dependent Label Noise: Towards Instance-dependent Label Noise",
+                "authors": "Xiaobo Xia, Tongliang Liu, Bo Han, Nannan Wang, Mingming Gong, Haifeng Liu, Gang Niu, Dacheng Tao, Masashi Sugiyama",
+                "conference": "NeurIPS 2020",
+                "code": "https://github.com/xiaoboxia/Part-dependent-label-noise",
+                "pdf": "https://arxiv.org/pdf/2006.07836.pdf",
+                "highlight": "Spotlight"
+            },
+            {
+                "title": "Are Anchor Points Really Indispensable in Label-Noise Learning?",
+                "authors": "Xiaobo Xia, Tongliang Liu, Nannan Wang, Bo Han, Chen Gong, Gang Niu, Masashi Sugiyama",
+                "conference": "NeurIPS 2019",
+                "code": "https://github.com/xiaoboxia/T-Revision",
+                "pdf": "https://arxiv.org/pdf/1906.00189.pdf",
+                "highlight": ""
+            },
+            {
+                "title": "Extended T: Learning with Mixed Closed-set and Open-set Noisy Labels",
+                "authors": "Xiaobo Xia, Tongliang Liu, Bo Han, Nannan Wang, Jiankang Deng, Jiatong Li, Yinian Mao",
+                "conference": "Preprint",
+                "pdf": "https://arxiv.org/pdf/2012.00932.pdf",
+                "highlight": ""
+            },
+            {
+                "title": "Class2Simi: A New Perspective on Learning with Label Noise",
+                "authors": "Songhua Wu*, Xiaobo Xia*, Tongliang Liu, Bo Han, Mingming Gong, Nannan Wang, Haifeng Liu, Gang Niu",
+                "conference": "Preprint",
+                "pdf": "https://arxiv.org/pdf/2006.07831.pdf",
+                "highlight": ""
+            },
+            {
+                "title": "Multi-Class Classification from Noisy-Similarity-Labeled Data ",
+                "authors": "Songhua Wu*, Xiaobo Xia*, Tongliang Liu, Bo Han, Mingming Gong, Nannan Wang, Haifeng Liu, Gang Niu",
+                "conference": "Preprint",
+                "pdf": "https://arxiv.org/pdf/2002.06508.pdf",
                 "highlight": ""
             }
         ]
