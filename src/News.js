@@ -27,7 +27,7 @@ class News extends React.Component{
                     <NewsItem type="1" date="10/2020" content="Mr Yingbin Bai joined us as a PhD candidate. Welcome!"/>
                     <NewsItem type="3" date="10/2020" content="we receive an industry grant from Meituan."/>
                     <NewsItem type="4" date="9/2020" content="Dr Tongliang Liu was named in the Early Achievers Leaderboard by The Asutralian." link="https://specialreports.theaustralian.com.au/1540291/27/"/>
-                    <NewsItem type="1" date="9/2020" content="Mr Xibo Xia and Mr Chaojian Yu will join us as PhD candidates. Welcome!"/>
+                    <NewsItem type="1" date="9/2020" content="Mr Xiaobo Xia and Mr Chaojian Yu will join us as PhD candidates. Welcome!"/>
                     <NewsItem type="6" date="8/2020" content="Dr Tongliang Liu accepted the invitation to serve as an Area Chair for IJCAI 2021."/>
                     <NewsItem type="5" date="7/2020" content="one paper on multi-task learning has been accepted by ACM MM."/>
                     <NewsItem type="5" date="7/2020" content="one paper on face recognition with label noise has been accepted by ECCV."/>
