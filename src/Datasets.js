@@ -12,19 +12,19 @@ function Datasets() {
     return (
 	<div>
 	  <HeadWhite />
-	  <Banner title="RESEARCH" />
+	  <Banner title="DATASETS" />
 	  <div className="container justify-content-md-center">
 	    <div className="row">
 	      <div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
 		<div className="row">
 		  <div className="col-md-12 col-5">
-   		    <Link to="/Research" className="btn btn-outline-primary rounded-pill">Publications</Link><br/><br/>
+   		    <Link to="/Research" className="btn btn-outline-primary rounded-pill"><Spacer amount={5}/>Publications<Spacer amount={5}/></Link><br/><br/>
 		  </div>
 		  <div className="col-md-12 col-5">
-		    <Link to="/Models" className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Models<Spacer amount={3}/></Link><br/><br/>
+		    <Link to="/Models" className="btn btn-outline-primary rounded-pill"><Spacer amount={8}/>Models<Spacer amount={8}/></Link><br/><br/>
 		  </div>
 		  <div className="col-md-12 col-5">
-   		    <Link to="/Datasets" className="btn btn-outline-primary rounded-pill active"><Spacer amount={1}/>Datasets<Spacer amount={2}/></Link><br/><br/>
+   		    <Link to="/Datasets" className="btn btn-outline-primary rounded-pill active"><Spacer amount={7}/>Datasets<Spacer amount={7}/></Link><br/><br/>
 		  </div>
 		</div>
 		

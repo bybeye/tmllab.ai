@@ -54,13 +54,7 @@ var teamData = [
 	    },
 	],
 	"publications":[
-	    {"title":"ME-MOMENTUM: EXTRACTING HARD CONFIDENT EXAMPLES FROM NOISILY LABELED DATA",
-	     "authors":"Yingbin Bai, Tongliang Liu",
-	     "conference":"",
-	     "code":"",
-	     "pdf":"https://openreview.net/pdf?id=ELiYxj9JlyW",
-	     "highlight":"",
-	    },
+	    
 	],
 
     },

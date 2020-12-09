@@ -1,17 +1,17 @@
 import React from 'react';
-import './News.css';
 import team_icon from './images/news-1.png';
 import talk_icon from './images/news-2.png';
 import grant_icon from './images/news-3.png';
 import award_icon from './images/news-4.png';
 import paper_icon from './images/news-5.png';
 import service_icon from './images/news-6.png';
+import './News.css';
 
 
 class NewsItem extends React.Component{
     
     render() {
-        let icon_out;
+        let icon_out, link_out;
     
         if (this.props.type === "1") {
 	    icon_out = (<img src={team_icon} className="new_icon" alt=""/>);
@@ -26,6 +26,10 @@ class NewsItem extends React.Component{
         }else if (this.props.type === "6") {
             icon_out = (<img src={service_icon} className="new_icon" alt=""/>);
         }
+
+        if (this.props.link) {
+	    link_out = (<a href={this.props.link} target="_blank" rel="noopener noreferrer">[Link]</a>);
+	}
     
         return (
              <div className="row news_item" style={{paddingLeft:"20px"}}>
@@ -33,7 +37,7 @@ class NewsItem extends React.Component{
                 {icon_out} &nbsp;
 	      </div>
 	      <div className="col nopadding">
-                {this.props.date}, {this.props.content}
+                {this.props.date}, {this.props.content} {link_out}
 	      </div>
 	    </div>
 

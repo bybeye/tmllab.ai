@@ -20,13 +20,13 @@ class News extends React.Component{
                     <NewsItem type="5" date="12/2020" content="one paper on data augmentation has been accepted by IJCV."/>
                     <NewsItem type="5" date="12/2020" content="two papers on learning with noisy labels have been accepted by AAAI 2021."/>
                     <NewsItem type="4" date="12/2020" content="Dr Tongliang Liu received the CVI Bioengineering and Digital Science Catalyst Award."/>
-                    <NewsItem type="6" date="11/2020" content="we co-organized the ACML 2020 Workshop on Weakly-supervised Representation Learning (https://wsl-workshop.github.io/acml20.html)."/>
-                    <NewsItem type="2" date="11/2020" content="we receive The Research Foundation of Cerebral Palsy Alliance Grant, supported by Neurodisability Assist Trust."/>
+                    <NewsItem type="6" date="11/2020" content="we co-organized the ACML 2020 Workshop on Weakly-supervised Representation Learning." link="https://wsl-workshop.github.io/acml20.html"/>
+                    <NewsItem type="3" date="11/2020" content="we receive The Research Foundation of Cerebral Palsy Alliance Grant, supported by Neurodisability Assist Trust."/>
                     <NewsItem type="5" date="11/2020" content="one paper on object tracking has been accepted by IEEE TIP. Congrats! Jia!"/>
                     <NewsItem type="1" date="11/2020" content="Mr Rihui Wu joined us as a MPhil candidate. Welcome!"/>
                     <NewsItem type="1" date="10/2020" content="Mr Yingbin Bai joined us as a PhD candidate. Welcome!"/>
                     <NewsItem type="3" date="10/2020" content="we receive an industry grant from Meituan."/>
-                    <NewsItem type="4" date="9/2020" content="Dr Tongliang Liu was named in the Early Achievers Leaderboard by The Asutralian (https://specialreports.theaustralian.com.au/1540291/27/)"/>
+                    <NewsItem type="4" date="9/2020" content="Dr Tongliang Liu was named in the Early Achievers Leaderboard by The Asutralian." link="https://specialreports.theaustralian.com.au/1540291/27/"/>
                     <NewsItem type="1" date="9/2020" content="Mr Xibo Xia and Mr Chaojian Yu will join us as PhD candidates. Welcome!"/>
                     <NewsItem type="6" date="8/2020" content="Dr Tongliang Liu accepted the invitation to serve as an Area Chair for IJCAI 2021."/>
                     <NewsItem type="5" date="7/2020" content="one paper on multi-task learning has been accepted by ACM MM."/>

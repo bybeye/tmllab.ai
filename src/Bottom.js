@@ -47,7 +47,7 @@ class Bottom extends React.Component{
 			<p className="link"></p>
 		    </div>
 		    <div className="cont-fm fl">
-			<p className="f16">Connect</p>
+			<p className="f16">Contact</p>
 			<p className="f7s"><img src={f7} alt=""/>Address: 1 Cleveland St, Darlington, NSW 2008, Australia</p>
 			<p className="f8s"><img src={f8} alt=""/>Tel: +61 2 8627 5966</p>
 			<p className="f9s"><img src={f9} alt=""/>Email: tml.laboratory@gmail.com</p> 
