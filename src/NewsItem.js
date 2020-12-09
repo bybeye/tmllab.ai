@@ -1,6 +1,11 @@
 import React from 'react';
 import './News.css';
-import new_icon from './images/new-icon.png';
+import team_icon from './images/news-1.png';
+import talk_icon from './images/news-2.png';
+import grant_icon from './images/news-3.png';
+import award_icon from './images/news-4.png';
+import paper_icon from './images/news-5.png';
+import service_icon from './images/news-6.png';
 
 
 class NewsItem extends React.Component{
@@ -8,19 +13,27 @@ class NewsItem extends React.Component{
     render() {
         let icon_out;
     
-        if (this.props.newcome) {
-	    icon_out = (<img src={new_icon} className="new_icon" alt=""/>);
+        if (this.props.type === "1") {
+	    icon_out = (<img src={team_icon} className="new_icon" alt=""/>);
+        }else if (this.props.type === "2") {
+            icon_out = (<img src={talk_icon} className="new_icon" alt=""/>);
+        }else if (this.props.type === "3") {
+            icon_out = (<img src={grant_icon} className="new_icon" alt=""/>);
+        }else if (this.props.type === "4") {
+            icon_out = (<img src={award_icon} className="new_icon" alt=""/>);
+        }else if (this.props.type === "5") {
+            icon_out = (<img src={paper_icon} className="new_icon" alt=""/>);
+        }else if (this.props.type === "6") {
+            icon_out = (<img src={service_icon} className="new_icon" alt=""/>);
         }
     
         return (
              <div className="row news_item" style={{paddingLeft:"20px"}}>
 	      <div>
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="6" cy="7" r="4"/>
-                  </svg>
+                {icon_out} &nbsp;
 	      </div>
 	      <div className="col nopadding">
-                  {icon_out} {this.props.date}, {this.props.content}
+                {this.props.date}, {this.props.content}
 	      </div>
 	    </div>
 

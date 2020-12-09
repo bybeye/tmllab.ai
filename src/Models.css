@@ -1,0 +1,8 @@
+.models-content a{
+    color:#000 !important;
+}
+
+.models-content a:hover{
+    color:#007bff !important;
+    text-decoration: underline !important;
+}

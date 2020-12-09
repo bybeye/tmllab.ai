@@ -15,7 +15,7 @@ class Bottom extends React.Component{
     }
 
     componentDidMount() {
-	this.handleSize()
+	this.handleSize();
 	window.addEventListener('resize', this.handleSize);
     }
     
@@ -24,10 +24,10 @@ class Bottom extends React.Component{
     }
 
     handleSize = () => {
-	var width = window.innerWidth
+	var width = window.innerWidth;
 
 	if(width>=800){
-	    width = 1200
+	    width = 1200;
 	}
 
 	this.setState({
@@ -43,7 +43,7 @@ class Bottom extends React.Component{
 		<div className="footer-cont" style={{ width: deskWidth}}>
 		    <div className="cont-fl fl">
 			<p className="flogo"><img src={logo} width="120" alt=""/> <img src={group_logo} width="85" alt=""/></p>
-			<h3> <i>Trustworthiness is a foundation</i></h3>
+			<h3> <i>Trustworthiness is a foundation for deploying aritificial intelligence</i></h3>
 			<p className="link"></p>
 		    </div>
 		    <div className="cont-fm fl">
@@ -54,7 +54,7 @@ class Bottom extends React.Component{
 		    </div>
 		</div>
 	    </div>	
-	)
+	);
     }
 }
 

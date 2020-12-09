@@ -60,7 +60,7 @@ class HeadWhite extends React.Component{
 				    <NavLink className="nav-title" to="/team" onClick={this.backTop}>Team</NavLink>
 				</li>
 				<li>
-				    <NavLink className="nav-title" to="/join" onClick={this.backTop}>Join Us</NavLink>
+				    <NavLink className="nav-title" to="/about" onClick={this.backTop}>About Us</NavLink>
 				</li>
 			    </ul>
 			</div>

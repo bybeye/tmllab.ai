@@ -9,6 +9,7 @@
     font-weight: 500;
     padding-right:50px;
     padding-left:50px;
+    height:auto;
 }
 
 .l_info .m_name{
@@ -27,6 +28,10 @@
     color: #AEAFB3;
     font-size:14px;
     font-weight: 500;
+}
+
+.l_info a:hover{
+    text-decoration: underline;
 }
 
 .mem_content{

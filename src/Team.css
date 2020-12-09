@@ -18,5 +18,5 @@
 
 .mem_name a:hover{
     color:#007bff;
-    text-decoration: none;
+    text-decoration: underline;
 }

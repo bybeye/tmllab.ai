@@ -47,8 +47,8 @@ function App() {
 	      <Route path="/member">
 		<TeamMember />
 	      </Route>
-	      <Route path="/join">
-		<Join />
+	      <Route path="/about">
+		<About />
 	      </Route>
 
 	    </Switch>
@@ -62,11 +62,11 @@ function App() {
 
 
 
-function Join() {
+function About() {
     return (
 	<div>
 	  <HeadWhite />
-	  <Banner title="JOIN US" />
+	  <Banner title="ABOUT US" />
 	  <div className="container justify-content-md-center">
 	    <div className="row w-100 justify-content-center align-items-center">
 	      <div className="col-12 col-md-10 about-text">
@@ -76,7 +76,7 @@ function Join() {
 
                 <h5>For prospective students</h5>
 
-                We are always seeking for research students with great potential to join our TML Lab. For prospective PhD, MPhil, or Honours candidate, please send Dr Tongliang Liu an email (<a href="mailto:tongliang.liu@sydney.eud.au">tongliang.liu@sydney.eud.au</a>) with your CV, transcript, and papers (if have). We also welcome self-funded visitors to join us (or remotely due to COVID-19). We expect the prospective students to have true enthusiasm for research, backgrounds in mathematics, and strong skills in coding. A lot of time and efforts are expected to devote to the training program.  We will supervise the candidate hunting problems, thinking critically, and publishing paper by solving the major problems. We will also provide strong support to students for collaborations with world-leading scientists and engineers. <br/><br/>
+                We are always seeking for research students with great potential to join our TML Lab. For prospective PhD, MPhil, or Honours candidate, please send Dr Tongliang Liu an email (<a href="mailto:tml.laboratory@gmail.com">tml.laboratory@gmail.com</a>) with your CV, transcript, and papers (if have). We also welcome self-funded visitors to join us (or remotely due to COVID-19). We expect the prospective students to have true enthusiasm for research, backgrounds in mathematics, and strong skills in coding. A lot of time and efforts are expected to devote to the training program.  We will supervise the candidate hunting problems, thinking critically, and publishing paper by solving the major problems. We will also provide strong support to students for collaborations with world-leading scientists and engineers. <br/><br/>
 
 
                 Some information about scholarships:<br/>

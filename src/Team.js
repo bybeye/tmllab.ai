@@ -45,68 +45,74 @@ class Team extends React.Component{
     render() {
 	return (
 	    <div>
-		<HeadWhite />
-		<Banner title="RESEARCH TEAM"/>
+	      <HeadWhite />
+	      <Banner title="RESEARCH TEAM"/>
 
-		<div className="container justify-content-md-center">
+	      <div className="container justify-content-md-center">
+		<div className="row">
+		  <div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
+		    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={10}/>Director<Spacer amount={11}/></button> <br/> <br/>
+                     <button onClick={()=>this.scrollToAnchor('con')} className="btn btn-outline-primary rounded-pill"><Spacer amount={8}/>Consultant<Spacer amount={9}/></button> <br/> <br/> 
+		    <button onClick={()=>this.scrollToAnchor('phd')} className="btn btn-outline-primary rounded-pill"><Spacer amount={5}/>PhD Students<Spacer amount={6}/></button> <br/> <br/> 
+		    <button onClick={()=>this.scrollToAnchor('master')} className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Master Students<Spacer amount={3}/></button> <br/> <br/>
+		    <button onClick={()=>this.scrollToAnchor('honour')} className="btn btn-outline-primary rounded-pill"><Spacer amount={2}/>Honours Students<Spacer amount={1}/></button> <br/> <br/> 
+		    <button onClick={()=>this.scrollToAnchor('gra')} className="btn btn-outline-primary rounded-pill">Graduated Students</button>
+		  </div>
+
+		  <div className="col-md-9 col-12">
+		    <h3 id="dir">Director</h3> <br/>
 		    <div className="row">
-			<div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
-			    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={9}/>Directors<Spacer amount={10}/></button> <br/> <br/> 
-			    <button onClick={()=>this.scrollToAnchor('phd')} className="btn btn-outline-primary rounded-pill"><Spacer amount={5}/>PhD Students<Spacer amount={6}/></button> <br/> <br/> 
-			    <button onClick={()=>this.scrollToAnchor('master')} className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Master Students<Spacer amount={3}/></button> <br/> <br/>
-			    <button onClick={()=>this.scrollToAnchor('honour')} className="btn btn-outline-primary rounded-pill"><Spacer amount={2}/>Honours Students<Spacer amount={1}/></button> <br/> <br/> 
-			    <button onClick={()=>this.scrollToAnchor('gra')} className="btn btn-outline-primary rounded-pill">Graduated Students</button>
-			</div>
-
-			<div className="col-md-9 col-12">
-			    <h3 id="dir" className="text-primary">Directors</h3> <br/>
-			    <div className="row">
-				<PersonLink img={p1} name="Tongliang Liu" link="https://tongliang-liu.github.io/"/>
-				<Person img={Michael} name="Michael Huang"  description="(Industry Partner)"/>
-			    </div>
-			    <hr></hr><br/>
-			    <h3 id="phd" className="text-primary" >PhD Students</h3> <br/>
-			    <div className="row">
-				<Person id="10" img={yuyao} name="Yu Yao"/>
-				<Person id="11" img={sonhua} name="Songhua Wu"/>
-				<Person id="12" img={yingbin} name="Yingbin Bai"/>
-			        <Person id="13" img={chaojian} name="Chaojian Yu" />
-				<Person id="14" img={xiaobo} name="Xiaobo Xia"/>
-				<Person img={yuxuan} name="Yuxuan Du" description="(Co-supervised)"/>
-				<Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised)"/>
-				<Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised)"/>
-			    </div>
-			    <hr></hr><br/>
-			    <h3 id="master" className="text-primary" >Master Students</h3> <br/>
-			    <div className="row">
-				<Person img={Kewei} name="Kewei Wang"/>
-				<Person id="21" img={jialiang} name="Jialiang Shen"/>
-				<Person img={rihui} name="Rihui Wu"/>
-			    </div>
-			    <hr></hr><br/>
-			    <h3 id="honour" className="text-primary" >Honours Students</h3> <br/>
-			    <div className="row">
-				<Person img={zhengning} name="Zhengning Wu"/>
-				<Person img={kangzhao} name="Kangzhao Xia"/>
-				<Person img={Yuhao} name="Yuhao Hu"/>
-				<Person img={jerry} name="Jerry Tan"/>
-			    </div>
-
-			    <hr></hr><br/>
-			    <h3 id="gra" className="text-primary" >Graduated Research Students</h3> <br/>
-			    <div className="row">
-				<Person img={erkun} name="Erkun Yang"/>
-				<Person img={xinyu} name="Xiyu Yu"/>
-				<Person img={chencheng} name="Cheng Chen"/>
-				<Person img={yuxuan} name="Yuxuan Du"/>
-			    </div>
-
-			    <br/> <br/> <br/> <br/> 
-			</div>
-			
+		      <PersonLink img={p1} name="Tongliang Liu" link="https://tongliang-liu.github.io/"/>
 		    </div>
+		    <hr></hr><br/>
+                    <h3 id="con">Consultant</h3> <br/>
+                    <div className="row">
+		      <Person img={Michael} name="Michael Huang"  description="(Industry Partner)"/>
+		    </div>
+                    <hr></hr><br/>
+                    
+		    <h3 id="phd">PhD Students</h3> <br/>
+		    <div className="row">
+		      <Person id="10" img={yuyao} name="Yu Yao"/>
+		      <Person id="11" img={sonhua} name="Songhua Wu"/>
+		      <Person id="12" img={yingbin} name="Yingbin Bai"/>
+		      <Person id="13" img={chaojian} name="Chaojian Yu" />
+		      <Person id="14" img={xiaobo} name="Xiaobo Xia"/>
+		      <Person img={yuxuan} name="Yuxuan Du" description="(Co-supervised)"/>
+		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised)"/>
+		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised)"/>
+		    </div>
+		    <hr></hr><br/>
+		    <h3 id="master">Master Students</h3> <br/>
+		    <div className="row">
+		      <Person img={Kewei} name="Kewei Wang"/>
+		      <Person id="21" img={jialiang} name="Jialiang Shen"/>
+		      <Person img={rihui} name="Rihui Wu"/>
+		    </div>
+		    <hr></hr><br/>
+		    <h3 id="honour">Honours Students</h3> <br/>
+		    <div className="row">
+		      <Person img={zhengning} name="Zhengning Wu"/>
+		      <Person img={kangzhao} name="Kangzhao Xia"/>
+		      <Person img={Yuhao} name="Yuhao Hu"/>
+		      <Person img={jerry} name="Jerry Tan"/>
+		    </div>
+
+		    <hr></hr><br/>
+		    <h3 id="gra">Graduated Research Students</h3> <br/>
+		    <div className="row">
+		      <Person img={erkun} name="Erkun Yang"/>
+		      <Person img={xinyu} name="Xiyu Yu"/>
+		      <Person img={chencheng} name="Cheng Chen"/>
+		      <Person img={yuxuan} name="Yuxuan Du"/>
+		    </div>
+
+		    <br/> <br/> <br/> <br/> 
+		  </div>
+		  
 		</div>
-		
+	      </div>
+	      
 	    </div>
 	);
     }

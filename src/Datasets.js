@@ -31,9 +31,8 @@ function Datasets() {
 	      </div>
 	      <div className="col-md-9 col-12">
 		<div className="row">
-		  <h3 className="text-primary" >Datasets</h3><br/><br/><br/>
+		  <h3>Datasets</h3><br/><br/><br/>
 		</div>
-		<Dataset image={Data_blank} name="Clothing1M" />
 		<Dataset image={Data_blank} name="CIFAR-10/100" />
 		<Dataset image={Data_blank} name="MNIST" />
 

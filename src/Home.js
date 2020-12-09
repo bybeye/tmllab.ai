@@ -6,10 +6,7 @@ import rimg from './images/new-r.png';
 import rimg2 from './images/university.png';
 import p1 from './images/p1.png';
 import p2 from './images/p2.png';
-import arrow from './images/arrow.png';
 import Spacer from 'react-add-space';
-import white_arrow from './images/arrow_white.png';
-
 
 
 class Home extends React.Component{
@@ -110,7 +107,7 @@ class Home extends React.Component{
 					<NavLink className="nav-title" to="/team" onClick={this.backTop}>Team</NavLink>
 				    </li>
 				    <li>
-					 <NavLink className="nav-title" to="/join" onClick={this.backTop}>Join Us</NavLink>
+					 <NavLink className="nav-title" to="/about" onClick={this.backTop}>About Us</NavLink>
 				    </li>
 				</ul>
 				</div>
@@ -120,7 +117,7 @@ class Home extends React.Component{
 			    <div className="row w-100 justify-content-center align-items-center" style={{height: deskHeight-80}}>
 				<div className="col-9 col-xl-9 nopadding">
 				    <span className="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/>
-				  <span className="b-learn-more"><Link to="/join" onClick={this.backTop}>Learn More</Link> </span> &nbsp; <img src={white_arrow} style={{height:"27px", width:"10px", paddingBottom:8}} alt=""/><br/><br/><br/><br/><br/><br/>
+				  <span className="b-learn-more"><Link to="/join" onClick={this.backTop}>Learn More &nbsp; &#9654;</Link> </span><br/><br/><br/><br/><br/><br/>
 				</div>
 				<div className= "col-3 col-xl-3 nopadding">
 				</div>
@@ -142,7 +139,7 @@ class Home extends React.Component{
 			    <h2 className="h2-title title"> &nbsp;</h2>
 			    <div className="r-text">
 				<div className="r-inner-text">
-				    We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!<br/><br/><br/><a href="#/news" style={{color:"#0072b9"}}>Read More</a> &nbsp; <img src={arrow} style={{height:"27px", width:"10px", paddingBottom:8}} alt=""/>
+				    We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!<br/><br/><br/><a href="#/news">Read More &nbsp; &#9654;</a>
 				</div>
 			    </div>
 			</div>
@@ -163,29 +160,40 @@ class Home extends React.Component{
 				    <div className="col-6 col-xl-6 nopadding">
 					<div className="right-text fr">
 					    <div className="container-fluid">
-						<div className="row justify-content-between bottom-line"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
+						<div className="row justify-content-between bottom-line turn-blue"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
 						    <div className="col-auto mr-auto nopadding">
-							<NavLink className="nav-link nopadding" to="/team" onClick={this.backTop}>
-							    Team
-							</NavLink>
-						    </div>
-						    <div className="col-auto nopadding"> <img src={white_arrow} style={{height:"27px", width:"10px", paddingBottom:5}} alt=""/> </div>
+						      <NavLink className="nav-link nopadding" to="/team" onClick={this.backTop}>
+                                                      Team
+						      </NavLink>
+                                                    </div>
+						  <div className="col-auto nopadding">
+                                                    <NavLink className="nav-link nopadding" to="/team" onClick={this.backTop}>
+                                                      &#9654;
+                                                    </NavLink></div>
 						</div>
-						<div className="row justify-content-between bottom-line"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
+						<div className="row justify-content-between bottom-line turn-blue"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
 						    <div className="col-auto mr-auto nopadding">
 							<NavLink className="nav-link nopadding" to="/research" onClick={this.backTop}>
 							    Publications
 							</NavLink>
 						    </div>
-						    <div className="col-auto nopadding"> <img src={white_arrow} style={{height:"27px", width:"10px", paddingBottom:5}} alt=""/> </div>
+						  <div className="col-auto nopadding">
+                                                    <NavLink className="nav-link nopadding" to="/research" onClick={this.backTop}>
+                                                      &#9654;
+                                                    </NavLink>
+                                                  </div>
 						</div>
-						<div className="row justify-content-between"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
+						<div className="row justify-content-between turn-blue"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
 						    <div className="col-auto mr-auto nopadding">
 							<NavLink className="nav-link nopadding" to="/models" onClick={this.backTop}>
 							    Models
 							</NavLink>
 						    </div>
-						    <div className="col-auto nopadding"> <img src={white_arrow} style={{height:"27px", width:"10px", paddingBottom:5}} alt=""/> </div>
+						  <div className="col-auto nopadding">
+                                                    <NavLink className="nav-link nopadding" to="/models" onClick={this.backTop}>
+                                                      &#9654;
+                                                    </NavLink>
+                                                  </div>
 						</div>
 					    </div>
 					</div>
@@ -213,10 +221,10 @@ class Home extends React.Component{
 					<div className="col-12 nopadding">
 					    <img src={rimg2} className="unimg" alt=""/>
 					    <ul className="unis">
-						<li className="right-line"><a href="http://www.andrew.cmu.edu/user/kunz1/index.html" target="_blank" rel="noreferrer">CMU team</a></li>
-						<li className="right-line"><a href="https://aip.riken.jp/labs/generic_tech/imperfect_inf_learn/)" target="_blank" rel="noreferrer">RIKEN & UTokyo team</a></li>
-						<li className="right-line"><a href="https://bhanml.github.io/" target="_blank" rel="noreferrer">HKBU team</a></li>
-						<li><a href="https://mingming-gong.github.io/" target="_blank" rel="noreferrer">UoM team</a></li>
+						<li className="right-line"><a href="http://www.andrew.cmu.edu/user/kunz1/index.html" target="_blank" rel="noreferrer">CMU</a></li>
+						<li className="right-line"><a href="https://aip.riken.jp/labs/generic_tech/imperfect_inf_learn/)" target="_blank" rel="noreferrer">RIKEN & UTokyo</a></li>
+						<li className="right-line"><a href="https://bhanml.github.io/" target="_blank" rel="noreferrer">HKBU</a></li>
+						<li><a href="https://mingming-gong.github.io/" target="_blank" rel="noreferrer">UoM</a></li>
 					    </ul>
 					</div>
 				    </div>

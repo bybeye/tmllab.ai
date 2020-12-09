@@ -57,7 +57,7 @@ class TeamMember extends React.Component{
 		  <div className="col-12 col-md-3 h-100 nopadding">
 		    <div className="l_info">
 		      <div className="row justify-content-center">
-			<img src={person.image_url} alt={person.name} width="150" className="rounded-circle"/>	
+			<img src={person.image_url} alt={person.name} width="150" height="150" className="rounded-circle"/>	
 		      </div>
 		      <div className="row m_name justify-content-center">
 			{person.name}
@@ -84,22 +84,26 @@ class TeamMember extends React.Component{
 
 		      {person.linkedin!=="" ? (
 			  <div className="row">
-                            <img src={linkedin} alt="Linkedin" style={{width:"16px", paddingTop:"3px"}} /> &nbsp;
+                            <img src={linkedin} alt="Linkedin" style={{width:"16px", height:"16px", paddingTop:"3px"}} /> &nbsp;
 			    <a href={person.linkedin}>LinkedIn</a>
 			  </div>) : (" ") }
 
 		      {person.github!=="" ? (
 			  <div className="row">
-                            <img src={github} alt="Github" style={{width:"16px", paddingTop:"3px"}} /> &nbsp;
+                            <img src={github} alt="Github" style={{width:"16px", height:"16px", paddingTop:"3px"}} /> &nbsp;
 			    <a href={person.github}> Github</a>
 			  </div>) : (" ") }
 
 		      {person.google_scholar!=="" ? (
 			  <div className="row">
-                            <img src={scholar} alt="Google Scholar" style={{width:"16px", paddingTop:"3px"}} /> &nbsp;
+                            <img src={scholar} alt="Google Scholar" style={{width:"16px",  height:"16px", paddingTop:"3px"}} /> &nbsp;
 			    <a href={person.google_scholar}>Google Scholar</a>
 			  </div>) : (" ") }
+                      
 		    </div>
+                    <div style={{height:"auto"}} >
+                        
+                     </div>
 		  </div>
 		  <div className="col-12 col-md-7 h-100 nopadding">
 		    <div className="r_info">

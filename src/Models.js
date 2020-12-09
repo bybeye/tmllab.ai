@@ -1,4 +1,4 @@
-// import './Team.css';
+import './Models.css';
 import React from 'react';
 import HeadWhite from './HeadWhite';
 import Banner from './Banner';
@@ -32,9 +32,9 @@ function Models() {
 			</div>
 		    </div>
 
-		    <div className="col-md-9 col-12">
+		    <div className="col-md-9 col-12 models-content">
 			<div className="row">
-			    <h3 className="text-primary">Models</h3> <br/><br/>
+			    <h3>Models</h3> <br/><br/>
 			</div>
 			
 			<div className="row">

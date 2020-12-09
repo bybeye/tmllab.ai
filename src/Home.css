@@ -33,6 +33,16 @@ li,
 ul {
   list-style: none;
 }
+
+a{
+    color:#000;
+}
+
+a:hover{
+    color:#007bff;
+}
+
+
 body {
   color: #474747;
   background:#ffffff;
@@ -130,6 +140,7 @@ body {
 
 .home-top-fixed ul li a:hover{
     color:#007bff;
+    text-decoration: underline;
 }
 
 
@@ -150,6 +161,7 @@ body {
 
 .home-nav ul li a:hover{
     color:#007bff;
+    text-decoration: underline;
 }
 
 .unimg{
@@ -183,6 +195,11 @@ body {
     line-height:1em;
 }
 
+.unis li a:hover{
+    color:#007bff;
+    text-decoration: underline;
+}
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
@@ -207,7 +224,8 @@ body {
 }
 
 .b-learn-more a:hover{
-    color:#fff;
+    color:#0072b9;
+    text-decoration: underline;
 }
 
 .f16{
@@ -218,7 +236,8 @@ body {
 }
 
 .f16 a:hover{
-    color:#0072b9;	
+    color:#0072b9;
+    text-decoration: underline;
 }
 
 
@@ -261,6 +280,11 @@ body {
     font-weight: 700;
 }
 
+.news .r-text a:hover{
+    color:#0072b9;
+    text-decoration: underline;
+}
+
 .research{
     width:100%;
     height:auto;
@@ -293,7 +317,8 @@ body {
 }
 
 .research a:hover{
-    color:#0072b9;	
+    color:#0072b9;
+    text-decoration: underline;
 }
 
 .p-top a{
@@ -304,6 +329,11 @@ body {
 
 .right-text{
     width:400px;
+}
+
+.turn-blue:hover a{
+    color:#0072b9;
+    text-decoration: underline;
 }
 
 .bottom-line{
