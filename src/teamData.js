@@ -344,6 +344,10 @@ var teamData = [
         ],
         "interests": "My study interest lies in machine learning, with a particular emphasis on weakly supervised learning. My long-term goal is to make intelligent machines trustworthy.",
         "activity": [
+	    {
+                "content": "I accepted the invitation to serve as a reviewer for ICML 2021.",
+                "year": "12/2020"
+            },
             {
                 "content": "I accepted the invitation to serve as a reviewer for CVPR 2021.",
                 "year": "12/2020"
