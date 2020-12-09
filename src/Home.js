@@ -138,8 +138,8 @@ class Home extends React.Component{
 			<div className="col-6 col-xl-6 nopadding" >
 			    <h2 className="h2-title title"> &nbsp;</h2>
 			    <div className="r-text">
-				<div className="r-inner-text">
-				    We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!<br/><br/><br/><a href="#/news">Read More &nbsp; &#9654;</a>
+			      <div className="r-inner-text">
+                                Dr Tongliang Liu was Named in the Early Achievers Leadboard of Engineering and Computer Science by The Australian in 2020.<br/><br/><br/><a href="#/news">Read More &nbsp; &#9654;</a>
 				</div>
 			    </div>
 			</div>
