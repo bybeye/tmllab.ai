@@ -7,6 +7,7 @@ import rimg2 from './images/university.png';
 import p1 from './images/p1.png';
 import p2 from './images/p2.png';
 import Spacer from 'react-add-space';
+import Swaper from './Swaper';
 
 
 class Home extends React.Component{
@@ -128,20 +129,9 @@ class Home extends React.Component{
 		
 		<div className="news container-fluid" style={{ width: deskWidth, height: deskHeight}}>
 		    <div className="row w-100 h-100 justify-content-center align-items-center nopadding">
-			<div className="col-6 col-xl-6 nopadding">
+			<div className="col-12 col-xl-12 nopadding">
 			    <h2 className="h2-title title">TML News</h2>
-			    <div className="fl l-img">
-				<img src={rimg} alt=""/>
-			    </div>
-			</div>
-			
-			<div className="col-6 col-xl-6 nopadding" >
-			    <h2 className="h2-title title"> &nbsp;</h2>
-			    <div className="r-text">
-			      <div className="r-inner-text">
-                                Dr Tongliang Liu was Named in the Early Achievers Leadboard of Engineering and Computer Science by The Australian in 2020.<br/><br/><br/><a href="#/news">Read More &nbsp; &#9654;</a>
-				</div>
-			    </div>
+			    <Swaper/>
 			</div>
 		    </div>
 		</div>

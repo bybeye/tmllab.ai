@@ -62,3 +62,34 @@
     padding-right: 8px;
     color: blue; /* Or a color you prefer */
 }
+
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+	transform: rotate(0deg);
+    }
+    to {
+	transform: rotate(360deg);
+    }
+}
+
+.about-text{
+    line-height: 1.5;
+}
+
+.about-text h5{
+    padding-top: 30px;
+}
+
+.email{
+    color:#007bff;
+}
+
+.about-text a{
+    color: #000;
+    font-weight: 600;
+}

@@ -11,6 +11,7 @@ import Research from './Research';
 import Datasets from './Datasets';
 import Models from './Models';
 import News from './News';
+import TestPage from './TestPage';
 
 import {
     Switch,
@@ -49,6 +50,9 @@ function App() {
 	      </Route>
 	      <Route path="/about">
 		<About />
+	      </Route>
+              <Route path="/atest">
+		<TestPage />
 	      </Route>
 
 	    </Switch>

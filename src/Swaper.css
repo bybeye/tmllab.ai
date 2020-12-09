@@ -1,0 +1,83 @@
+#swaper-outer{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 480px;
+}
+
+#swaper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 440px;
+  cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 20 20, auto;
+}
+
+#swaper > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+}
+
+#swaper > div > div {
+    touch-action: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+}
+
+
+#swaper .title{
+    font-size:60px;
+    padding-bottom: 30px;
+}
+
+#swaper .l-img img{
+    width:580px;
+    height:440px;
+}
+
+#swaper .r-text{
+    border-top:1px solid #797979;
+    border-bottom:1px solid #797979;
+    height:440px;
+    margin-left: 25px;
+}
+
+#swaper .r-inner-text{
+    position: relative;
+    font-size:24px;
+    top:15%;
+    width:80%;
+    height:80%;
+    margin: auto;
+}
+
+#swaper .r-text a{
+    color:#212529;
+    line-height: 1.5em;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#swaper .r-text a:hover{
+    color:#0072b9;
+    text-decoration: underline;
+}
+
+
+#swaper-selector{
+    width:100%;
+    height:20px;
+    text-align: right;
+}
+
+
+.swaper-radio{
+    padding-right:10px !important;
+}
+
