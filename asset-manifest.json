@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tmllab.ai/static/css/main.16467421.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.36a8d3a4.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.36a8d3a4.chunk.js.map",
+    "main.js": "/tmllab.ai/static/js/main.6f633fb2.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.6f633fb2.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.3ee65a35.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.3ee65a35.js.map",
     "static/css/2.2a86faee.chunk.css": "/tmllab.ai/static/css/2.2a86faee.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.9152f201.chunk.js": "/tmllab.ai/static/js/3.9152f201.chunk.js",
     "static/js/3.9152f201.chunk.js.map": "/tmllab.ai/static/js/3.9152f201.chunk.js.map",
     "index.html": "/tmllab.ai/index.html",
-    "precache-manifest.b8c901677dd0bfcb3a39772b25377755.js": "/tmllab.ai/precache-manifest.b8c901677dd0bfcb3a39772b25377755.js",
+    "precache-manifest.74054b5f7379efd689bcc5dbb0f97a73.js": "/tmllab.ai/precache-manifest.74054b5f7379efd689bcc5dbb0f97a73.js",
     "service-worker.js": "/tmllab.ai/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/tmllab.ai/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.16467421.chunk.css.map": "/tmllab.ai/static/css/main.16467421.chunk.css.map",
@@ -47,7 +47,7 @@
     "static/media/top-news3.jpeg": "/tmllab.ai/static/media/top-news3.813b24b1.jpeg",
     "static/media/top-news4.png": "/tmllab.ai/static/media/top-news4.586fc793.png",
     "static/media/top-news5.png": "/tmllab.ai/static/media/top-news5.29614cea.png",
-    "static/media/top-news6.png": "/tmllab.ai/static/media/top-news6.1133feff.png",
+    "static/media/top-news6.jpeg": "/tmllab.ai/static/media/top-news6.97f19f4c.jpeg",
     "static/media/university.png": "/tmllab.ai/static/media/university.40aaeedf.png",
     "static/media/xuefeng.jpg": "/tmllab.ai/static/media/xuefeng.0043eab4.jpg",
     "static/media/yuyao.jpeg": "/tmllab.ai/static/media/yuyao.9c28cd2b.jpeg",
@@ -58,6 +58,6 @@
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.7135f6dc.chunk.js",
     "static/css/main.16467421.chunk.css",
-    "static/js/main.36a8d3a4.chunk.js"
+    "static/js/main.6f633fb2.chunk.js"
   ]
 }
