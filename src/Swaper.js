@@ -1,9 +1,7 @@
-import { render } from 'react-dom';
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import clamp from 'lodash-es/clamp';
 import { useSprings, animated } from 'react-spring';
 import { useDrag } from 'react-use-gesture';
-import radio_img from './images/news-1.png';
 import pages from './newsData';
 import './Swaper.css';
 
@@ -17,7 +15,7 @@ function Swaper (){
         x: i * swaperWidth,
         scale: 1,
         display: 'block',
-        color: 0 == i ?  "#0d6efd" : "#474747"
+        color: 0 === i ?  "#0d6efd" : "#474747"
     }));
 
 
@@ -27,7 +25,7 @@ function Swaper (){
         return () => {
             window.clearInterval(timer_id);
         };
-    }, []); 
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     // drag action
     const bind = useDrag(({ active, movement: [mx], direction: [xDir], distance, cancel }) => {        
@@ -41,7 +39,7 @@ function Swaper (){
                 return { display: 'none' };
             const x = (i - index.current) * swaperWidth + (active ? mx : 0);
             const scale = active ? 1 - distance / swaperWidth / 2 : 1;
-            const color = index.current == i ?  "#0d6efd" : "#474747";
+            const color = index.current === i ?  "#0d6efd" : "#474747";
             return { x, scale, display: 'block', color };
         });
 
@@ -60,7 +58,7 @@ function Swaper (){
         // alert("change invoke");
         set((i) => {
             //alert(index.current + ", " + i);
-            const color = index.current == i ?  "#0d6efd" : "#474747";
+            const color = index.current === i ?  "#0d6efd" : "#474747";
             const x = (i - index.current) * swaperWidth;
             return { x, scale: 1, display: 'block', color};
         });
@@ -73,7 +71,7 @@ function Swaper (){
         
 
         set((i) => {
-            const color = index.current == i ?  "#0d6efd" : "#474747";
+            const color = index.current === i ?  "#0d6efd" : "#474747";
             const x = (i - index.current) * swaperWidth;
             return { x, scale: 1, display: 'block', color };
         });
@@ -82,8 +80,7 @@ function Swaper (){
         window.clearInterval(timer_id);
         timer_id = window.setInterval(change, 5000);
     });
-
-
+    
     return (
         <div id="swaper-outer">
           <div id="swaper">
@@ -101,7 +98,7 @@ function Swaper (){
 			  <div className="col-6 col-xl-6 nopadding" >
 			    <div className="r-text">
 			      <div className="r-inner-text">
-		                {pages[i].title}<br/><br/><br/><a href="#/news">Read More &nbsp; &#9654;</a>
+		                {pages[i].title}<br/><br/><br/><a href={pages[i].link} target="_blank" rel="noopener noreferrer">Read More &nbsp; &#9654;</a>
 			      </div>
 			    </div>
 			  </div>
@@ -115,7 +112,7 @@ function Swaper (){
             {
                 props.map(({x, display, scale, color}, i) => (
 
-                    <animated.svg width="30" height="30" viewBox="1 0 16 16" className="bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" onClick={() => bindSelect(i)} style={{color}}>
+                    <animated.svg width="30" height="30" viewBox="1 0 16 16" className="bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" key={i} onClick={() => bindSelect(i)} style={{color}}>
                       <circle cx="8" cy="8" r="4"/>
                     </animated.svg> 
                 ))

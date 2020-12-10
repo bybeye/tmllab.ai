@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './images/group_logo.png';
 import {Link, NavLink} from "react-router-dom";
 import './Home.css';
-import rimg from './images/new-r.png';
 import rimg2 from './images/university.png';
 import p1 from './images/p1.png';
 import p2 from './images/p2.png';
@@ -118,7 +117,7 @@ class Home extends React.Component{
 			    <div className="row w-100 justify-content-center align-items-center" style={{height: deskHeight-80}}>
 				<div className="col-9 col-xl-9 nopadding">
 				    <span className="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/>
-				  <span className="b-learn-more"><Link to="/join" onClick={this.backTop}>Learn More &nbsp; &#9654;</Link> </span><br/><br/><br/><br/><br/><br/>
+				  <span className="b-learn-more"><Link to="/about" onClick={this.backTop}>Learn More &nbsp; &#9654;</Link> </span><br/><br/><br/><br/><br/><br/>
 				</div>
 				<div className= "col-3 col-xl-3 nopadding">
 				</div>
@@ -211,10 +210,10 @@ class Home extends React.Component{
 					<div className="col-12 nopadding">
 					    <img src={rimg2} className="unimg" alt=""/>
 					    <ul className="unis">
-						<li className="right-line"><a href="http://www.andrew.cmu.edu/user/kunz1/index.html" target="_blank" rel="noreferrer">CMU</a></li>
-						<li className="right-line"><a href="https://aip.riken.jp/labs/generic_tech/imperfect_inf_learn/)" target="_blank" rel="noreferrer">RIKEN & UTokyo</a></li>
-						<li className="right-line"><a href="https://bhanml.github.io/" target="_blank" rel="noreferrer">HKBU</a></li>
-						<li><a href="https://mingming-gong.github.io/" target="_blank" rel="noreferrer">UoM</a></li>
+						<li className="right-line"><a href="http://www.andrew.cmu.edu/user/kunz1/index.html" target="_blank" rel="noopener noreferrer">CMU</a></li>
+						<li className="right-line"><a href="https://aip.riken.jp/labs/generic_tech/imperfect_inf_learn/)" target="_blank" rel="noopener noreferrer">RIKEN & UTokyo</a></li>
+						<li className="right-line"><a href="https://bhanml.github.io/" target="_blank" rel="noopener noreferrer">HKBU</a></li>
+						<li><a href="https://mingming-gong.github.io/" target="_blank" rel="noopener noreferrer">UoM</a></li>
 					    </ul>
 					</div>
 				    </div>

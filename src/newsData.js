@@ -1,33 +1,43 @@
-import rimg from './images/new-r.png';
+import news1 from './images/top-news1.png';
+import news2 from './images/top-news2.jpeg';
+import news3 from './images/top-news3.jpeg';
+import news4 from './images/top-news4.png';
+import news5 from './images/top-news5.png';
+import news6 from './images/top-news6.png';
+
 
 
 var newsData = [
     {
-        title:"Dr Tongliang Liu was Named in the Early Achievers Leadboard of Engineering and Computer Science by The Australian in 2020.",
-        image_url: rimg,
-        link:""
+        title:"Dr Tongliang Liu was named in the Early Achievers Leadboard of Engineering and Computer Science by The Australian in 2020.",
+        image_url: news1,
+        link:"https://specialreports.theaustralian.com.au/1540291/27/"
     },
     {
-        title:"We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!",
-        image_url:'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        link:""
+        title:"Dr Tongliang Liu was appointed as a visiting scientist with RIKEN AIP, Japan.",
+        image_url: news2,
+        link:"https://aip.riken.jp/labs/generic_tech/imperfect_inf_learn/?lang=en"
     },
     {
-        title:"We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!",
-        image_url:'https://images.pexels.com/photos/296878/pexels-photo-296878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        link:""
+        title:"Dr Tongliang Liu was invited to visit Peking University for the second USYD-PKU collaboration workshop.",
+        image_url: news3,
+        link:"#/news"
     },
     {
-        title:"We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!",
-        image_url:'https://images.pexels.com/photos/351265/pexels-photo-351265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        link:""
+        title:"We received an industry grant from Meituan on “Weakly supervised or unsupervised machine learning algorithms for UAV image analysis”.",
+        image_url: news4,
+        link:"#/news"
     },
     {
-        title:"We have two papers on learning with label noise been accepted by NeurIPS 2020. Big congrats to Yu and Xiaobo!",
-        image_url:'https://images.pexels.com/photos/924675/pexels-photo-924675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        link:""
+        title:"Our work focuses on modeling instance-dependent label noise, and proposes exploiting part-dependent transition matrices to approximate the instance-dependent transition matrix.",
+        image_url: news5,
+        link:"#/news"
     },
-    
+    {
+        title:"By exploiting divide-and-conquer paradiam, our dual-T estimator introducing an intermdiate class reduces the estimation error of the transition matrix in label-noise learning.",
+        image_url: news6,
+        link:"#/news"
+    },
 ];
 
 export default newsData;
