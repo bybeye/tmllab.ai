@@ -33,8 +33,8 @@ function Datasets() {
 		<div className="row">
 		  <h3>Datasets</h3><br/><br/><br/>
 		</div>
-		<Dataset image={Data_blank} name="CIFAR-10/100" />
-		<Dataset image={Data_blank} name="MNIST" />
+		<Dataset image={Data_blank} name="CIFAR-10/100" link="https://drive.google.com/drive/folders/1Tz3W3JVYv2nu-mdM6x33KSnRIY1B7ygQ"/>
+		<Dataset image={Data_blank} name="MNIST" link="https://drive.google.com/drive/folders/1Tz3W3JVYv2nu-mdM6x33KSnRIY1B7ygQ"/>
 
                 Note: We collected some open source datasets to facilitate our research (some of them are modified for specific purposes). We do not hold the copyright of the datasets. When you use them, please cite the original work.<br/><br/><br/><br/>
 	      </div>

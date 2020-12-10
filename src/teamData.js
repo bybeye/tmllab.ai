@@ -105,7 +105,7 @@ var teamData = [
 	     "conference":"Neurips 2020",
 	     "code":"https://github.com/a5507203/dual-T-Estimator",
 	     "pdf":"https://proceedings.neurips.cc/paper/2020/file/512c5cad6c37edb98ae91c8a76c3a291-Paper.pdf",
-	     "highlight":"A new transition matrix estimator which reduces estimation error is proposed."
+	     "highlight":""
 	    }
 	]
 

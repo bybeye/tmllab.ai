@@ -37,12 +37,14 @@ function Models() {
 			    <h3>Models</h3> <br/><br/>
 			</div>
 			
-			<div className="row">
-			  <Model image={Model_blank} name="T-revision" link="https://github.com/xiaoboxia/T-Revision"/>
-                          <Model image={Model_blank} name="Truncated Cauchy NMF" link="https://github.com/NaiyangGuan/Truncated-Cauchy-Non-Negative-Matrix-Factorization" />
-			  <Model image={Model_blank} name="Importance Reweighting" />
-			</div>
-			<br/> <br/> <br/> <br/> 
+		      <div className="row">
+                        
+                        <Model image={Model_blank} name="Part-dependent label nosie" link="https://github.com/xiaoboxia/Part-dependent-label-noise"/>
+			<Model image={Model_blank} name="T-revision" link="https://github.com/xiaoboxia/T-Revision"/>
+                        <Model image={Model_blank} name="Truncated Cauchy NMF" link="https://github.com/NaiyangGuan/Truncated-Cauchy-Non-Negative-Matrix-Factorization" />
+			<Model image={Model_blank} name="Importance Reweighting" link="https://github.com/xiaoboxia/Classification-with-noisy-labels-by-importance-reweighting"/>
+		      </div>
+		      <br/> <br/> <br/> <br/> 
 		    </div>
 		</div>
 	    </div>

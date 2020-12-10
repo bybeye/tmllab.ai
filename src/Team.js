@@ -29,6 +29,11 @@ import Kewei from './images/Kewei.jpeg';
 import rihui from './images/Rihui.jpg';
 import Michael from './images/Michael.jpeg';
 
+// import ChenGong from './images/ChenGong.png';
+// import GangNiu from './images/GangNiu.png';
+// import MingmingGong from './images/MingmingGong.png';
+// import bhan from './images/bhan.jpg';
+
 
 class Team extends React.Component{
 
@@ -51,11 +56,12 @@ class Team extends React.Component{
 	      <div className="container justify-content-md-center">
 		<div className="row">
 		  <div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
-		    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={10}/>Director<Spacer amount={11}/></button> <br/> <br/>
-                     <button onClick={()=>this.scrollToAnchor('con')} className="btn btn-outline-primary rounded-pill"><Spacer amount={8}/>Consultant<Spacer amount={9}/></button> <br/> <br/> 
-		    <button onClick={()=>this.scrollToAnchor('phd')} className="btn btn-outline-primary rounded-pill"><Spacer amount={5}/>PhD Students<Spacer amount={6}/></button> <br/> <br/> 
-		    <button onClick={()=>this.scrollToAnchor('master')} className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Master Students<Spacer amount={3}/></button> <br/> <br/>
-		    <button onClick={()=>this.scrollToAnchor('honour')} className="btn btn-outline-primary rounded-pill"><Spacer amount={2}/>Honours Students<Spacer amount={1}/></button> <br/> <br/> 
+		    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={11}/>Director<Spacer amount={12}/></button> <br/> <br/>
+                    {/* <button onClick={()=>this.scrollToAnchor('stra')} className="btn btn-outline-primary rounded-pill">Strategic collaborator</button> <br/> <br/> */}
+                     <button onClick={()=>this.scrollToAnchor('con')} className="btn btn-outline-primary rounded-pill"><Spacer amount={9}/>Consultant<Spacer amount={9}/></button> <br/> <br/> 
+		    <button onClick={()=>this.scrollToAnchor('phd')} className="btn btn-outline-primary rounded-pill"><Spacer amount={6}/>PhD Students<Spacer amount={6}/></button> <br/> <br/> 
+		    <button onClick={()=>this.scrollToAnchor('master')} className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Master Students<Spacer amount={4}/></button> <br/> <br/>
+		    <button onClick={()=>this.scrollToAnchor('honour')} className="btn btn-outline-primary rounded-pill"><Spacer amount={2}/>Honours Students<Spacer amount={2}/></button> <br/> <br/> 
 		    <button onClick={()=>this.scrollToAnchor('gra')} className="btn btn-outline-primary rounded-pill">Graduated Students</button>
 		  </div>
 
@@ -65,6 +71,16 @@ class Team extends React.Component{
 		      <PersonLink img={p1} name="Tongliang Liu" link="https://tongliang-liu.github.io/"/>
 		    </div>
 		    <hr></hr><br/>
+
+                    {/* <h3 id="stra">Strategic collaborator</h3> <br/> */}
+                    {/* <div className="row"> */}
+		    {/*   <Person img={GangNiu} name="Dr Gang Niu"  /> */}
+                    {/*   <Person img={bhan} name="Dr Bo Han"  /> */}
+                    {/*   <Person img={MingmingGong} name="Dr Mingming Gong"  /> */}
+                    {/*   <Person img={ChenGong} name="Dr Chen Gong"  /> */}
+		    {/* </div> */}
+                    {/* <hr></hr><br/> */}
+                    
                     <h3 id="con">Consultant</h3> <br/>
                     <div className="row">
 		      <Person img={Michael} name="Michael Huang"  description="(Industry Partner)"/>

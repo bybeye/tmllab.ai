@@ -12,7 +12,7 @@ class Model extends React.Component{
 		      <img src={this.props.image} alt={this.props.name} width="50" className="rounded-circle"/><br/><br/>
 
                       {this.props.link !=="" && this.props.link!==undefined ?
-		       <a href={this.props.link} >
+		       <a href={this.props.link} target="_blank" rel="noopener noreferrer">
 		         <h6>{this.props.name}</h6>
 		       </a>:<h6>{this.props.name}</h6> }
 			{this.props.des}

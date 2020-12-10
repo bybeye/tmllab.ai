@@ -3,7 +3,7 @@ import news2 from './images/top-news2.jpeg';
 import news3 from './images/top-news3.jpeg';
 import news4 from './images/top-news4.png';
 import news5 from './images/top-news5.png';
-import news6 from './images/top-news6.png';
+import news6 from './images/top-news6.jpeg';
 
 
 
@@ -29,12 +29,12 @@ var newsData = [
         link:"#/news"
     },
     {
-        title:"Our work focuses on modeling instance-dependent label noise, and proposes exploiting part-dependent transition matrices to approximate the instance-dependent transition matrix.",
+        title:"Our work on learning with instance-dependent label noise has been accepted by NeurIPS 2020, and selected for spotlight presentation. Congrats Xiaobo!",
         image_url: news5,
         link:"#/news"
     },
     {
-        title:"By exploiting divide-and-conquer paradiam, our dual-T estimator introducing an intermdiate class reduces the estimation error of the transition matrix in label-noise learning.",
+        title:"Our work on reducing the estimation error of the transition matrix in label-noise learning has been accepted by NeurIPS 2020. Congrats Yu!",
         image_url: news6,
         link:"#/news"
     },

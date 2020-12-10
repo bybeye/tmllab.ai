@@ -44,7 +44,7 @@ class HeadWhite extends React.Component{
 	return (
 		<div className="head-container">
 		    <div className="head-contain-inner" style={{width: deskWidth}}>
-			<Link to="/"><img src={logo} alt="" className="logo fl"/></Link>
+		      <Link to="/" onClick={this.backTop}><img src={logo} alt="" className="logo fl"/></Link>
 			<div className="head-nav fr">
 			    <ul className="nav justify-content-end">
 				<li>

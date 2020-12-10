@@ -14,7 +14,7 @@ class Dataset extends React.Component{
 				    <img src={this.props.image} alt={this.props.name} className="rounded-0 img-fluid"/>
 				</div>
 				<div className="col-6">
-				    <h4>{this.props.name}</h4>
+				    <h4><a href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.name}</a></h4>
 				    {this.props.date}
 				</div>
 			    </div>

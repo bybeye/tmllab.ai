@@ -89,7 +89,7 @@ class Home extends React.Component{
 		    <div className="clearfix home-contain-inner" style={{width: deskWidth, height: deskHeight}}>
 			<div className={topClassName}>
 			    <div className="home-top-inner" style={{width: deskWidth}}>
-				<Link to="/">
+				<Link to="/" onClick={this.backTop}>
 				    <img src={logo} alt="" className="logo fl"/>
 				</Link>
 			    <div className="home-nav fr">
