@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d253b91518b5fb0c799add9a3c08edf",
+    "revision": "c9439a37996b8354b6d8e6b7b4463fa0",
     "url": "/tmllab.ai/index.html"
   },
   {
-    "revision": "4af34bf15a195488ca64",
+    "revision": "a8519900aadba9a33a54",
     "url": "/tmllab.ai/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "5a538dcb452e07f51f9b",
+    "revision": "69758bd7513f9f6cc1b5",
     "url": "/tmllab.ai/static/css/main.16467421.chunk.css"
   },
   {
-    "revision": "4af34bf15a195488ca64",
-    "url": "/tmllab.ai/static/js/2.4c5ababc.chunk.js"
+    "revision": "a8519900aadba9a33a54",
+    "url": "/tmllab.ai/static/js/2.7135f6dc.chunk.js"
   },
   {
     "revision": "357dc980501d9bb586163e2a40a85e7e",
-    "url": "/tmllab.ai/static/js/2.4c5ababc.chunk.js.LICENSE.txt"
+    "url": "/tmllab.ai/static/js/2.7135f6dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "17c76d0f884b6caf0b6c",
-    "url": "/tmllab.ai/static/js/3.d261559b.chunk.js"
+    "revision": "715fb4b1cd659866edc9",
+    "url": "/tmllab.ai/static/js/3.9152f201.chunk.js"
   },
   {
-    "revision": "5a538dcb452e07f51f9b",
-    "url": "/tmllab.ai/static/js/main.704766ee.chunk.js"
+    "revision": "69758bd7513f9f6cc1b5",
+    "url": "/tmllab.ai/static/js/main.36a8d3a4.chunk.js"
   },
   {
-    "revision": "03bd59dd86b86362ac91",
-    "url": "/tmllab.ai/static/js/runtime-main.cc21c755.js"
+    "revision": "3320f05f7bfb3e803bed",
+    "url": "/tmllab.ai/static/js/runtime-main.3ee65a35.js"
   },
   {
     "revision": "b4519acf23c075dd361e708ca1f1dc84",
@@ -154,6 +154,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "586fc793dc7bee8f629af0d0677a2acd",
     "url": "/tmllab.ai/static/media/top-news4.586fc793.png"
+  },
+  {
+    "revision": "29614ceaee2efa3cdbba6a01828f285c",
+    "url": "/tmllab.ai/static/media/top-news5.29614cea.png"
+  },
+  {
+    "revision": "1133feffe029446f2d35f6f40dfa66d7",
+    "url": "/tmllab.ai/static/media/top-news6.1133feff.png"
   },
   {
     "revision": "40aaeedfcf4ccbe2a93f8fcfdb9e55f3",
