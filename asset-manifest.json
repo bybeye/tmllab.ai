@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tmllab.ai/static/css/main.79e8675e.chunk.css",
-    "main.js": "/tmllab.ai/static/js/main.c741a5a0.chunk.js",
-    "main.js.map": "/tmllab.ai/static/js/main.c741a5a0.chunk.js.map",
+    "main.css": "/tmllab.ai/static/css/main.533a7749.chunk.css",
+    "main.js": "/tmllab.ai/static/js/main.dc9b91c9.chunk.js",
+    "main.js.map": "/tmllab.ai/static/js/main.dc9b91c9.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.3ee65a35.js",
     "runtime-main.js.map": "/tmllab.ai/static/js/runtime-main.3ee65a35.js.map",
     "static/css/2.2a86faee.chunk.css": "/tmllab.ai/static/css/2.2a86faee.chunk.css",
@@ -11,10 +11,10 @@
     "static/js/3.9152f201.chunk.js": "/tmllab.ai/static/js/3.9152f201.chunk.js",
     "static/js/3.9152f201.chunk.js.map": "/tmllab.ai/static/js/3.9152f201.chunk.js.map",
     "index.html": "/tmllab.ai/index.html",
-    "precache-manifest.9f38745e75bb61bbda730a8be00bd916.js": "/tmllab.ai/precache-manifest.9f38745e75bb61bbda730a8be00bd916.js",
+    "precache-manifest.f12806706c29860613162469accec31f.js": "/tmllab.ai/precache-manifest.f12806706c29860613162469accec31f.js",
     "service-worker.js": "/tmllab.ai/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/tmllab.ai/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.79e8675e.chunk.css.map": "/tmllab.ai/static/css/main.79e8675e.chunk.css.map",
+    "static/css/main.533a7749.chunk.css.map": "/tmllab.ai/static/css/main.533a7749.chunk.css.map",
     "static/js/2.420c0fd9.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.420c0fd9.chunk.js.LICENSE.txt",
     "static/media/ChaojianYu.jpeg": "/tmllab.ai/static/media/ChaojianYu.b4519acf.jpeg",
     "static/media/ChenCheng.jpeg": "/tmllab.ai/static/media/ChenCheng.98ebc3e3.jpeg",
@@ -37,6 +37,12 @@
     "static/media/linkedin.png": "/tmllab.ai/static/media/linkedin.08a99d8a.png",
     "static/media/logo.png": "/tmllab.ai/static/media/logo.1585688b.png",
     "static/media/logo_blue.png": "/tmllab.ai/static/media/logo_blue.809ad547.png",
+    "static/media/news-1.png": "/tmllab.ai/static/media/news-1.b2e4fb86.png",
+    "static/media/news-2.png": "/tmllab.ai/static/media/news-2.cbe34def.png",
+    "static/media/news-3.png": "/tmllab.ai/static/media/news-3.19cda406.png",
+    "static/media/news-4.png": "/tmllab.ai/static/media/news-4.9177b562.png",
+    "static/media/news-5.png": "/tmllab.ai/static/media/news-5.5663fb48.png",
+    "static/media/news-6.png": "/tmllab.ai/static/media/news-6.4d7f0034.png",
     "static/media/p1.png": "/tmllab.ai/static/media/p1.dcbe3ce1.png",
     "static/media/p2.png": "/tmllab.ai/static/media/p2.a3c94c04.png",
     "static/media/shijun.jpg": "/tmllab.ai/static/media/shijun.f58d74f2.jpg",
@@ -57,7 +63,7 @@
     "static/js/runtime-main.3ee65a35.js",
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.420c0fd9.chunk.js",
-    "static/css/main.79e8675e.chunk.css",
-    "static/js/main.c741a5a0.chunk.js"
+    "static/css/main.533a7749.chunk.css",
+    "static/js/main.dc9b91c9.chunk.js"
   ]
 }
