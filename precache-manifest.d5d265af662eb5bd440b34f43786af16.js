@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e36c046d70ea9b92053d49655d874c38",
+    "revision": "e33f0777c9158518850aca439af715d1",
     "url": "/tmllab.ai/index.html"
   },
   {
-    "revision": "45d503d048914624cc7c",
+    "revision": "1c3d5ec8812805f46273",
     "url": "/tmllab.ai/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "9995931a7870b61597e6",
-    "url": "/tmllab.ai/static/css/main.533a7749.chunk.css"
+    "revision": "2bf5ff02079371511859",
+    "url": "/tmllab.ai/static/css/main.31002d47.chunk.css"
   },
   {
-    "revision": "45d503d048914624cc7c",
-    "url": "/tmllab.ai/static/js/2.420c0fd9.chunk.js"
+    "revision": "1c3d5ec8812805f46273",
+    "url": "/tmllab.ai/static/js/2.7f590198.chunk.js"
   },
   {
     "revision": "357dc980501d9bb586163e2a40a85e7e",
-    "url": "/tmllab.ai/static/js/2.420c0fd9.chunk.js.LICENSE.txt"
+    "url": "/tmllab.ai/static/js/2.7f590198.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "715fb4b1cd659866edc9",
-    "url": "/tmllab.ai/static/js/3.9152f201.chunk.js"
+    "revision": "599e3a5e4d2dcca1ffcb",
+    "url": "/tmllab.ai/static/js/3.45fa4a10.chunk.js"
   },
   {
-    "revision": "9995931a7870b61597e6",
-    "url": "/tmllab.ai/static/js/main.dc9b91c9.chunk.js"
+    "revision": "2bf5ff02079371511859",
+    "url": "/tmllab.ai/static/js/main.c38eb105.chunk.js"
   },
   {
-    "revision": "3320f05f7bfb3e803bed",
-    "url": "/tmllab.ai/static/js/runtime-main.3ee65a35.js"
+    "revision": "55ef92df4bcb4d994e8b",
+    "url": "/tmllab.ai/static/js/runtime-main.d84a13a5.js"
   },
   {
     "revision": "b4519acf23c075dd361e708ca1f1dc84",
@@ -40,12 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmllab.ai/static/media/ChenCheng.98ebc3e3.jpeg"
   },
   {
-    "revision": "40629994870a55ec8c066b8d8ad74e60",
-    "url": "/tmllab.ai/static/media/Data_blank.40629994.png"
-  },
-  {
     "revision": "434a2a8c338931249c806ca6c8245c51",
     "url": "/tmllab.ai/static/media/Erkun.434a2a8c.jpeg"
+  },
+  {
+    "revision": "741814e820edeca8bf99f757c8561262",
+    "url": "/tmllab.ai/static/media/Example-CIFAR10.741814e8.png"
+  },
+  {
+    "revision": "330db498538e8d2d1f1358f64e2cf4d8",
+    "url": "/tmllab.ai/static/media/Example-MNIST.330db498.jpeg"
   },
   {
     "revision": "2da888345bf966c62278ca3b2bfe5654",
