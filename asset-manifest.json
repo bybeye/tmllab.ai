@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tmllab.ai/static/css/main.7c507c19.chunk.css",
+    "main.css": "/tmllab.ai/static/css/main.79e8675e.chunk.css",
     "main.js": "/tmllab.ai/static/js/main.c741a5a0.chunk.js",
     "main.js.map": "/tmllab.ai/static/js/main.c741a5a0.chunk.js.map",
     "runtime-main.js": "/tmllab.ai/static/js/runtime-main.3ee65a35.js",
@@ -11,10 +11,10 @@
     "static/js/3.9152f201.chunk.js": "/tmllab.ai/static/js/3.9152f201.chunk.js",
     "static/js/3.9152f201.chunk.js.map": "/tmllab.ai/static/js/3.9152f201.chunk.js.map",
     "index.html": "/tmllab.ai/index.html",
-    "precache-manifest.6d4ffa7273b4a04bd2a149c7c961dabc.js": "/tmllab.ai/precache-manifest.6d4ffa7273b4a04bd2a149c7c961dabc.js",
+    "precache-manifest.9f38745e75bb61bbda730a8be00bd916.js": "/tmllab.ai/precache-manifest.9f38745e75bb61bbda730a8be00bd916.js",
     "service-worker.js": "/tmllab.ai/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/tmllab.ai/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.7c507c19.chunk.css.map": "/tmllab.ai/static/css/main.7c507c19.chunk.css.map",
+    "static/css/main.79e8675e.chunk.css.map": "/tmllab.ai/static/css/main.79e8675e.chunk.css.map",
     "static/js/2.420c0fd9.chunk.js.LICENSE.txt": "/tmllab.ai/static/js/2.420c0fd9.chunk.js.LICENSE.txt",
     "static/media/ChaojianYu.jpeg": "/tmllab.ai/static/media/ChaojianYu.b4519acf.jpeg",
     "static/media/ChenCheng.jpeg": "/tmllab.ai/static/media/ChenCheng.98ebc3e3.jpeg",
@@ -57,7 +57,7 @@
     "static/js/runtime-main.3ee65a35.js",
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.420c0fd9.chunk.js",
-    "static/css/main.7c507c19.chunk.css",
+    "static/css/main.79e8675e.chunk.css",
     "static/js/main.c741a5a0.chunk.js"
   ]
 }
