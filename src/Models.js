@@ -5,7 +5,7 @@ import Banner from './Banner';
 import {Link} from "react-router-dom";
 import Model from "./Model";
 import Spacer from 'react-add-space';
-import Model_blank from './images/Model_blank.jpg'; 
+import Model_blank from './images/Model_blank.png'; 
 
 // import p1 from './images/Person15.png'; 
 

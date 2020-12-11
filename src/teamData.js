@@ -2,7 +2,7 @@
 // import p2 from './images/Person_blank.jpeg';
 // import xinyu from './images/Xinyu.png'; 
 // import erkun from './images/Erkun.jpeg'; 
-// import yuxuan from './images/Yuxuan.jpeg';
+import yuxuan from './images/Yuxuan.jpeg';
 // import chencheng from './images/ChenCheng.jpeg';
 import yingbin from './images/Yingbin.jpg';
 import sonhua from './images/sonhua.jpeg';
@@ -415,6 +415,150 @@ var teamData = [
                 "authors": "Songhua Wu*, Xiaobo Xia*, Tongliang Liu, Bo Han, Mingming Gong, Nannan Wang, Haifeng Liu, Gang Niu",
                 "conference": "Preprint",
                 "pdf": "https://arxiv.org/pdf/2002.06508.pdf",
+                "highlight": ""
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Yuxuan Du",
+        "type": "Ph.D. student",
+        "image_url": yuxuan,
+        "address": "Sydney, Australia",
+        "email": "yudu5543@uni.sydney.edu.au",
+        "linkedin": "",
+        "github": "https://github.com/yuxuan-du",
+        "google_scholar": "",
+        "about_me": "I am currently pursuing a Ph.D. degree at The University of Sydney supervised by Dacheng Tao and co-supervised by Tongliang Liu. Before that, I received my Mphil degree in computer science from the Faculty of Engineering, The University of Sydney. In 2015, I received my bachelor's degree in physics (National Base-level physics class) at Sichuan University.",
+        "education": [
+            {
+                "uni": "The University of Sydney",
+                "time": "July, 2018 - Present",
+                "speciality": "Ph.D. student of Computer Science"
+            },
+            {
+                "uni": "The University of Sydney",
+                "time": "Feb, 2017 - June, 2018",
+                "speciality": "MPhil of Computer Science"
+            },
+            {
+                "uni": "Sichuan University",
+                "time": "Sep, 2011 - June, 2015",
+                "speciality": "Bachelor of Physics"
+            }
+        ],
+        "interests": "My study interests include understanding the learnability of quantum learning models implemented on NISQ devices, devising quantum machine learning algorithms with provable runtime or sample complexity advantages, and exploring quantum-inspired classical machine learning algorihtms.",
+        "activity": [
+            {
+                "content": "I accept as a reviewer for IJCAI 2021",
+                "year": "2020"
+            },
+            {
+                "content": "I accept as a reviewer for QIP 2021",
+                "year": "2020"
+            },
+            {
+                "content": "Invited Talk, “The interweaving between machine learning and quantum computation”, Osaka University, Online.",
+                "year": "2020"
+            },
+            {
+                "content": "I serve as a reviewer for IEEE Transactions on Neural Networks and Learning Systems ",
+                "year": "2019"
+            }
+        ],
+        "honors": [
+            {
+                "content": "Engineering and Information Technologies Research Scholarship, The University of Sydney",
+                "year": "2018-2021"
+            },
+            {
+                "content": "Scholarship awarded by China Scholarship Council for study aboard to the US",
+                "year": "2013-2014"
+            },
+            {
+                "content": "Undergraduate scholarship awarded to the top 10% students",
+                "year": "2011-2013"
+            }
+        ],
+        "publications": [
+            {
+                "title": "Expressive power of parametrized quantum circuits",
+                "authors": "Yuxuan Du, Min-Hsiu Hsieh, Tongliang Liu, and Dacheng Tao",
+                "conference": "Physical Review Research 2, no. 3 (2020): 033125",
+                "code": "",
+                "pdf": "",
+                "highlight": ""
+            },
+            {
+                "title": "Quantum-inspired algorithm for general minimum conical hull problems",
+                "authors": "Yuxuan Du, Min-Hsiu Hsieh, Tongliang Liu, and Dacheng Tao",
+                "conference": "Physical Review Research 2, no. 3 (2020): 033199",
+                "code": "",
+                "pdf": "",
+                "highlight": ""
+            },
+            {
+                "title": "Quantum divide-and-conquer anchoring for separable non-negative matrix factorization",
+                "authors": "Yuxuan Du, Tongliang Liu, Yinan Li, Runyao Duan, and Dacheng Tao",
+                "conference": "In Proceedings of the 27th International Joint Conference on Artificial Intelligence, pp. 2093-2099. 2018",
+                "code": "",
+                "pdf": "",
+                "highlight": ""
+            },
+            {
+                "title": "Efficient Online Quantum Generative Adversarial Learning Algorithms with Applications",
+                "authors": "Yuxuan Du, Min-Hsiu Hsieh, and Dacheng Tao",
+                "conference": "The 19th Asian Conference on Quantum Information Science (AQIS 2019), Seoul, Korea",
+                "code": "",
+                "pdf": "arXiv preprint arXiv:1904.09602",
+                "highlight": ""
+            },
+            {
+                "title": "Quantum differentially private sparse regression learning",
+                "authors": "Yuxuan Du, Min-Hsiu Hsieh, Tongliang Liu, Shan You, and Dacheng Tao",
+                "conference": "",
+                "code": "",
+                "pdf": "",
+                "highlight": ""
+            },
+            {
+                "title": "On the learnability of quantum neural networks",
+                "authors": "Yuxuan Du, Min-Hsiu Hsieh, Tongliang Liu, Shan You, and Dacheng Tao",
+                "conference": "The 20th Asian Conference on Quantum Information Science (AQIS 2020), Sydney, Australia",
+                "code": "",
+                "pdf": "arXiv preprint arXiv:2007.12369, 2020",
+                "highlight": ""
+            },
+            {
+                "title": "Quantum circuit architecture search: error mitigation and trainability enhancement for variational quantum solvers",
+                "authors": "Yuxuan Du, Tao Huang, Shan You, Min-Hsiu Hsieh, and Dacheng Tao",
+                "conference": "The 20th Asian Conference on Quantum Information Science (AQIS 2020), Sydney, Australia",
+                "code": "",
+                "pdf": "arXiv preprint arXiv:2010.10217",
+                "highlight": ""
+            },
+            {
+                "title": "Implementable quantum classifier for nonlinear data",
+                "authors": "Yuxuan Du, Min-Hsiu Hsieh, Tongliang Liu, and Dacheng Tao",
+                "conference": "Preprints",
+                "code": "",
+                "pdf": "arXiv preprint arXiv:1809.06056",
+                "highlight": ""
+            },
+            {
+                "title": "Quantum noise protects quantum classifiers against adversaries",
+                "authors": "Yuxuan Du, Min-Hsiu Hsieh, Tongliang Liu, Dacheng Tao, Nana Liu",
+                "conference": "Preprints",
+                "code": "",
+                "pdf": "arXiv preprint arXiv:2003.09416",
+                "highlight": ""
+            },
+            {
+                "title": "Experimental Quantum Generative Adversarial Networks for Image Generation",
+                "authors": "He-Liang Huang, Yuxuan Du, Ming Gong, Youwei Zhao, Yulin Wu, Chaoyue Wang, Shaowei Li, Futian Liang, Jin Lin, Yu Xu, Rui Yang, Tongliang Liu, Min-Hsiu Hsieh, Hui Deng, Hao Rong, Cheng-Zhi Peng, Chao-Yang Lu, Yu-Ao Chen, Dacheng Tao, Xiaobo Zhu, Jian-Wei Pan",
+                "conference": "Preprints",
+                "code": "",
+                "pdf": "arXiv preprint arXiv:2010.06201",
                 "highlight": ""
             }
         ]

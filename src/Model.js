@@ -9,7 +9,7 @@ class Model extends React.Component{
 		<br/>
 		<div className="card">
 		    <div className="card-body">
-		      <img src={this.props.image} alt={this.props.name} width="50" className="rounded-circle"/><br/><br/>
+		      <img src={this.props.image} alt={this.props.name} width="60" height="55" /><br/><br/>
 
                       {this.props.link !=="" && this.props.link!==undefined ?
 		       <a href={this.props.link} target="_blank" rel="noopener noreferrer">
