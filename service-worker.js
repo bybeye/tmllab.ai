@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tmllab.ai/precache-manifest.3807a47e6fb9f746dc9dee43ddc690aa.js"
+  "/tmllab.ai/precache-manifest.6d4ffa7273b4a04bd2a149c7c961dabc.js"
 );
 
 self.addEventListener('message', (event) => {
