@@ -1,8 +1,27 @@
+.models-container{
+
+
+}
+
 .models-content a{
+    font-size:20px;
+    font-weight:500;
     color:#000 !important;
 }
 
 .models-content a:hover{
     color:#007bff !important;
     text-decoration: underline !important;
+}
+
+.models-content h6{
+    font-size:20px;
+    font-weight:500;
+    color:#000 !important;
+}
+
+.models-content h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #474747;
 }

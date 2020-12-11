@@ -25,6 +25,7 @@ class NewsItem extends React.Component{
             icon_out = (<img src={paper_icon} className="new_icon" alt=""/>);
         }else if (this.props.type === "6") {
             icon_out = (<img src={service_icon} className="new_icon" alt=""/>);
+            // icon_out =(<div className="btn btn-outline-primary rounded-pill active">service</div>);
         }
 
         if (this.props.link) {
@@ -32,7 +33,7 @@ class NewsItem extends React.Component{
 	}
     
         return (
-             <div className="row news_item" style={{paddingLeft:"20px"}}>
+             <div className="row news_item" style={{paddingLeft:"15px"}}>
 	      <div>
                 {icon_out} &nbsp;
 	      </div>

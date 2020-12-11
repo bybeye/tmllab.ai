@@ -14,6 +14,7 @@ import xiaobo from './images/XiaoboXia.jpg';
 import xuefeng from './images/xuefeng.jpg';
 import chaojian from './images/ChaojianYu.jpeg';
 // import zhengning from './images/zhengning.jpg';
+import Kewei from './images/Kewei.jpeg';
 
 var teamData = [
     {
@@ -561,6 +562,41 @@ var teamData = [
                 "pdf": "arXiv preprint arXiv:2010.06201",
                 "highlight": ""
             }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Kewei Wang",
+        "type": "Mphil Student",
+        "image_url": Kewei,
+        "address": "Sydney, Australia",
+        "email": "kwan5498@uni.sydney.edu.au",
+        "linkedin": "",
+        "github": "",
+        "google_scholar": "",
+        "about_me": "My name is Kewei Wang, a Mphil candidate under the supervision of Dr. Tongliang Liu in Usyd. I like reading and watching games (especially formula 1 and la liga). I also show a strong interest on the game of go.",
+        "education": [
+            {
+                "uni": "The University of Sydney",
+                "time": "Mar,2020 - till now",
+                "speciality": "Master of IT"
+            },
+            {
+                "uni": "The University of Electronic Science and Technology of China",
+                "time": "Sept,2014 - Jun,2018",
+                "speciality": "Bachelor of IT"
+            },
+            
+        ],
+        "interests": "My study interest lies in multilingual graphic detection and recognition in natural scenes, text initiating graphic data synthesis without annotation, and multilingual graphic recognition based on deep learning and transfer learning. ",
+        "activity": [
+            
+        ],
+        "honors": [
+           
+        ],
+        "publications": [
+            
         ]
     }
 ];

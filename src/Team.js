@@ -101,7 +101,7 @@ class Team extends React.Component{
 		    <hr></hr><br/>
 		    <h3 id="master">Master Students</h3> <br/>
 		    <div className="row">
-		      <Person img={Kewei} name="Kewei Wang"/>
+		      <Person id="20" img={Kewei} name="Kewei Wang"/>
 		      <Person id="21" img={jialiang} name="Jialiang Shen"/>
 		      <Person img={rihui} name="Rihui Wu"/>
 		    </div>

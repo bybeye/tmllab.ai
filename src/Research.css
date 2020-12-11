@@ -7,6 +7,12 @@
     text-decoration: underline !important;
 }
 
+.research-content h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #474747;
+
+}
 
 .Paper {
     font-size: 16px;
@@ -15,3 +21,5 @@
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+
+

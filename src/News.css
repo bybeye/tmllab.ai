@@ -4,8 +4,13 @@
 }
 
 .news_content_year{
-    padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.news_content_year h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #474747;
 }
 
 .news_item{
@@ -17,7 +22,6 @@
 .new_icon{
     height: 20px;
 }
-
 
 .news_content a {
     color: #000;

@@ -15,7 +15,7 @@ class News extends React.Component{
 	        <div className="row w-100 justify-content-center align-items-center">
 	          <div className="col-12 col-md-10">
                      <div className="news_content_year">
-		       <h3>2020</h3>
+		      <h3>2020</h3>
 		     </div>
                     <NewsItem type="5" date="12/2020" content="one paper on data augmentation has been accepted by IJCV."/>
                     <NewsItem type="5" date="12/2020" content="two papers on learning with noisy labels have been accepted by AAAI 2021."/>
@@ -84,7 +84,6 @@ class News extends React.Component{
                     <NewsItem type="5" date="04/2018" content="three papers have been accepted by IJCAI 2018. Congrats! Yuxuan! Yong! and Erkun!"/>
                     <NewsItem type="5" date="03/2018" content="one paper has been accepted by T-PAMI."/>
                     <NewsItem type="5" date="03/2018" content="one paper has been accepted by CVPR. Congrats! XiYu!"/>
-                    
 	          </div>
 	        </div>
 	      </div>
