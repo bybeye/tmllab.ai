@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "130ff736083a18ba66301f51752168cb",
+    "revision": "14339b06e881386fadd08a0f5f53bef2",
     "url": "/tmllab.ai/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmllab.ai/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "7b423f4b9cfd970ee125",
-    "url": "/tmllab.ai/static/css/main.1894fc80.chunk.css"
+    "revision": "10572c1e9d56011f5690",
+    "url": "/tmllab.ai/static/css/main.cccbf238.chunk.css"
   },
   {
     "revision": "60e8b9017ee0204cee69",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmllab.ai/static/js/3.1cdb88e3.chunk.js"
   },
   {
-    "revision": "7b423f4b9cfd970ee125",
+    "revision": "10572c1e9d56011f5690",
     "url": "/tmllab.ai/static/js/main.2530e0dc.chunk.js"
   },
   {
