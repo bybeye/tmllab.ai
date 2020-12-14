@@ -17,18 +17,16 @@ import SIT from './images/SIT.jpg';
 import {
     Switch,
     Route,
-    HashRouter,
+    BrowserRouter,
 } from "react-router-dom";
-
-// basename={process.env.PUBLIC_URL}
 
 
 function App() {
     return (
+	<BrowserRouter basename={process.env.PUBLIC_URL}>
 	<div>
-	  <HashRouter >
 	    <Switch>
-	      <Route exact path="/">
+              <Route exact path="/">
 		<Home />
 	      </Route>
 	      <Route path="/research">
@@ -55,12 +53,10 @@ function App() {
               <Route path="/atest">
 		<TestPage />
 	      </Route>
-
 	    </Switch>
-	  </HashRouter>
-	  
 	  <Bottom />
 	</div>
+	</BrowserRouter>
     );
 
 }
@@ -75,7 +71,7 @@ function About() {
 	  <div className="about-content justify-content-md-center">
 	    <div className="row w-100 justify-content-center align-items-center">
 	      <div className="col-12 col-md-12 about-text">
-                <img src={SIT} className="about-image" align="right" width="400" hspace="15" vspace="15"/>
+                <img src={SIT} className="about-image" alt="SIT building" align="right" width="400" hspace="15" vspace="15"/>
                 <h5>About the TML Lab</h5>
 
                 <p>
