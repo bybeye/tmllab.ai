@@ -42,7 +42,6 @@
 }
 
 .about-text h5{
-    padding-top: 30px;
 }
 
 .email{
@@ -64,30 +63,16 @@
 }
 
 
-.App-link {
-    color: #61dafb;
+.about-content{
+    width:900px;
+    margin: 0 auto;
+
 }
 
-@keyframes App-logo-spin {
-    from {
-	transform: rotate(0deg);
-    }
-    to {
-	transform: rotate(360deg);
-    }
+.about-image{
+    padding-left: 30px;
 }
 
-.about-text{
-    line-height: 1.5;
-}
-
-.about-text h5{
-    padding-top: 30px;
-}
-
-.email{
-    color:#007bff;
-}
 
 .about-text a{
     color: #000;
