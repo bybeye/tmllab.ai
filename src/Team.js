@@ -94,9 +94,9 @@ class Team extends React.Component{
 		      <Person id="12" img={yingbin} name="Yingbin Bai"/>
 		      <Person id="13" img={chaojian} name="Chaojian Yu" />
 		      <Person id="14" img={xiaobo} name="Xiaobo Xia"/>
-		      <Person id="15" img={yuxuan} name="Yuxuan Du" description="(Co-supervised)"/>
-		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised)"/>
-		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised)"/>
+		      <Person id="15" img={yuxuan} name="Yuxuan Du" description="(Co-supervised with Prof Dacheng Tao)"/>
+		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised with Dr Alan Blair)"/>
+		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised with Prof Seokhee Hong)"/>
 		    </div>
 		    <hr></hr><br/>
 		    <h3 id="master">Master Students</h3> <br/>
