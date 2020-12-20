@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4498094cf4d19caf601d727ad68b4595",
+    "revision": "b7db26fc1d536e431e1f8950d01cadd5",
     "url": "/tmllab.ai/index.html"
   },
   {
-    "revision": "a4d6973b4fe8702b8c60",
+    "revision": "c705b155f325cc9c4162",
     "url": "/tmllab.ai/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "5a46d3eaa3c90c4393ff",
-    "url": "/tmllab.ai/static/css/main.b54c97ee.chunk.css"
+    "revision": "f7c229423462608dee31",
+    "url": "/tmllab.ai/static/css/main.839a1105.chunk.css"
   },
   {
-    "revision": "a4d6973b4fe8702b8c60",
-    "url": "/tmllab.ai/static/js/2.57cf4771.chunk.js"
+    "revision": "c705b155f325cc9c4162",
+    "url": "/tmllab.ai/static/js/2.1ac79f9b.chunk.js"
   },
   {
     "revision": "357dc980501d9bb586163e2a40a85e7e",
-    "url": "/tmllab.ai/static/js/2.57cf4771.chunk.js.LICENSE.txt"
+    "url": "/tmllab.ai/static/js/2.1ac79f9b.chunk.js.LICENSE.txt"
   },
   {
     "revision": "1b5d2368b64d7c304bc7",
     "url": "/tmllab.ai/static/js/3.1cdb88e3.chunk.js"
   },
   {
-    "revision": "5a46d3eaa3c90c4393ff",
-    "url": "/tmllab.ai/static/js/main.64804521.chunk.js"
+    "revision": "f7c229423462608dee31",
+    "url": "/tmllab.ai/static/js/main.a71b0639.chunk.js"
   },
   {
     "revision": "b63e4dc878cd297370d1",
@@ -96,12 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmllab.ai/static/media/Yuxuan.43d3a409.jpeg"
   },
   {
-    "revision": "74fcc7bd044938b698cf8d71bd3eb58c",
-    "url": "/tmllab.ai/static/media/ban.74fcc7bd.png"
+    "revision": "f63bd421dd3d9cce404ad2a3eef3cb19",
+    "url": "/tmllab.ai/static/media/ban.f63bd421.png"
   },
   {
-    "revision": "fe430b6df9cc3c3bdcc51546f10b880c",
-    "url": "/tmllab.ai/static/media/ban2.fe430b6d.png"
+    "revision": "cfe9870e63a3b12d6f140139d244bc35",
+    "url": "/tmllab.ai/static/media/ban2.cfe9870e.png"
+  },
+  {
+    "revision": "cfe9870e63a3b12d6f140139d244bc35",
+    "url": "/tmllab.ai/static/media/ban2_m.cfe9870e.png"
   },
   {
     "revision": "13f71c7fd56e897572e1361156714f62",
