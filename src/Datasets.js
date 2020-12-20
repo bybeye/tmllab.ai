@@ -26,17 +26,17 @@ class Datasets extends React.Component{
 	    <div>
 	      <HeadWhite />
 	      <Banner title="DATASETS" />
-	      <div className="container justify-content-md-center">
+	      <div className="container justify-content-md-center datasets-container">
 	        <div className="row">
 	          <div className="col-md-3 col-12 datasets-left" style={{paddingBottom:"50px"}}>
 		    <div className="row">
-		      <div className="col-md-12 col-5">
+		      <div className="col-md-12 col-12">
    		        <Link to="/Research" className="btn btn-outline-primary rounded-pill"><Spacer amount={5}/>Publications<Spacer amount={5}/></Link><br/><br/>
 		      </div>
-		      <div className="col-md-12 col-5">
+		      <div className="col-md-12 col-12">
 		        <Link to="/Models" className="btn btn-outline-primary rounded-pill"><Spacer amount={8}/>Models<Spacer amount={8}/></Link><br/><br/>
 		      </div>
-		      <div className="col-md-12 col-5">
+		      <div className="col-md-12 col-12">
    		        <Link to="/Datasets" className="btn btn-outline-primary rounded-pill active"><Spacer amount={7}/>Datasets<Spacer amount={7}/></Link><br/><br/>
 		      </div>
 		    </div>

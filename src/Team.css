@@ -20,3 +20,12 @@
     color:#007bff;
     text-decoration: underline;
 }
+
+@media (max-width: 575.98px) {
+    .team-container{
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+
+    }
+
+}

@@ -62,6 +62,7 @@
     line-height: 1.5em;
     font-size: 24px;
     font-weight: 700;
+    padding-top: 50px;
 }
 
 #swaper .r-text a:hover{
@@ -81,3 +82,45 @@
     padding-right:10px !important;
 }
 
+@media (max-width: 575.98px) {
+    #swaper-outer{
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+    }
+
+    #swaper-outer{
+	height: 600px;
+    }
+
+    #swaper {
+	height: 560px;
+    }
+
+    #swaper .l-img img{
+	width:100%;
+	height:auto;
+    }
+
+    #swaper .r-text{
+	border-top:0px solid #797979;
+	border-bottom:1px solid #797979;
+	height:300px; 
+	margin-left: 10px;
+    }
+    
+    #swaper .r-inner-text{
+	position: relative;
+	font-size:20px;
+	font-weight:500;
+	top:5%;
+	width:100%;
+	height:100%;
+	margin: auto;
+    }
+
+    #swaper .r-text a{
+	font-size: 20px;
+	font-weight: 600;
+    }
+
+}

@@ -55,7 +55,7 @@ class Team extends React.Component{
 
 	      <div className="container justify-content-md-center">
 		<div className="row">
-		  <div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
+		  <div className="col-md-3 col-12 m-hidden" style={{paddingBottom:"50px"}}>
 		    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={11}/>Director<Spacer amount={12}/></button> <br/> <br/>
                     {/* <button onClick={()=>this.scrollToAnchor('stra')} className="btn btn-outline-primary rounded-pill">Strategic collaborator</button> <br/> <br/> */}
                      <button onClick={()=>this.scrollToAnchor('con')} className="btn btn-outline-primary rounded-pill"><Spacer amount={9}/>Consultant<Spacer amount={9}/></button> <br/> <br/> 
@@ -65,7 +65,7 @@ class Team extends React.Component{
 		    <button onClick={()=>this.scrollToAnchor('gra')} className="btn btn-outline-primary rounded-pill">Graduated Students</button>
 		  </div>
 
-		  <div className="col-md-9 col-12">
+		  <div className="col-md-9 col-12 team-container">
 		    <h3 id="dir">Director</h3> <br/>
 		    <div className="row">
 		      <PersonLink img={p1} name="Tongliang Liu" link="https://tongliang-liu.github.io/"/>

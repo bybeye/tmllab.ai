@@ -79,3 +79,12 @@
 }
 
 
+@media (max-width: 575.98px) {
+
+    .cont-fm{
+	line-height:24px;
+	margin:0 0px;
+    }
+
+
+}

@@ -89,16 +89,16 @@ function Swaper (){
                     <animated.div {...bind()} key={i} style={{ display, x }}>
                       <animated.div style={{ scale }}>
                         <div className="row w-100 h-100 justify-content-center align-items-center nopadding">
-			  <div className="col-6 col-xl-6 nopadding">
+			  <div className="col-12 col-xl-6 nopadding">
 			    <div className="fl l-img">
 			      <img src={pages[i].image_url} alt=""/>
 			    </div>
 			  </div>
 			  
-			  <div className="col-6 col-xl-6 nopadding" >
+			  <div className="col-12 col-xl-6 nopadding" >
 			    <div className="r-text">
 			      <div className="r-inner-text">
-		                {pages[i].title}<br/><br/><br/><a href={pages[i].link} target="_blank" rel="noopener noreferrer">Read More &nbsp; &#9654;</a>
+		                {pages[i].title}<br/><br/><a href={pages[i].link} target="_blank" rel="noopener noreferrer">Read More &nbsp; &#9654;</a>
 			      </div>
 			    </div>
 			  </div>

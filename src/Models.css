@@ -25,3 +25,13 @@
     font-weight: 600;
     color: #474747;
 }
+
+
+@media (max-width: 575.98px) {
+    .models-container{
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+    }
+
+}
+

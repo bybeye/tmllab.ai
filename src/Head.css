@@ -11,6 +11,7 @@
 
 .head-contain-inner{
     width:1200px;
+    height:80px;
     margin:0 auto;
 }
 
@@ -37,4 +38,30 @@
 .head-nav ul li a:hover{
     color:#007bff;
     text-decoration: underline;
+}
+
+.head-menu {
+    padding: 0px 20px;
+
+}
+.head-menu ul li{
+    position: relative;
+    padding: 15px 20px;
+    /* border-top: 0.3px solid #474747; */
+    text-align: center;
+}
+
+.menu-bottom-line{
+    border-bottom: 0.3px solid #474747;
+}
+
+.head-menu ul li a{
+    color:#000;
+    font-size:14px;
+    font-weight:700;
+}
+
+.menu-button{
+    float: right;
+    padding: 22px 22px;
 }

@@ -37,9 +37,9 @@ class Home extends React.Component{
 	    height=750;
 	}
 
-        if(height>1200){
-	    height=1200;
-	}
+        // if(height>1500){
+	//     height=1500;
+	// }
 	
 	if(width>=800){
 	    width = 1200;
@@ -86,13 +86,13 @@ class Home extends React.Component{
 	return (
 	    <div>
 		<div className="home-container">
-		    <div className="clearfix home-contain-inner" style={{width: deskWidth, height: deskHeight}}>
+		  <div className="clearfix home-contain-inner" style={{width: deskWidth, height: deskHeight}}>
 			<div className={topClassName}>
-			    <div className="home-top-inner" style={{width: deskWidth}}>
+			  <div className="home-top-inner" style={{width: deskWidth}}>
 				<Link to="/" onClick={this.backTop}>
 				    <img src={logo} alt="" className="logo fl"/>
 				</Link>
-			    <div className="home-nav fr">
+			      <div className="home-nav fr m-hidden">
 				<ul className="nav justify-content-end">
 				    <li>
 					<NavLink className="nav-title" to="/" onClick={this.backTop}>Home</NavLink>
@@ -110,16 +110,42 @@ class Home extends React.Component{
 					 <NavLink className="nav-title" to="/about" onClick={this.backTop}>About Us</NavLink>
 				    </li>
 				</ul>
-				</div>
-			    </div>
+			      </div>
+                              <div className="menu-button d-hidden" data-toggle="collapse" data-target="#collapseMenu">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" className="bi bi-list" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                              </div>
+			  </div>
+                          <div className="home-menu d-hidden collapse" id="collapseMenu" style={{width: deskWidth}}>
+                            <ul>
+                              <li className="border-top border-bottom">
+		                <NavLink className="" to="/" onClick={this.backTop}>Home</NavLink>
+		              </li>
+		              <li className="border-bottom">
+		                <NavLink className="" to="/news" onClick={this.backTop}>News</NavLink>
+		              </li>
+		              <li className="border-bottom">
+		                <NavLink className="" to="/research" onClick={this.backTop}>Publications</NavLink>
+		              </li>
+		              <li className="border-bottom">
+		                <NavLink className="" to="/team" onClick={this.backTop}>Team</NavLink>
+		              </li>
+		              <li className="border-bottom">
+		                <NavLink className="" to="/about" onClick={this.backTop}>About Us</NavLink>
+		              </li>
+                            </ul>
+                          </div>
 			</div>
 			<div className="b-div container-fluid">
 			    <div className="row w-100 justify-content-center align-items-center" style={{height: deskHeight-80}}>
-				<div className="col-9 col-xl-9 nopadding">
-				    <span className="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/>
-				  <span className="b-learn-more"><Link to="/about" onClick={this.backTop}>Learn More &nbsp; &#9654;</Link> </span><br/><br/><br/><br/><br/><br/>
+			      <div className="col-12 col-xl-9 ">
+                                <div className="slogan">
+				  <span className="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/>
+	                          <span className="b-learn-more"><Link to="/about" onClick={this.backTop}>Learn More &nbsp; &#9654;</Link> </span><br/><br/><br/><br/><br/><br/>
+                                </div>
 				</div>
-				<div className= "col-3 col-xl-3 nopadding">
+				<div className= "col-12 col-xl-3 m-hidden">
 				</div>
 			    </div>
 			</div>
@@ -127,8 +153,8 @@ class Home extends React.Component{
 		</div>
 		
 		<div className="news container-fluid" style={{ width: deskWidth, height: deskHeight}}>
-		    <div className="row w-100 h-100 justify-content-center align-items-center nopadding">
-			<div className="col-12 col-xl-12 nopadding">
+		    <div className="row w-100 h-100 justify-content-center align-items-center">
+			<div className="col-12 col-xl-12">
 			    <h2 className="h2-title title">TML News</h2>
 			    <Swaper/>
 			</div>
@@ -143,43 +169,43 @@ class Home extends React.Component{
 				    <h2 className="h2-title-black">TML Research</h2>
 				</div>
 				<div className= "row">
-				    <div className="col-6 col-xl-6 nopadding">
+				    <div className="col-12 col-xl-6">
 					<div className="h3-content"> We are working together to promote trustworthy machine learning algorithms and push their boundaries. Specifically, together with practitioners, we find promising applications, address critical issues in emerging trends, and deal with open/long-standing problems.</div>
 				    </div>
-				    <div className="col-6 col-xl-6 nopadding">
+				    <div className="col-12 col-xl-6">
 					<div className="right-text fr">
 					    <div className="container-fluid">
-						<div className="row justify-content-between bottom-line turn-blue"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
-						    <div className="col-auto mr-auto nopadding">
-						      <NavLink className="nav-link nopadding" to="/team" onClick={this.backTop}>
+						<div className="row justify-content-between bottom-line turn-blue">
+						    <div className="col-auto mr-auto">
+						      <NavLink className="nav-link" to="/team" onClick={this.backTop}>
                                                       Team
 						      </NavLink>
                                                     </div>
-						  <div className="col-auto nopadding">
-                                                    <NavLink className="nav-link nopadding" to="/team" onClick={this.backTop}>
+						  <div className="col-auto">
+                                                    <NavLink className="nav-link" to="/team" onClick={this.backTop}>
                                                       &#9654;
                                                     </NavLink></div>
 						</div>
-						<div className="row justify-content-between bottom-line turn-blue"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
-						    <div className="col-auto mr-auto nopadding">
-							<NavLink className="nav-link nopadding" to="/research" onClick={this.backTop}>
+						<div className="row justify-content-between bottom-line turn-blue">
+						    <div className="col-auto mr-auto">
+							<NavLink className="nav-link" to="/research" onClick={this.backTop}>
 							    Publications
 							</NavLink>
 						    </div>
-						  <div className="col-auto nopadding">
-                                                    <NavLink className="nav-link nopadding" to="/research" onClick={this.backTop}>
+						  <div className="col-auto">
+                                                    <NavLink className="nav-link" to="/research" onClick={this.backTop}>
                                                       &#9654;
                                                     </NavLink>
                                                   </div>
 						</div>
-						<div className="row justify-content-between turn-blue"  style={{paddingTop:"40px", paddingBottom:"40px"}}>
-						    <div className="col-auto mr-auto nopadding">
-							<NavLink className="nav-link nopadding" to="/models" onClick={this.backTop}>
+						<div className="row justify-content-between turn-blue">
+						    <div className="col-auto mr-auto">
+							<NavLink className="nav-link" to="/models" onClick={this.backTop}>
 							    Models
 							</NavLink>
 						    </div>
-						  <div className="col-auto nopadding">
-                                                    <NavLink className="nav-link nopadding" to="/models" onClick={this.backTop}>
+						  <div className="col-auto">
+                                                    <NavLink className="nav-link" to="/models" onClick={this.backTop}>
                                                       &#9654;
                                                     </NavLink>
                                                   </div>
@@ -196,10 +222,10 @@ class Home extends React.Component{
 		<div className="researh-cooperate">
 		    <div className="container-fluid" style={{ width: deskWidth, height: deskHeight}}>
 			<div className="row w-100 h-100 justify-content-center align-items-center">
-			    <div className="col-12 nopadding">
-				<div className="container-fluid nopadding">
+			    <div className="col-12">
+				<div className="container-fluid">
 				    <div className="row ">
-					<div className="col-10 nopadding">
+					<div className="col-12 col-xl-10">
 					    <h2 className="h2-title">Research Collaboration</h2>
 					    <div className="h3-content">We collaborate with leading researchers in the area. For example, we exchange staff and students, scientific and technological information, research ideas and materials. We jointly apply for and conduct research activities.</div>
 					</div>
@@ -207,7 +233,7 @@ class Home extends React.Component{
 				</div>
 				<div className="container-fluid">
 				    <div className="row justify-content-center align-items-center">
-					<div className="col-12 nopadding">
+					<div className="col-12">
 					    <img src={rimg2} className="unimg" alt=""/>
 					    <ul className="unis">
 						<li className="right-line"><a href="http://www.andrew.cmu.edu/user/kunz1/index.html" target="_blank" rel="noopener noreferrer">CMU</a></li>
@@ -226,10 +252,10 @@ class Home extends React.Component{
 		<div className="industry clearfix">
 		    <div className="industry-cooperate container-fluid" style={{ width: deskWidth, height: deskHeight}}>
 			<div className="row w-100 h-100 justify-content-center align-items-center">
-			    <div className="col-12 nopadding">
+			    <div className="col-12 ">
 				<div className="container-fluid">
 				    <div className="row w-60">
-					<div className="col-10 nopadding">
+					<div className="col-12 col-xl-10">
 					    <h2 className="h2-title">Industry Collaboration</h2>
 					    <div className="h3-content">
 						We collaborate with our industry partners to identify practical challenges, promote economic prosperity, and improve our quality of life. Our students can also gain focused experience related to their research.
@@ -240,10 +266,10 @@ class Home extends React.Component{
 
 				<div className="container-fluid" style={{ paddingTop: "10px"}}>
 				    <div className="row">
-					<div className="col-8 nopadding">
+					<div className="col-12 col-xl-8 m-hidden">
 					    <div className="first-pic fl"><img src={p1} alt="" /><span><h6> <Spacer amount={4}/></h6><h3> <Spacer amount={8}/></h3></span></div>
 					</div>
-					<div className="col-4 nopadding"> 
+					<div className="col-12 col-xl-4 "> 
 					    <div className="second-pic fr"><img src={p2} alt="" /><span><h6> <Spacer amount={4}/></h6><h3> <Spacer amount={8}/></h3></span></div>
 					</div>
 				    </div>
