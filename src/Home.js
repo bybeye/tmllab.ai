@@ -156,7 +156,7 @@ class Home extends React.Component{
 		    <div className="row w-100 h-100 justify-content-center align-items-center">
 			<div className="col-12 col-xl-12">
 			    <h2 className="h2-title title">TML News</h2>
-			    <Swaper/>
+			  <Swaper width={deskWidth}/>
 			</div>
 		    </div>
 		</div>

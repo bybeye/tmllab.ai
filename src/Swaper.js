@@ -7,8 +7,8 @@ import './Swaper.css';
 
 var timer_id;
 
-function Swaper (){
-    const swaperWidth = 1200;
+function Swaper (pros) {
+    const swaperWidth = pros.width;
     const index = useRef(0);
     
     const [props, set] = useSprings(pages.length, (i) => ({
