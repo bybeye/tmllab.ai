@@ -27,6 +27,7 @@ function Swaper (pros) {
         };
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
+    
     // drag action
     const bind = useDrag(({ active, movement: [mx], direction: [xDir], distance, cancel }) => {        
         // hide other blocks, except center and other three.
@@ -69,7 +70,6 @@ function Swaper (pros) {
         //alert(radioIndex);
         index.current = radioIndex;
         
-
         set((i) => {
             const color = index.current === i ?  "#0d6efd" : "#474747";
             const x = (i - index.current) * swaperWidth;
@@ -98,7 +98,12 @@ function Swaper (pros) {
 			  <div className="col-12 col-xl-6 nopadding" >
 			    <div className="r-text">
 			      <div className="r-inner-text">
-		                {pages[i].title}<br/><br/><a href={pages[i].link} target="_blank" rel="noopener noreferrer">Read More &nbsp; &#9654;</a>
+		                {pages[i].title}<br/><br/>
+                                <a href={pages[i].link} target="_blank" rel="noopener noreferrer">Read More &nbsp;
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                  </svg>
+                                </a>
 			      </div>
 			    </div>
 			  </div>

@@ -142,7 +142,12 @@ class Home extends React.Component{
 			      <div className="col-12 col-xl-9 ">
                                 <div className="slogan">
 				  <span className="h1-title align-middle">Our mission is to make machines trustworthy, which is a foundation for our society to develop and deploy artificial intelligence to improve our lives.</span><br/><br/>
-	                          <span className="b-learn-more"><Link to="/about" onClick={this.backTop}>Learn More &nbsp; &#9654;</Link> </span><br/><br/><br/><br/><br/><br/>
+	                          <span className="b-learn-more"><Link to="/about" onClick={this.backTop}>Learn More &nbsp;
+                                                                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                                                     <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                                                   </svg>
+                                                                 </Link>
+                                  </span><br/><br/><br/><br/><br/><br/>
                                 </div>
 				</div>
 				<div className= "col-12 col-xl-3 m-hidden">
@@ -183,7 +188,9 @@ class Home extends React.Component{
                                                     </div>
 						  <div className="col-auto">
                                                     <NavLink className="nav-link" to="/team" onClick={this.backTop}>
-                                                      &#9654;
+                                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                                        <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                                      </svg>
                                                     </NavLink></div>
 						</div>
 						<div className="row justify-content-between bottom-line turn-blue">
@@ -194,7 +201,9 @@ class Home extends React.Component{
 						    </div>
 						  <div className="col-auto">
                                                     <NavLink className="nav-link" to="/research" onClick={this.backTop}>
-                                                      &#9654;
+                                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                                        <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                                      </svg>
                                                     </NavLink>
                                                   </div>
 						</div>
@@ -206,7 +215,9 @@ class Home extends React.Component{
 						    </div>
 						  <div className="col-auto">
                                                     <NavLink className="nav-link" to="/models" onClick={this.backTop}>
-                                                      &#9654;
+                                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                                        <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                                      </svg>
                                                     </NavLink>
                                                   </div>
 						</div>
