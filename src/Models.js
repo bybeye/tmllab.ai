@@ -31,6 +31,9 @@ class Models extends React.Component{
 		<div className="row">
 		  <div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
 		    <div className="row">
+                      <div className="col-md-12 col-12">
+   		        <Link to="/topics" className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Selected topics<Spacer amount={3}/></Link><br/><br/>
+		      </div>
 		      <div className="col-md-12 col-12">
    			<Link to="/Research" className="btn btn-outline-primary rounded-pill"><Spacer amount={5}/>Publications<Spacer amount={5}/></Link><br/><br/>
 		      </div>

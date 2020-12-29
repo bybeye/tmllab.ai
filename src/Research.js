@@ -14,19 +14,22 @@ function Research() {
 	    <HeadWhite />
 	    <Banner title="PUBLICATIONS"/>
 	    <div className="container justify-content-md-center research-container">
-	    <div className="row">
+	      <div className="row">
 		<div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
-		    <div className="row">
-			<div className="col-md-12 col-12">
-   			  <Link to="/Research" className="btn btn-outline-primary rounded-pill active"><Spacer amount={5}/>Publications<Spacer amount={5}/></Link><br/><br/>
-			</div>
-			<div className="col-md-12 col-12">
-			    <Link to="/Models" className="btn btn-outline-primary rounded-pill"><Spacer amount={8}/>Models<Spacer amount={8}/></Link><br/><br/>
-			</div>
-			<div className="col-md-12 col-12">
-   			    <Link to="/Datasets" className="btn btn-outline-primary rounded-pill"><Spacer amount={7}/>Datasets<Spacer amount={7}/></Link><br/><br/>
-			</div>
+		  <div className="row">
+                    <div className="col-md-12 col-12">
+   		      <Link to="/topics" className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Selected topics<Spacer amount={3}/></Link><br/><br/>
 		    </div>
+		    <div className="col-md-12 col-12">
+   		      <Link to="/Research" className="btn btn-outline-primary rounded-pill active"><Spacer amount={5}/>Publications<Spacer amount={5}/></Link><br/><br/>
+		    </div>
+		    <div className="col-md-12 col-12">
+		      <Link to="/Models" className="btn btn-outline-primary rounded-pill"><Spacer amount={8}/>Models<Spacer amount={8}/></Link><br/><br/>
+		    </div>
+		    <div className="col-md-12 col-12">
+   		      <Link to="/Datasets" className="btn btn-outline-primary rounded-pill"><Spacer amount={7}/>Datasets<Spacer amount={7}/></Link><br/><br/>
+		    </div>
+		  </div>
 		</div>
 
 		<div className="col-md-9 col-12 research-content">

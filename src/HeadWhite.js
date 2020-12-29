@@ -54,7 +54,7 @@ class HeadWhite extends React.Component{
 		      <NavLink className="nav-title" to="/news" onClick={this.backTop}>News</NavLink>
 		    </li>
 		    <li>
-		      <NavLink className="nav-title" to="/research" onClick={this.backTop}>Publications</NavLink>
+		      <NavLink className="nav-title" to="/topics" onClick={this.backTop}>Research</NavLink>
 		    </li>
 		    <li>
 		      <NavLink className="nav-title" to="/team" onClick={this.backTop}>Team</NavLink>
@@ -79,7 +79,7 @@ class HeadWhite extends React.Component{
 		    <NavLink className="" to="/news" onClick={this.backTop}>News</NavLink>
 		  </li>
 		  <li className="border-bottom">
-		    <NavLink className="" to="/research" onClick={this.backTop}>Publications</NavLink>
+		    <NavLink className="" to="/topics" onClick={this.backTop}>Research</NavLink>
 		  </li>
 		  <li className="border-bottom">
 		    <NavLink className="" to="/team" onClick={this.backTop}>Team</NavLink>

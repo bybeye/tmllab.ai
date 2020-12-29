@@ -14,10 +14,10 @@ class News extends React.Component{
 	      <div className="container justify-content-md-center news_content">
 	        <div className="row w-100 justify-content-center align-items-center">
 	          <div className="col-12 col-md-10">
-                     <div className="news_content_year">
+                    <div className="news_content_year">
 		      <h3>2020</h3>
-		     </div>
-
+		    </div>
+                    <NewsItem type="2" date="12/2020" content={<span> <a href="https://bhanml.github.io/" target="_blank" rel="noopener noreferrer">Dr Bo Han</a> (Assistant Professor, Hong Kong Baptist University) gives us a talk on trustworthy representation learning. </span>} />
                     <NewsItem type="2" date="12/2020" content={<span> <a href="https://weiyc.github.io/" target="_blank" rel="noopener noreferrer">Dr Yunchao Wei</a> (Lecturer, UTS) gives us a talk on visual segmentation. </span>} />
                     <NewsItem type="4" date="12/2020" content="Dr Tongliang Liu received the CVI Bioengineering and Digital Science Catalyst Award for the project “Trustworthy learning for advancing cardiovascular disease research at cellular resolutions”."/>
                     <NewsItem type="6" date="11/2020" content="we co-organized the ACML 2020 Workshop on Weakly-supervised Representation Learning. Prof Kun Zhang from CMU and Dr Aditya Menon from Google are invited to give keynote talks." link="https://wsl-workshop.github.io/acml20.html"/>

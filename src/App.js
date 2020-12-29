@@ -8,6 +8,7 @@ import HeadWhite from './HeadWhite';
 import Banner from './Banner';
 import Bottom from './Bottom';
 import Research from './Research';
+import Topics from './Topics';
 import Datasets from './Datasets';
 import Models from './Models';
 import News from './News';
@@ -37,6 +38,9 @@ function App() {
 	      </Route>
 	      <Route path="/Datasets">
 		<Datasets />
+	      </Route>
+              <Route path="/topics">
+		<Topics />
 	      </Route>
 	      <Route path="/team">
 		<Team />
