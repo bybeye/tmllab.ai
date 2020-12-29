@@ -46,7 +46,7 @@
 }
 
 .topics-content li {
-    list-style-type: number;
+    list-style-type: decimal;
 }
 
 @media (max-width: 575.98px) {

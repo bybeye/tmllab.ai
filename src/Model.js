@@ -5,9 +5,9 @@ class Model extends React.Component{
     
     render() {
 	return (
-	    <div className="col-sm-12 col-md-6" style={{paddingLeft:"0px"}}>
+	    <div className="col-sm-12 col-md-6">
 		<br/>
-		<div className="card" style={{borderRadius:"1.25rem"}}>
+	      <div className="card" style={{borderRadius:"1.25rem", marginRight:"10px"}}>
 		    <div className="card-body">
 		      <img src={this.props.image} alt={this.props.name} width="60" height="55" /><br/><br/>
 

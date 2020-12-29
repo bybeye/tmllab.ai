@@ -52,7 +52,6 @@ class Models extends React.Component{
 		    </div>
 		    
 		    <div className="row">
-                      
                       <Model image={Model_blank} name="Part-dependent Label Nosie" link="https://github.com/xiaoboxia/Part-dependent-label-noise"/>
 		      <Model image={Model_blank} name="T-revision" link="https://github.com/xiaoboxia/T-Revision"/>
                       <Model image={Model_blank} name="Truncated Cauchy NMF" link="https://github.com/NaiyangGuan/Truncated-Cauchy-Non-Negative-Matrix-Factorization" />
