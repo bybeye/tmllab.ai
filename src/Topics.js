@@ -13,7 +13,7 @@ class Topics extends React.Component{
         return (
             <div>
 	      <HeadWhite />
-	      <Banner title="Selected Topics" />
+	      <Banner title="SELECTED TOPICS" />
 	      <div className="container justify-content-md-center topics-container">
 		<div className="row">
 		  <div className="col-md-3 col-12" style={{paddingBottom:"50px"}}>
@@ -34,7 +34,7 @@ class Topics extends React.Component{
 	          </div>
 	          <div className="col-md-9 col-12 topics-content">
                     <h3>Research (Selected Topics)</h3>
-                    <h5>Learning with label noise:</h5>
+                    <h5>Learning with label noise</h5>
                     
                     <p>Learning with noisy labels becomes a more and more important topic recently. The reason is that, in the era of big data, datasets are becoming larger and larger. Often, large-scale datasets are infeasible to be annotated accurately due to the cost and time, which naturally brings us cheap datasets with noisy labels. However, the noisy dataset can severally degenerate the performance of machine learning models, especially for the deep neural networks, as they easily memorize and eventually fit label noise. Normally, there are two ways to deal with label noise. One is to extract confident examples, whose labels are correct with a high probability. Another one is to model the noise and then get rid of the side-effect of label noise, i.e., obtain the optimal classifier defined by the clean data by exploiting the noisy data. </p>
 
@@ -65,7 +65,7 @@ class Topics extends React.Component{
                     <li>Multi-task learning [<a href='https://www.ijcai.org/Proceedings/15/Papers/512.pdf'>IJCAI’15</a>, <a href='https://ieeexplore.ieee.org/document/7437460'>TPAMI’17</a>, <a href='https://arxiv.org/abs/1904.01747'>TNNLS’18</a>, <a href='https://ieeexplore.ieee.org/document/8513983'>TNNLS’19</a>]</li>
                     </ol>
 
-                    <h5>Robust/Adversarial learning:</h5>
+                    <h5>Robust/Adversarial learning</h5>
 
                     <p>We are also interested in how to reduce the side effect of noise on the instance, which may be caused by the failure of sensors or even malicious attacks. We human have the ability to correctly recognise the objects even there are noise (e.g., we can easily recognise human faces under extreme illumination conditions, when partially occluded, or even with heavy makeup); while current machine learning algorithms may not. Recent studies also show that an imperceptible noise on the instance will lead machines to make wrong decisions. All those mean that we human and machines are using different feature extraction mechanisms for making decisions. What are the differences? And how to align them? Answering those questions is very important to build robust and trustworthy machine learning algorithms. </p>
 
