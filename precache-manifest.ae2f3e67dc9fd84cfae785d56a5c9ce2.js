@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2d8364930a2f6be29040eaf212605e3",
+    "revision": "7c7cb9c8fa3f9da5d1ad8001081b913a",
     "url": "/tmllab.ai/index.html"
   },
   {
-    "revision": "9f8ce6c9d7d160490445",
+    "revision": "c0234bbf6b00e95532b7",
     "url": "/tmllab.ai/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "3ce2abcf36ad3c007c81",
-    "url": "/tmllab.ai/static/css/main.bb537e05.chunk.css"
+    "revision": "f4b202e2b0a60ab5416b",
+    "url": "/tmllab.ai/static/css/main.5ca41dd9.chunk.css"
   },
   {
-    "revision": "9f8ce6c9d7d160490445",
-    "url": "/tmllab.ai/static/js/2.4eba0710.chunk.js"
+    "revision": "c0234bbf6b00e95532b7",
+    "url": "/tmllab.ai/static/js/2.a8aa45a1.chunk.js"
   },
   {
     "revision": "357dc980501d9bb586163e2a40a85e7e",
-    "url": "/tmllab.ai/static/js/2.4eba0710.chunk.js.LICENSE.txt"
+    "url": "/tmllab.ai/static/js/2.a8aa45a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc6a1f62e1f44843e547",
-    "url": "/tmllab.ai/static/js/3.1be71b05.chunk.js"
+    "revision": "a180f21b07def759b9eb",
+    "url": "/tmllab.ai/static/js/3.0f1587f1.chunk.js"
   },
   {
-    "revision": "3ce2abcf36ad3c007c81",
-    "url": "/tmllab.ai/static/js/main.ddf57a5e.chunk.js"
+    "revision": "f4b202e2b0a60ab5416b",
+    "url": "/tmllab.ai/static/js/main.236ef0b9.chunk.js"
   },
   {
-    "revision": "dd08d3cfc0c14b5dcb3a",
-    "url": "/tmllab.ai/static/js/runtime-main.d0a0594d.js"
+    "revision": "6609733478e0d9262016",
+    "url": "/tmllab.ai/static/js/runtime-main.6f2ce7eb.js"
   },
   {
     "revision": "b4519acf23c075dd361e708ca1f1dc84",
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "43d3a409a57552ea8982cd4853bb1abb",
     "url": "/tmllab.ai/static/media/Yuxuan.43d3a409.jpeg"
+  },
+  {
+    "revision": "280d43131362e992f3e1fad26cfecae0",
+    "url": "/tmllab.ai/static/media/agmlBanner.280d4313.png"
   },
   {
     "revision": "74fcc7bd044938b698cf8d71bd3eb58c",
