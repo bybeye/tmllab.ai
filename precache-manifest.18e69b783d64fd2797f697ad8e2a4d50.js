@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e810fc6963e2c86dc6c2583d5a724d8",
+    "revision": "160f56717111dc3b79a85270cc3970a5",
     "url": "/tmllab.ai/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmllab.ai/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "3fe98a5a7bb3625c58a9",
-    "url": "/tmllab.ai/static/css/main.240bd38c.chunk.css"
+    "revision": "0cb160affeca12ff746a",
+    "url": "/tmllab.ai/static/css/main.5f04a6f4.chunk.css"
   },
   {
     "revision": "52f1d8be606377a31a0d",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmllab.ai/static/js/3.1c16b7d5.chunk.js"
   },
   {
-    "revision": "3fe98a5a7bb3625c58a9",
-    "url": "/tmllab.ai/static/js/main.b6df9f58.chunk.js"
+    "revision": "0cb160affeca12ff746a",
+    "url": "/tmllab.ai/static/js/main.6a5b9264.chunk.js"
   },
   {
     "revision": "c74d5f2f565c1c3065d0",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmllab.ai/static/media/Yuxuan.43d3a409.jpeg"
   },
   {
-    "revision": "744f3270343d3e1aec427d83be5ee071",
-    "url": "/tmllab.ai/static/media/ajmlBanner.744f3270.png"
+    "revision": "c1617b5a0839b515cc37e77c5a96932c",
+    "url": "/tmllab.ai/static/media/ajmlBanner.c1617b5a.jpeg"
   },
   {
     "revision": "3d9ba00ff4dbe5a4d0ab3574c47b1e64",
