@@ -28,6 +28,8 @@ import jerry from './images/Jerry.jpg';
 import Kewei from './images/Kewei.jpeg';
 import rihui from './images/Rihui.jpg';
 import Michael from './images/Michael.jpeg';
+import James from './images/James.jpg';
+import Jeremy from './images/Jeremy.jpg';
 
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
@@ -112,6 +114,8 @@ class Team extends React.Component{
 		      <Person img={kangzhao} name="Kangzhao Xia"/>
 		      <Person img={Yuhao} name="Yuhao Hu"/>
 		      <Person img={jerry} name="Jerry Tan"/>
+                      <Person img={James} name="James Wood"/>
+		      <Person img={Jeremy} name="Jeremy Gillen"/>
 		    </div>
 
 		    <hr></hr><br/>

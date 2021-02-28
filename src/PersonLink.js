@@ -7,7 +7,7 @@ class PersonLink extends React.Component{
     render() {
 	return (
 	    <div className="col-6 col-md-3">
-	      <div className="container ">
+	      <div className="container p-box">
 		<div className="row align-items-start justify-content-center">
 		  <img src={this.props.img} alt={this.props.name} width="150" className="rounded-circle"/>
 		</div>
@@ -20,7 +20,6 @@ class PersonLink extends React.Component{
 		</div>
 		<div className="row align-items-end justify-content-center">
 		  {this.props.description}
-		  <br/><br/>
 		</div>
 	      </div>
 	    </div>

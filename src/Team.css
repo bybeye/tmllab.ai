@@ -7,6 +7,9 @@
     @include make-container();
 }
 
+.p-box{
+    padding-bottom: 20px;
+}
 
 .Person-float {
   float: lef

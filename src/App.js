@@ -29,36 +29,44 @@ function App() {
 	    <Switch>
               <Route exact path="/">
 		<Home />
+                <Bottom />
 	      </Route>
 	      <Route path="/research">
 		<Research />
+                <Bottom />
 	      </Route>
 	      <Route path="/Models">
 		<Models />
+                <Bottom />
 	      </Route>
 	      <Route path="/Datasets">
 		<Datasets />
+                <Bottom />
 	      </Route>
               <Route path="/topics">
 		<Topics />
+                <Bottom />
 	      </Route>
 	      <Route path="/team">
 		<Team />
+                <Bottom />
 	      </Route>
               <Route path="/news">
 		<News />
+                <Bottom />
 	      </Route>
 	      <Route path="/member">
 		<TeamMember />
+                <Bottom />
 	      </Route>
 	      <Route path="/about">
 		<About />
+                <Bottom />
 	      </Route>
               <Route path="/atest">
 		<TestPage />
 	      </Route>
 	    </Switch>
-	  <Bottom />
 	</div>
 	</BrowserRouter>
     );
