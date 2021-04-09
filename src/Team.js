@@ -121,10 +121,10 @@ class Team extends React.Component{
 		    <hr></hr><br/>
 		    <h3 id="gra">Graduated Research Students</h3> <br/>
 		    <div className="row">
-		      <Person img={erkun} name="Erkun Yang"/>
-		      <Person img={xinyu} name="Xiyu Yu"/>
-		      <Person img={chencheng} name="Cheng Chen"/>
-		      <Person img={yuxuan} name="Yuxuan Du"/>
+		      <Person img={erkun} name="Erkun Yang (PhD)"/>
+		      <Person img={xinyu} name="Xiyu Yu (PhD)"/>
+		      <Person img={yuxuan} name="Yuxuan Du (PhD)"/>
+		      <Person img={chencheng} name="Cheng Chen (MPhil)"/>
 		    </div>
 
 		    <br/> <br/> <br/> <br/> 
