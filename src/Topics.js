@@ -73,8 +73,8 @@ class Topics extends React.Component{
                     <ol>
                     <li>Efficient gradient approximation for black boxes [<a href='http://proceedings.mlr.press/v119/zhang20o/zhang20o.pdf'>ICML’20</a>]</li>
                     <li>Understanding adversarial attacks via maximum mean discrepancy [<a href='https://arxiv.org/pdf/2010.11415.pdf'>arXiv’20</a>]</li>
-                    <li>Robust non-negative matrix factorisation algorithms [<a href='https://ieeexplore.ieee.org/document/7492255'>TNNLS’17</a>, <a href='https://arxiv.org/abs/1906.00495'>TPAMI’19</a>, <a href='https://www.aaai.org/Papers/AAAI/2020GB/AAAI-QiaoM.5577.pdf'>AAAI’20</a>]</li>
-                    <li>Compare the robustness of different loss functions [<a href='https://ieeexplore.ieee.org/document/6920341'>ICIST’14</a>, <a href='(https://arxiv.org/abs/1906.00495'>TPAMI’19</a>]</li>
+                    <li>Robust non-negative matrix factorisation algorithms [<a href='https://ieeexplore.ieee.org/document/7492255'>TNNLS’17</a>, <a href='https://arxiv.org/abs/1906.00495'>TPAMI’19</a>, <a href='https://ojs.aaai.org/index.php/AAAI/article/view/5991'>AAAI’20</a>]</li>
+                    <li>Compare the robustness of different loss functions [<a href='https://ieeexplore.ieee.org/document/6920341'>ICIST’14</a>, <a href='https://arxiv.org/abs/1906.00495'>TPAMI’19</a>]</li>
                     </ol>
 
                     <h5>Statistical (deep) learning theory</h5>
