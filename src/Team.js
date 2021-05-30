@@ -30,6 +30,7 @@ import rihui from './images/Rihui.jpg';
 import Michael from './images/Michael.jpeg';
 import James from './images/James.jpg';
 import Jeremy from './images/Jeremy.jpg';
+import dawei from './images/Dawei.jpeg';
 
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
@@ -96,9 +97,9 @@ class Team extends React.Component{
 		      <Person id="12" img={yingbin} name="Yingbin Bai"/>
 		      <Person id="13" img={chaojian} name="Chaojian Yu" />
 		      <Person id="14" img={xiaobo} name="Xiaobo Xia"/>
-		      <Person id="15" img={yuxuan} name="Yuxuan Du" description="(Co-supervised with Prof Dacheng Tao)"/>
 		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised with Dr Alan Blair)"/>
 		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised with Prof Seokhee Hong)"/>
+                      <Person img={dawei} name="Dawei Zhou" description="(Co-supervised with Prof Nannan Wang)"/>
 		    </div>
 		    <hr></hr><br/>
 		    <h3 id="master">Master Students</h3> <br/>
@@ -123,7 +124,7 @@ class Team extends React.Component{
 		    <div className="row">
 		      <Person img={erkun} name="Erkun Yang (PhD)"/>
 		      <Person img={xinyu} name="Xiyu Yu (PhD)"/>
-		      <Person img={yuxuan} name="Yuxuan Du (PhD)"/>
+                      <Person id="15" img={yuxuan} name="Yuxuan Du (PhD)" description="(Co-supervised with Prof Dacheng Tao)"/>
 		      <Person img={chencheng} name="Cheng Chen (MPhil)"/>
 		    </div>
 

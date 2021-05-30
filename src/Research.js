@@ -43,6 +43,24 @@ function Research() {
 			<div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 			  <br/><br/>
 
+                          <h3>2021</h3>
+                          <Paper title="Confidence Scores Make Instance-dependent Label-noise Learning Possible" authors="A. Berthon, B. Han, G. Niu, T. Liu, and M. Sugiyama" pdf="" conference="In ICML, 2021." highlight="Long Talk"/>
+                          <Paper title="Provably End-to-end Label-noise Learning without Anchor Points" authors="X. Li, T. Liu, B. Han, G. Niu, and M. Sugiyama" pdf="" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="Class2Simi: A Noise Reduction Perspective on Learning with Noisy Labels" authors="S. Wu*, X. Xia*, T. Liu, B. Han, M. Gong, N. Wang, H. Liu, and G. Niu " pdf="" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="Towards Defending against Adversarial Examples via Attack-Invariant Features" authors="D. Zhou, T. Liu, B. Han, N. Wang, C. Peng, and X. Gao" pdf="" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="Maximum Mean Discrepancy is Aware of Adversarial Attacks " authors="R. Gao, F. Liu, J. Zhang, B. Han, T. Liu, G. Niu, M. Sugiyama" pdf="" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="Learning Diverse-Structured Networks for Adversarial Robustness " authors="X. Du, J. Zhang, B. Han, T. Liu, Y. Rong, G. Niu, J. Huang, and M. Sugiyama" pdf="" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="VecNet: A Spectral and Multi-scale Spatial Fusion Deep Network for Pixel-level Cloud Type Classification in Himawari-8 Imagery" authors="Z. Wang, X. Kong, Z. Cui, M. Wu, C. Zhang, M. Gong, and T. Liu" pdf="" conference="In IGARSS, 2021." highlight=""/>
+                          <Paper title="A Second-Order Approach to Learning with Instance-Dependent Label Noise." authors="Z. Zhu, T. Liu, and Y. Liu." pdf="" conference="In CVPR, 2021." highlight="Oral"/>
+                          <Paper title="Revisiting Knowledge Distillation: An Inheritance and Exploration Framework. " authors="Z. Huang, X. Shen, J. Xing, T. Liu, X. Tian, H. Li, B. Deng, J. Huang, and X. Hua." pdf="" conference="In CVPR, 2021." highlight=""/>
+                          <Paper title="Robust early-learning: Hindering the memorization of noisy labels. " authors="X. Xia, T. Liu, B. Han, C. Gong, N. Wang, Z. Ge, and Y. Chang." pdf="" conference="In ICLR, 2021." highlight=""/>
+                          <Paper title="A Machine Learning Approach for Predicting Human Preference for Graph Layouts." authors="S. Cai, S. Hong, J. Shen, and T. Liu." pdf="" conference="In PacificVis, 2021." highlight="Best VisNotes Paper Award"/>
+                          <Paper title="Robust Dual Recurrent Neural Networks for Financial Time Series Prediction. " authors="J. He, M. Khushi, N. Tran, and T. Liu." pdf="" conference="In SDM, 2021." highlight=""/>
+                          <Paper title="Learning with Group Noise." authors="Q. Wang, J. Yao, C. Gong, T. Liu, M. Gong, H. Yang, and B. Han." pdf="" conference="In AAAI, 2021." highlight=""/>
+                          <Paper title="Tackling Instance-Dependent Label Noise via a Universal Probabilistic Model." authors="Q. Wang, B. Ha T. Liu, G. Niu, J. Yang, and C. Gong." pdf="https://arxiv.org/abs/2101.05467" conference="In AAAI, 2021." highlight=""/>
+
+                          <br/><hr/><br/>
+                          
 			  <h3>2020</h3>
 
 			  <Paper title="Part-dependent Label Noise: Towards Instance-dependent Label Noise." authors="X. Xia, T. Liu, B. Han, N. Wang, M. Gong, H. Liu, G. Niu, D. Tao, and M. Sugiyama." pdf="https://arxiv.org/abs/2006.07836" conference="In NeurIPS, 2020." highlight="Spotlight"/>
@@ -132,6 +150,11 @@ function Research() {
 			    <Paper title="Laplacian Welsch Regularization for Robust Semi-Supervised Learning." authors="J. Ke, C. Gong, T. Liu, L. Zhao, J. Yang, and D. Tao." pdf="" conference="IEEE T-CYB, Accepted." highlight="" source="https://ieeexplore.ieee.org/document/9020208"/>
 			    
 
+                          <br/><hr/><br/>
+			  <h3>2021</h3>
+
+                          <Paper title="Loss Decomposition and Centroid Estimation for Positive and Unlabeled Learning." authors="C. Gong, H. Shi, T. Liu, C. Zhang, J. Yang, and D. Tao." conference="IEEE T-PAMI, 43(3): 918-932, 2021." source="https://ieeexplore.ieee.org/document/8839365"/>
+                          <Paper title="HRSiam: High-Resolution Siamese Network, Towards Space-Borne Satellite Video Tracking." authors="J. Shao, B. Du, C. Wu, M. Gong, and T. Liu." conference="IEEE T-IP, 30(2): 3056-3068, 2021." source="https://ieeexplore.ieee.org/document/9350236"/>     
 			  <br/><hr/><br/>
 			  <h3>2020</h3>
 
