@@ -14,6 +14,24 @@ class News extends React.Component{
 	      <div className="container justify-content-md-center news_content">
 	        <div className="row w-100 justify-content-center align-items-center">
 	          <div className="col-12 col-md-10">
+
+                    <div className="news_content_year">
+		      <h3>2021</h3>
+		    </div>
+
+
+                    {/* 1 Team, 2 Talk, 3 Grant, 4 Award, 5 Paper  6 Service */}
+                    <NewsItem type="5" date="05/2021" content="We have six papers been accpted by ICML 2021. Well done Xuefeng, Dawei, Songhua, Xiaobo!"/>
+
+                    <NewsItem type="6" date="04/2021" content={<span>We are organising the Weakly Supervised Representation Learning (WSRL) tutorial at <a href="https://ijcai-21.org/">IJCAI 2021</a >. Welcome to participate! </span>} />
+                    <NewsItem type="6" date="04/2021" content={<span>We are organising a Special Issue on <a href="https://wsl-workshop.github.io/MLJ_WSRL_CFP.pdf"> weakly supervised representation learning</a > @ <a href="https://www.springer.com/journal/10994">Machine Learning</a >, Welcome to contribute!</span >} />
+
+                    <NewsItem type="6" date="03/2021" content={<span> We are organising <a href="https://wsl-workshop.github.io/ijcai21.html"> the Weakly Supervised Representation Learning (WSRL) workshop </a > at <a href="https://ijcai-21.org/">IJCAI 2021</a >. Welcome to contribute! </span >} />
+                    <NewsItem type="6" date="03/2021" content="Dr Tongliang Liu accepted the invitation to serve as an Area Chair for NeurIPS 2021."/>
+                    <NewsItem type="6" date="02/2021" content={<span>02/2021, we are organising <a href="https://ajml2021.github.io/"> the first Australia-Japan Workshop on Machine Learning</a >.  </span>} />
+
+                    <br/><hr/><br/>
+                    
                     <div className="news_content_year">
 		      <h3>2020</h3>
 		    </div>

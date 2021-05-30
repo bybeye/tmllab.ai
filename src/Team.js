@@ -124,7 +124,7 @@ class Team extends React.Component{
 		    <div className="row">
 		      <Person img={erkun} name="Erkun Yang (PhD)"/>
 		      <Person img={xinyu} name="Xiyu Yu (PhD)"/>
-                      <Person id="15" img={yuxuan} name="Yuxuan Du (PhD)" description="(Co-supervised with Prof Dacheng Tao)"/>
+                      <Person id="15" img={yuxuan} name="Yuxuan Du (PhD)"/>
 		      <Person img={chencheng} name="Cheng Chen (MPhil)"/>
 		    </div>
 
