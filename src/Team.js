@@ -31,6 +31,7 @@ import Michael from './images/Michael.jpeg';
 import James from './images/James.jpg';
 import Jeremy from './images/Jeremy.jpg';
 import dawei from './images/Dawei.jpeg';
+import Vinoth from './images/Vinoth.png';
 
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
@@ -84,8 +85,9 @@ class Team extends React.Component{
 		    {/* </div> */}
                     {/* <hr></hr><br/> */}
                     
-                    <h3 id="con">Consultant</h3> <br/>
+                    <h3 id="con">Research Affiliates</h3> <br/>
                     <div className="row">
+                      <PersonLink img={Vinoth} name="Vinoth Nandakumar" link="https://sites.google.com/view/vinothmn/"/>
 		      <Person img={Michael} name="Michael Huang"  description="(Industry Partner)"/>
 		    </div>
                     <hr></hr><br/>
@@ -93,10 +95,10 @@ class Team extends React.Component{
 		    <h3 id="phd">PhD Students</h3> <br/>
 		    <div className="row">
 		      <Person id="10" img={yuyao} name="Yu Yao"/>
-		      <Person id="11" img={sonhua} name="Songhua Wu"/>
+                      <PersonLink img={sonhua} name="Songhua Wu" link="https://scifancier.github.io/"/>
 		      <Person id="12" img={yingbin} name="Yingbin Bai"/>
 		      <Person id="13" img={chaojian} name="Chaojian Yu" />
-		      <Person id="14" img={xiaobo} name="Xiaobo Xia"/>
+                      <PersonLink img={xiaobo} name="Xiaobo Xia" link="https://xiaoboxia.github.io/"/>
 		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised with Dr Alan Blair)"/>
 		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised with Prof Seokhee Hong)"/>
                       <Person img={dawei} name="Dawei Zhou" description="(Co-supervised with Prof Nannan Wang)"/>
