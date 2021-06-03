@@ -62,7 +62,7 @@ class Team extends React.Component{
 		  <div className="col-md-3 col-12 m-hidden" style={{paddingBottom:"50px"}}>
 		    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={11}/>Director<Spacer amount={12}/></button> <br/> <br/>
                     {/* <button onClick={()=>this.scrollToAnchor('stra')} className="btn btn-outline-primary rounded-pill">Strategic collaborator</button> <br/> <br/> */}
-                     <button onClick={()=>this.scrollToAnchor('con')} className="btn btn-outline-primary rounded-pill"><Spacer amount={9}/>Consultant<Spacer amount={9}/></button> <br/> <br/> 
+                     <button onClick={()=>this.scrollToAnchor('con')} className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Research Affiliates<Spacer amount={2}/></button> <br/> <br/> 
 		    <button onClick={()=>this.scrollToAnchor('phd')} className="btn btn-outline-primary rounded-pill"><Spacer amount={6}/>PhD Students<Spacer amount={6}/></button> <br/> <br/> 
 		    <button onClick={()=>this.scrollToAnchor('master')} className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Master Students<Spacer amount={4}/></button> <br/> <br/>
 		    <button onClick={()=>this.scrollToAnchor('honour')} className="btn btn-outline-primary rounded-pill"><Spacer amount={2}/>Honours Students<Spacer amount={2}/></button> <br/> <br/> 
