@@ -32,6 +32,7 @@ import James from './images/James.jpg';
 import Jeremy from './images/Jeremy.jpg';
 import dawei from './images/Dawei.jpeg';
 import Vinoth from './images/Vinoth.png';
+import Joshua from './images/Joshua.jpeg';
 
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
@@ -102,6 +103,8 @@ class Team extends React.Component{
 		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised with Dr Alan Blair)"/>
 		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised with Prof Seokhee Hong)"/>
                       <Person img={dawei} name="Dawei Zhou" description="(Co-supervised with Prof Nannan Wang)"/>
+                      <PersonLink img={Joshua} name="Joshua Kim" description="(Co-supervised with A/Prof Kalina Yacef)" link="http://www.joshuakim.io/"/>
+
 		    </div>
 		    <hr></hr><br/>
 		    <h3 id="master">Master Students</h3> <br/>

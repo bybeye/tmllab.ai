@@ -44,23 +44,23 @@ function Research() {
 			  <br/><br/>
 
                           <h3>2021</h3>
-                          <Paper title="Confidence Scores Make Instance-dependent Label-noise Learning Possible" authors="A. Berthon, B. Han, G. Niu, T. Liu, and M. Sugiyama" pdf="" conference="In ICML, 2021." highlight="Long Talk"/>
-                          <Paper title="Provably End-to-end Label-noise Learning without Anchor Points" authors="X. Li, T. Liu, B. Han, G. Niu, and M. Sugiyama" pdf="" conference="In ICML, 2021." highlight=""/>
-                          <Paper title="Class2Simi: A Noise Reduction Perspective on Learning with Noisy Labels" authors="S. Wu*, X. Xia*, T. Liu, B. Han, M. Gong, N. Wang, H. Liu, and G. Niu " pdf="" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="Confidence Scores Make Instance-dependent Label-noise Learning Possible" authors="A. Berthon, B. Han, G. Niu, T. Liu, and M. Sugiyama" pdf="https://arxiv.org/pdf/2001.03772.pdf" conference="In ICML, 2021." highlight="Long Talk"/>
+                          <Paper title="Provably End-to-end Label-noise Learning without Anchor Points" authors="X. Li, T. Liu, B. Han, G. Niu, and M. Sugiyama" pdf="https://arxiv.org/pdf/2102.02400.pdf" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="Class2Simi: A Noise Reduction Perspective on Learning with Noisy Labels" authors="S. Wu*, X. Xia*, T. Liu, B. Han, M. Gong, N. Wang, H. Liu, and G. Niu " pdf="https://arxiv.org/pdf/2006.07831.pdf" conference="In ICML, 2021." highlight=""/>
                           <Paper title="Towards Defending against Adversarial Examples via Attack-Invariant Features" authors="D. Zhou, T. Liu, B. Han, N. Wang, C. Peng, and X. Gao" pdf="" conference="In ICML, 2021." highlight=""/>
-                          <Paper title="Maximum Mean Discrepancy is Aware of Adversarial Attacks " authors="R. Gao, F. Liu, J. Zhang, B. Han, T. Liu, G. Niu, M. Sugiyama" pdf="" conference="In ICML, 2021." highlight=""/>
-                          <Paper title="Learning Diverse-Structured Networks for Adversarial Robustness " authors="X. Du, J. Zhang, B. Han, T. Liu, Y. Rong, G. Niu, J. Huang, and M. Sugiyama" pdf="" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="Maximum Mean Discrepancy is Aware of Adversarial Attacks " authors="R. Gao, F. Liu, J. Zhang, B. Han, T. Liu, G. Niu, M. Sugiyama" pdf="https://arxiv.org/pdf/2010.11415.pdf" conference="In ICML, 2021." highlight=""/>
+                          <Paper title="Learning Diverse-Structured Networks for Adversarial Robustness " authors="X. Du, J. Zhang, B. Han, T. Liu, Y. Rong, G. Niu, J. Huang, and M. Sugiyama" pdf="https://arxiv.org/pdf/2102.01886.pdf" conference="In ICML, 2021." highlight=""/>
                           <Paper title="VecNet: A Spectral and Multi-scale Spatial Fusion Deep Network for Pixel-level Cloud Type Classification in Himawari-8 Imagery" authors="Z. Wang, X. Kong, Z. Cui, M. Wu, C. Zhang, M. Gong, and T. Liu" pdf="" conference="In IGARSS, 2021." highlight=""/>
-                          <Paper title="A Second-Order Approach to Learning with Instance-Dependent Label Noise." authors="Z. Zhu, T. Liu, and Y. Liu." pdf="" conference="In CVPR, 2021." highlight="Oral"/>
+                          <Paper title="A Second-Order Approach to Learning with Instance-Dependent Label Noise." authors="Z. Zhu, T. Liu, and Y. Liu." pdf="https://arxiv.org/pdf/2012.11854.pdf" conference="In CVPR, 2021." highlight="Oral"/>
                           <Paper title="Revisiting Knowledge Distillation: An Inheritance and Exploration Framework. " authors="Z. Huang, X. Shen, J. Xing, T. Liu, X. Tian, H. Li, B. Deng, J. Huang, and X. Hua." pdf="" conference="In CVPR, 2021." highlight=""/>
-                          <Paper title="Robust early-learning: Hindering the memorization of noisy labels. " authors="X. Xia, T. Liu, B. Han, C. Gong, N. Wang, Z. Ge, and Y. Chang." pdf="" conference="In ICLR, 2021." highlight=""/>
-                          <Paper title="A Machine Learning Approach for Predicting Human Preference for Graph Layouts." authors="S. Cai, S. Hong, J. Shen, and T. Liu." pdf="" conference="In PacificVis, 2021." highlight="Best VisNotes Paper Award"/>
-                          <Paper title="Robust Dual Recurrent Neural Networks for Financial Time Series Prediction. " authors="J. He, M. Khushi, N. Tran, and T. Liu." pdf="" conference="In SDM, 2021." highlight=""/>
-                          <Paper title="Learning with Group Noise." authors="Q. Wang, J. Yao, C. Gong, T. Liu, M. Gong, H. Yang, and B. Han." pdf="" conference="In AAAI, 2021." highlight=""/>
-                          <Paper title="Tackling Instance-Dependent Label Noise via a Universal Probabilistic Model." authors="Q. Wang, B. Ha T. Liu, G. Niu, J. Yang, and C. Gong." pdf="https://arxiv.org/abs/2101.05467" conference="In AAAI, 2021." highlight=""/>
+                          <Paper title="Robust early-learning: Hindering the memorization of noisy labels. " authors="X. Xia, T. Liu, B. Han, C. Gong, N. Wang, Z. Ge, and Y. Chang." pdf="https://openreview.net/pdf?id=Eql5b1_hTE4" conference="In ICLR, 2021." highlight=""/>
+                          <Paper title="A Machine Learning Approach for Predicting Human Preference for Graph Layouts." authors="S. Cai, S. Hong, J. Shen, and T. Liu." pdf="https://arxiv.org/pdf/2103.03665.pdf" conference="In PacificVis, 2021." highlight="Best VisNotes Paper Award"/>
+                          <Paper title="Robust Dual Recurrent Neural Networks for Financial Time Series Prediction. " authors="J. He, M. Khushi, N. Tran, and T. Liu." pdf="https://epubs.siam.org/doi/pdf/10.1137/1.9781611976700.84" conference="In SDM, 2021." highlight=""/>
+                          <Paper title="Learning with Group Noise." authors="Q. Wang, J. Yao, C. Gong, T. Liu, M. Gong, H. Yang, and B. Han." pdf="https://arxiv.org/pdf/2103.09468.pdf" conference="In AAAI, 2021." highlight=""/>
+                          <Paper title="Tackling Instance-Dependent Label Noise via a Universal Probabilistic Model." authors="Q. Wang, B. Ha T. Liu, G. Niu, J. Yang, and C. Gong." pdf="https://arxiv.org/pdf/2101.05467.pdf" conference="In AAAI, 2021." highlight=""/>
 
                           <br/><hr/><br/>
-                          
+
 			  <h3>2020</h3>
 
 			  <Paper title="Part-dependent Label Noise: Towards Instance-dependent Label Noise." authors="X. Xia, T. Liu, B. Han, N. Wang, M. Gong, H. Liu, G. Niu, D. Tao, and M. Sugiyama." pdf="https://arxiv.org/abs/2006.07836" conference="In NeurIPS, 2020." highlight="Spotlight"/>
@@ -88,44 +88,44 @@ function Research() {
 			    <Paper title="Skipping Two Layers in ResNet Makes the Generalization Gap Smaller than Skipping One or No Layer." authors="Y. Furusho, T. Liu, and K. Ikeda." conference="In INNSBDDL, 2019." source="https://link.springer.com/chapter/10.1007/978-3-030-16841-4_36"/>
 			    <Paper title="Positive and Unlabeled Learning with Label Disambiguation." authors="C. Zhang, D. Ren, T. Liu, J. Yang, and C. Gong." conference="In IJCAI, 2019." pdf="https://www.ijcai.org/Proceedings/2019/0590.pdf"/>
 			    <Paper title="Towards Digital Retina in Smart Cities: A Model Generation, Utilization and Communication Paradigm." authors="Y. Lou, L. Duan, Y. Luo, Z. Chen, T. Liu, S. Wang, and W. Gao." conference="In ICME, 2019." pdf="https://arxiv.org/pdf/1907.13368.pdf" highlight="Best Paper Award"/>
-			    
+
 			  <br/><hr/><br/>
 			  <h3>2018</h3>
 
 			  <Paper title="An Efficient and Provable Approach for Mixture Proportion Estimation Using Linear Independence Assumption." authors="X. Yu, T. Liu, M. Gong, K. Batmanghelich, and D. Tao." pdf="https://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_An_Efficient_and_CVPR_2018_paper.pdf" conference="In CVPR, 2018."/>
-			    
+
 			  <Paper title="Learning with Biased Complementary Labels." authors="Xiyu Yu, Tongliang Liu, Mingming Gong, and Dacheng Tao" pdf="https://openaccess.thecvf.com/content_ECCV_2018/papers/Xiyu_Yu_Learning_with_Biased_ECCV_2018_paper.pdf" conference="In ECCV, 2018."/>
 
 			  <Paper title="Correcting the Triplet Selection Bias for Triplet Loss. " authors="B. Yu, T. Liu, M. Gong, C. Ding, and D. Tao." pdf="https://openaccess.thecvf.com/content_ECCV_2018/papers/Baosheng_Yu_Correcting_the_Triplet_ECCV_2018_paper.pdf" conference="In ECCV, 2018."/>
-			    
+
 			  <Paper title="Deep Domain Generalization via Conditional Invariant Adversarial Networks. " authors="Y. Li, X. Tian, M. Gong, Y. Liu, T. Liu, K. Zhang, and D. Tao." pdf="https://openaccess.thecvf.com/content_ECCV_2018/papers/Ya_Li_Deep_Domain_Generalization_ECCV_2018_paper.pdf" conference="In ECCV, 2018."/>
-			    
+
 			  <Paper title="Quantum Divide-and-Conquer Anchoring for Separable Non-negative Matrix Factorization." authors="Y. Du, T. Liu, Y. Li, R. Duan, and D. Tao." pdf="https://www.ijcai.org/Proceedings/2018/0289.pdf" conference="In IJCAI, 2018."/>
-			    
+
 			  <Paper title="Online Heterogeneous Transfer Metric Learning." authors="Y. Luo, T. Liu, Y. Wen, and D. Tao." pdf="https://www.ijcai.org/Proceedings/2018/0350.pdf" conference="In IJCAI, 2018."/>
-			    
+
 			  <Paper title="Semantic Structure-based Unsupervised Deep Hashing. " authors="E. Yang, C. Deng, T. Liu, W. Liu, and D. Tao." pdf="https://www.ijcai.org/Proceedings/2018/0148.pdf" conference="In IJCAI, 2018."/>
-			    
+
                           <Paper title="Domain Generalization via Conditional Invariant Representations." authors="Y. Li, M. Gong, X. Tian, T. Liu, and D. Tao." pdf="https://arxiv.org/abs/1807.08479" conference="In AAAI, 2018"/>
                           <Paper title="Robust Angular Local Descriptor Learning. " authors="Y. Xu, M. Gong, T. Liu, K. Batmanghelich, C. Wang." pdf="https://arxiv.org/abs/1901.07076" conference="In ACCV, 2018."/>
 
 			  <br/><hr/><br/>
 			  <h3>2017</h3>
 
-			    
+
 			    <Paper title="Algorithmic Stability and Hypothesis Complexity." authors="T. Liu, G. Lugosi, G. Neu and D. Tao." pdf="http://proceedings.mlr.press/v70/liu17c/liu17c.pdf" conference="In ICML , 2017."/>
-			    
+
 			    <Paper title="On Compressing Deep Models by Low Rank and Sparse Decomposition. " authors="X. Yu, T. Liu, X. Wang, and D. Tao." pdf="https://openaccess.thecvf.com/content_cvpr_2017/papers/Yu_On_Compressing_Deep_CVPR_2017_paper.pdf" conference="In CVPR, 2017."/>
-			    
+
 			    <Paper title="Understanding How Feature Structure Transfers in Transfer Learning." authors="T. Liu, Q. Yang, and D. Tao." pdf="https://www.ijcai.org/Proceedings/2017/0329.pdf" conference="In IJCAI, 2017."/>
-			    
+
 			    <Paper title="General Heterogeneous Transfer Distance Metric Learning via Knowledge Fragments Transfer." authors="Y. Luo, Y. Wen, T. Liu, and D. Tao." pdf="https://www.ijcai.org/Proceedings/2017/0341.pdf" conference="In IJCAI, 2017."/>
 
 
 			  <br/><hr/><br/>
 			  <h3>2016</h3>
 
-			    
+
 			    <Paper title="Domain Adaptation with Conditional Transferable Components." authors="M. Gong, K. Zhang, T. Liu, D. Tao, C. Glymour, and B. Schölkopf." pdf="http://proceedings.mlr.press/v48/gong16.pdf" conference="In ICML, 2106."/>
 			    <Paper title="Diversified Dynamical Gaussian Process Latent Variable Model for Video Repair." authors="H. Xiong, T. Liu, and D. Tao." conference="In AAAI, 2016." source="https://dl.acm.org/doi/10.5555/3016387.3016415"/>
 
@@ -138,7 +138,7 @@ function Research() {
                           <Paper title="On the Robustness and Generalization of Cauchy Regression." authors="T. Liu and D. Tao." conference="In ICIST, 2014." source="https://ieeexplore.ieee.org/document/6920341" highlight="Best Paper Award"/>
                           <br/><br/>
 			</div>
-			
+
 			<div className="tab-pane fade" id="nav-journal" role="tabpanel" aria-labelledby="nav-journal-tab">
 			    <br/><br/>
 
@@ -148,13 +148,13 @@ function Research() {
                           <Paper title="Why ResNet Works? Residuals Generalize." authors="F. He, T. Liu, and D. Tao." pdf="https://arxiv.org/abs/1904.01367" conference="IEEE T-NNLS, Accepted." highlight=""/>
 			    <Paper title="Label Propagated Nonnegative Matrix Factorization for Clustering." authors="L. Lan, T. Liu, X. Zhang, C. Xu, and Z. Luo." pdf="" conference="IEEE T-KDE, Accepted." highlight="" source="https://ieeexplore.ieee.org/document/9044402"/>
 			    <Paper title="Laplacian Welsch Regularization for Robust Semi-Supervised Learning." authors="J. Ke, C. Gong, T. Liu, L. Zhao, J. Yang, and D. Tao." pdf="" conference="IEEE T-CYB, Accepted." highlight="" source="https://ieeexplore.ieee.org/document/9020208"/>
-			    
+
 
                           <br/><hr/><br/>
 			  <h3>2021</h3>
 
                           <Paper title="Loss Decomposition and Centroid Estimation for Positive and Unlabeled Learning." authors="C. Gong, H. Shi, T. Liu, C. Zhang, J. Yang, and D. Tao." conference="IEEE T-PAMI, 43(3): 918-932, 2021." source="https://ieeexplore.ieee.org/document/8839365"/>
-                          <Paper title="HRSiam: High-Resolution Siamese Network, Towards Space-Borne Satellite Video Tracking." authors="J. Shao, B. Du, C. Wu, M. Gong, and T. Liu." conference="IEEE T-IP, 30(2): 3056-3068, 2021." source="https://ieeexplore.ieee.org/document/9350236"/>     
+                          <Paper title="HRSiam: High-Resolution Siamese Network, Towards Space-Borne Satellite Video Tracking." authors="J. Shao, B. Du, C. Wu, M. Gong, and T. Liu." conference="IEEE T-IP, 30(2): 3056-3068, 2021." source="https://ieeexplore.ieee.org/document/9350236"/>
 			  <br/><hr/><br/>
 			  <h3>2020</h3>
 
@@ -168,7 +168,7 @@ function Research() {
 
 			  <br/><hr/><br/>
 			  <h3>2019</h3>
-                          
+
 			  <Paper title="Transferring Knowledge Fragments for Learning Distance Metric from A Heterogeneous Domain." authors="Y. Luo, Y. Wen, T. Liu, and D. Tao." pdf="" conference="IEEE T-PAMI, 41(4): 1013-1026, 2019." highlight="" source="https://ieeexplore.ieee.org/abstract/document/8333749"/>
                           <Paper title="Truncated Cauchy Non-negative Matrix Factorization." authors="N. Guan, T. Liu, Y. Zhang, D. Tao, and L. S. Davis." pdf="https://arxiv.org/abs/1906.00495" conference="IEEE T-PAMI, 41(1): 246-259, 2019." highlight=""/>
 			  <Paper title="Large-Margin Label-Calibrated Support Vector Machines for Positive and Unlabeled Learning." authors="C. Gong, T. Liu, J. Yang, and D. Tao." pdf="" conference="IEEE T-NNLS, 30(11): 3471-3483, 2019." highlight="" source="https://ieeexplore.ieee.org/document/8636540"/>
@@ -178,7 +178,7 @@ function Research() {
 
 			  <br/><hr/><br/>
 			  <h3>2018</h3>
-			  
+
 			  <Paper title="Fast Supervised Discrete Hashing. " authors="J. Gui, T. Liu, Z. Sun, D. Tao, and T. Tan." pdf="" conference="IEEE T-PAMI, 40(2): 490-496, 2018." highlight="" source="https://ieeexplore.ieee.org/document/7873258"/>
                           <Paper title="Continuous Dropout. " authors="X. Shen, X. Tian, F. Xu, T. Liu, and D. Tao." pdf="https://arxiv.org/abs/1911.12675" conference="IEEE T-NNLS, 29(9): 3926-3937, 2018." highlight=""/>
                           <Paper title="Multi-class Learning with Partially Corrupted Labels." authors="R. Wang, T. Liu, and D. Tao." pdf="" conference="IEEE T-NNLS, 29(6): 2568-2580, 2018." highlight="" source="https://ieeexplore.ieee.org/document/7929355"/>
@@ -187,7 +187,7 @@ function Research() {
                           <Paper title="Deep Blur Mapping: Exploiting High-Level Semantics by Deep Neural Networks." authors="K. Ma, H. Fu, T. Liu, Z. Wang, and D. Tao." pdf="https://arxiv.org/abs/1612.01227" conference="IEEE T-IP, 27(10): 5155-5166, 2018." highlight=""/>
                           <Paper title="A Regularization Approach for Instance-Based Superset Label Learning." authors="C. Gong, T. Liu, Y. Tang, J. Yang, J. Yang, and D. Tao." pdf="https://arxiv.org/pdf/1904.02832.pdf" conference="IEEE T-CYB, 48(3): 967-978, 2018." highlight=""/>
 
-			    
+
 			  <br/><hr/><br/>
                           <h3>2017</h3>
 
@@ -201,7 +201,7 @@ function Research() {
 			  <br/><hr/><br/>
                           <h3>2016</h3>
 
-			    
+
 			    <Paper title="Classification with Noisy Labels by Importance Reweighting." authors="Tongliang Liu and Dacheng Tao" pdf="https://arxiv.org/pdf/1411.7718.pdf" conference="IEEE T-PAMI, 38(3): 447-461, 2016."/>
 			    <Paper title="Dimensionality-Dependent Generalization Bounds for k-Dimensional Coding Schemes." authors="T. Liu, D. Tao, and D. Xu." pdf="https://arxiv.org/pdf/1601.00238.pdf" conference="NECO, 28(10): 2213-2249, 2016." highlight=""/>
 			    <Paper title="On the Performance of MahNMF Manhattan Non-negative Matrix Factorization." authors="T. Liu and D. Tao." pdf="" conference="IEEE T-NNLS, 27(9): 1851-1863, 2016." highlight="" source="https://ieeexplore.ieee.org/document/7192641"/>
@@ -209,14 +209,14 @@ function Research() {
                 <Paper title="Local Rademacher Complexity for Multi-Label Learning. " authors="C. Xu, T. Liu, D. Tao, and C. Xu." pdf="https://arxiv.org/pdf/1410.6990.pdf" conference="IEEE T-IP, 25(3): 1495-1507, 2016." highlight=""/>
                 <Paper title="Representative Vector Machines: A Unified Framework for Classical Classifiers." authors="J. Gui, T. Liu, D. Tao, Z. Sun, and T. Tan." pdf="" conference="IEEE T-CYB, 46(8): 1877-1888, 2016." highlight="" source="https://ieeexplore.ieee.org/document/7194763"/>
                 <Paper title="Video Face Editing Using Temporal-Spatial-Smooth Warping." authors="X. Li, T. Liu, J. Deng, and D. Tao." pdf="" conference="ACM T-IST, 7(3): 32, 2016." highlight="" source="https://dl.acm.org/doi/10.1145/2819000"/>
- 
+
 			  <br/><hr/><br/>
 			  <h3>2015</h3>
 
 			  <Paper title="Deformed Graph Laplacian for Semisupervised Learning." authors="C. Gong, T. Liu, D. Tao, K. Fu, E. Tu, and J. Yang." pdf="" conference="IEEE T-NNLS, 26(10): 2261-2274, 2015." highlight="" source="https://ieeexplore.ieee.org/document/7010929"/>
                           <Paper title="Multiview Matrix Completion for Multilabel Image Classification." authors="Y. Luo, T. Liu, D. Tao, and C. Xu." pdf="https://arxiv.org/abs/1904.03901" conference="IEEE T-IP, 24(8): 2261-2274, 2015." highlight=""/>
                           <Paper title="No Reference Quality Assessment for Multiply-Distorted Images Based on an Improved Bag-of-Words Model." authors="Y. Lu, F. Xie, T. Liu, Z. Jiang, and D. Tao." pdf="" conference="IEEE SPL, 22(10): 1811-1815, 2015." highlight="" source="https://ieeexplore.ieee.org/document/7112105"/>
-			    
+
 
 			  <br/><hr/><br/>
 			  <h3>2014</h3>
@@ -227,7 +227,7 @@ function Research() {
 		    </div>
 
 		</div>
-		
+
 		</div>
 	    </div>
 	</div>
