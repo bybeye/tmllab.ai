@@ -33,6 +33,10 @@ import Jeremy from './images/Jeremy.jpg';
 import dawei from './images/Dawei.jpeg';
 import Vinoth from './images/Vinoth.png';
 import Joshua from './images/Joshua.jpeg';
+import Jazlyn from './images/Jazlyn.jpeg';
+import Matthew from './images/Matthew.jpeg';
+import Yang from './images/Yang.png';
+import Zhaoqing from './images/Zhaoqing.png';
 
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
@@ -104,7 +108,7 @@ class Team extends React.Component{
 		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised with Prof Seokhee Hong)"/>
                       <Person img={dawei} name="Dawei Zhou" description="(Co-supervised with Prof Nannan Wang)"/>
                       <PersonLink img={Joshua} name="Joshua Kim" description="(Co-supervised with A/Prof Kalina Yacef)" link="http://www.joshuakim.io/"/>
-
+                      <Person img={Yang} name="Shuo Yang" description="(PhD student working with Tongliang Liu)" />
 		    </div>
 		    <hr></hr><br/>
 		    <h3 id="master">Master Students</h3> <br/>
@@ -112,16 +116,15 @@ class Team extends React.Component{
 		      <Person id="20" img={Kewei} name="Kewei Wang"/>
 		      <Person id="21" img={jialiang} name="Jialiang Shen"/>
 		      <Person img={rihui} name="Rihui Wu"/>
+                      <Person img={Zhaoqing} name="Zhaoqing Wang"/>
 		    </div>
 		    <hr></hr><br/>
 		    <h3 id="honour">Honours Students</h3> <br/>
 		    <div className="row">
-		      <Person img={zhengning} name="Zhengning Wu"/>
-		      <Person img={kangzhao} name="Kangzhao Xia"/>
-		      <Person img={Yuhao} name="Yuhao Hu"/>
-		      <Person img={jerry} name="Jerry Tan"/>
                       <Person img={James} name="James Wood"/>
 		      <Person img={Jeremy} name="Jeremy Gillen"/>
+                      <Person img={Jazlyn} name="Jazlyn Lin"/>
+                      <Person img={Matthew} name="Matthew Raad"/>
 		    </div>
 
 		    <hr></hr><br/>
@@ -129,11 +132,15 @@ class Team extends React.Component{
 		    <div className="row">
 		      <Person img={erkun} name="Erkun Yang (PhD)"/>
 		      <Person img={xinyu} name="Xiyu Yu (PhD)"/>
-                      <Person id="15" img={yuxuan} name="Yuxuan Du (PhD)"/>
+                      <PersonLink img={yuxuan} name="Yuxuan Du (PhD)"  link="https://yuxuan-du.github.io/"/>
 		      <Person img={chencheng} name="Cheng Chen (MPhil)"/>
+                      <Person img={zhengning} name="Zhengning Wu (Honours)"/>
+		      <Person img={kangzhao} name="Kangzhao Xia (Honours)"/>
+		      <Person img={Yuhao} name="Yuhao Hu (Honours)"/>
+		      <Person img={jerry} name="Jerry Tan (Honours)"/>
 		    </div>
 
-		    <br/> <br/> <br/> <br/> 
+		    <br/> <br/>
 		  </div>
 		  
 		</div>

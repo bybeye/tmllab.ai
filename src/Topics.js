@@ -34,7 +34,7 @@ class Topics extends React.Component{
 	          </div>
 	          <div className="col-md-9 col-12 topics-content">
                     <h3>Research (Selected Topics)</h3>
-                    <h5>Learning with label noise</h5>
+                    <h5>Learning with noisy labels</h5>
                     
                     <p>Learning with noisy labels becomes a more and more important topic recently. The reason is that, in the era of big data, datasets are becoming larger and larger. Often, large-scale datasets are infeasible to be annotated accurately due to the cost and time, which naturally brings us cheap datasets with noisy labels. However, the noisy dataset can severally degenerate the performance of machine learning models, especially for the deep neural networks, as they easily memorize and eventually fit label noise. Normally, there are two ways to deal with label noise. One is to extract confident examples, whose labels are correct with a high probability. Another one is to model the noise and then get rid of the side-effect of label noise, i.e., obtain the optimal classifier defined by the clean data by exploiting the noisy data. </p>
 

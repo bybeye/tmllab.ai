@@ -54,7 +54,7 @@ class TeamMember extends React.Component{
 	      <Banner title="TEAM MEMBER" />
 	      <div className="content-container" style={{width: "1200px"}}>
 		<div className="row align-items-left">
-		  <div className="col-12 col-md-3 h-100 nopadding">
+		  <div className="col-12 col-md-4 h-100 nopadding">
 		    <div className="l_info">
 		      <div className="row justify-content-center">
 			<img src={person.image_url} alt={person.name} width="150" height="150" className="rounded-circle"/>	

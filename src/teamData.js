@@ -44,18 +44,30 @@ var teamData = [
 	],
 	"interests": "My research interests lie in Weakly supervised learning and Unsupervised Representation Learning. If you have any ideas or meet any problems, you're more than welcome to discuss them.",
 	"activity":[
-	    
+	    {
+                "content": "I accepted the invitation to serve as a reviewer for Knowledge-Based Systems.",
+                "year": "07/2021"
+            },
 	],
 	"honors": [
             {"content": "Postgraduate Research Scholarship in Unsupervised Representation Learning",
 	     "year": 2020,
 	    },
-	    {"content": "Faulty of Engineering International Tuition Fee Research Scholarship",
-	     "year": 2020,
-	    },
 	],
 	"publications":[
-	    
+	    {"title":"Me-Momentum: Extracting Hard Confident Examples from Noisily Labeled Data",
+	     "authors":"Yingbin Bai and Tongliang Liu",
+	     "conference":"ICCV 2021",
+	     "code":"https://github.com/tmllab/Me-Momentum",
+	     "highlight":"Oral"
+	    },
+            {"title":"Understanding and Improving Early Stopping for Learning with Noisy Labels",
+	     "authors":"Yingbin Bai*, Erkun Yang*, Bo Han, Yanhua Yang, Jiatong Li, Yinian Mao, Gang Niu, Tongliang Liu",
+	     "conference":"Neurips 2021",
+	     "code":"",
+	     "pdf":"https://arxiv.org/abs/2106.15853",
+	     "highlight":""
+	    }
 	],
 
     },
