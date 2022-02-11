@@ -14,7 +14,7 @@ class PersonLink extends React.Component{
 		<div className="row justify-content-center mem_name" >
 
                   {this.props.link !=="" && this.props.link!==undefined ?
-		   <a href={this.props.link}>
+		   <a href={this.props.link} target="_blank" rel="noopener noreferrer">
 		    {this.props.name}
 		  </a>: (this.props.name) }
 		</div>

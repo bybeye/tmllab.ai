@@ -26,7 +26,7 @@ import zhengning from './images/zhengning.jpg';
 import Yuhao from './images/Yuhao.jpeg';
 import jerry from './images/Jerry.jpg';
 import Kewei from './images/Kewei.jpeg';
-import rihui from './images/Rihui.jpg';
+// import rihui from './images/Rihui.jpg';
 import Michael from './images/Michael.jpeg';
 import James from './images/James.jpg';
 import Jeremy from './images/Jeremy.jpg';
@@ -37,6 +37,15 @@ import Jazlyn from './images/Jazlyn.jpeg';
 import Matthew from './images/Matthew.jpeg';
 import Yang from './images/Yang.png';
 import Zhaoqing from './images/Zhaoqing.png';
+import YuhaoWu from './images/YuhaoWu.jpeg';
+import Pengqian from './images/Pengqian.jpg';
+import Cong from './images/Cong.jpg';
+import Shikun from './images/Shikun.jpg';
+import Xuan from './images/Xuan.jpg';
+import Runlin from './images/Runlin.jpg';
+import Nguyen from './images/Nguyen.jpg';
+
+
 
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
@@ -104,25 +113,30 @@ class Team extends React.Component{
 		      <Person id="12" img={yingbin} name="Yingbin Bai"/>
 		      <Person id="13" img={chaojian} name="Chaojian Yu" />
                       <PersonLink img={xiaobo} name="Xiaobo Xia" link="https://xiaoboxia.github.io/"/>
+                      <Person img={zhengning} name="Zhengning Wu"/>
+                      <Person img={YuhaoWu} name="Yuhao Wu"/>
+                      <Person img={Cong} name="Cong Lei"/>
+                      <Person img={Xuan} name="Tong Xuan" description="(part-time)"/>
+
 		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised with Dr Alan Blair)"/>
 		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised with Prof Seokhee Hong)"/>
-                      <Person img={dawei} name="Dawei Zhou" description="(Co-supervised with Prof Nannan Wang)"/>
+                      <PersonLink img={dawei} name="Dawei Zhou" description="(Co-supervised with Prof Nannan Wang)" link="https://dwdavidxd.github.io/"/>
                       <PersonLink img={Joshua} name="Joshua Kim" description="(Co-supervised with A/Prof Kalina Yacef)" link="http://www.joshuakim.io/"/>
                       <Person img={Yang} name="Shuo Yang" description="(PhD student working with Tongliang Liu)" />
+                      <Person img={Shikun} name="Shikun Li" description="(Co-supervised with Prof Shiming Ge)"/>
 		    </div>
 		    <hr></hr><br/>
 		    <h3 id="master">Master Students</h3> <br/>
 		    <div className="row">
 		      <Person id="20" img={Kewei} name="Kewei Wang"/>
-		      <Person id="21" img={jialiang} name="Jialiang Shen"/>
-		      <Person img={rihui} name="Rihui Wu"/>
                       <Person img={Zhaoqing} name="Zhaoqing Wang"/>
+                      <Person img={Pengqian} name="Pengqian Lu"/>
+                      <Person img={Nguyen} name="Duc Nguyen"/>
+                      <Person img={Runlin} name="Runlin Lin"/>
 		    </div>
 		    <hr></hr><br/>
 		    <h3 id="honour">Honours Students</h3> <br/>
 		    <div className="row">
-                      <Person img={James} name="James Wood"/>
-		      <Person img={Jeremy} name="Jeremy Gillen"/>
                       <Person img={Jazlyn} name="Jazlyn Lin"/>
                       <Person img={Matthew} name="Matthew Raad"/>
 		    </div>
@@ -134,10 +148,12 @@ class Team extends React.Component{
 		      <Person img={xinyu} name="Xiyu Yu (PhD)"/>
                       <PersonLink img={yuxuan} name="Yuxuan Du (PhD)"  link="https://yuxuan-du.github.io/"/>
 		      <Person img={chencheng} name="Cheng Chen (MPhil)"/>
-                      <Person img={zhengning} name="Zhengning Wu (Honours)"/>
+                      <Person id="21" img={jialiang} name="Jialiang Shen (MPhil)"/>
 		      <Person img={kangzhao} name="Kangzhao Xia (Honours)"/>
 		      <Person img={Yuhao} name="Yuhao Hu (Honours)"/>
 		      <Person img={jerry} name="Jerry Tan (Honours)"/>
+                      <Person img={James} name="James Wood (Honours)"/>
+		      <Person img={Jeremy} name="Jeremy Gillen (Honours)"/>
 		    </div>
 
 		    <br/> <br/>

@@ -42,16 +42,21 @@ var teamData = [
              "speciality": "Bachelor of Management",
             },
 	],
-	"interests": "My research interests lie in Weakly supervised learning and Unsupervised Representation Learning. If you have any ideas or meet any problems, you're more than welcome to discuss them.",
+	"interests": "My research interests lie in weakly supervised learning and unsupervised representation learning. If you have any ideas or meet any problems, you're more than welcome to discuss them.",
 	"activity":[
-	    {
-                "content": "I accepted the invitation to serve as a reviewer for Knowledge-Based Systems.",
-                "year": "07/2021"
+            {
+                "content": "I partcipated in QUBIQ Challenge of MICCAI 2021, and got the second place.",
+                "year": "09/2021"
             },
 	],
 	"honors": [
-            {"content": "Postgraduate Research Scholarship in Unsupervised Representation Learning",
-	     "year": 2020,
+            {
+                "content": "Postgraduate Research Scholarship in Unsupervised Representation Learning",
+	        "year": 2020,
+	    },
+            {
+                "content": "Data61 PhD Scholarships",
+	        "year": 2021,
 	    },
 	],
 	"publications":[
@@ -59,12 +64,13 @@ var teamData = [
 	     "authors":"Yingbin Bai and Tongliang Liu",
 	     "conference":"ICCV 2021",
 	     "code":"https://github.com/tmllab/Me-Momentum",
+             "pdf":"https://openaccess.thecvf.com/content/ICCV2021/html/Bai_Me-Momentum_Extracting_Hard_Confident_Examples_From_Noisily_Labeled_Data_ICCV_2021_paper.html",
 	     "highlight":"Oral"
 	    },
             {"title":"Understanding and Improving Early Stopping for Learning with Noisy Labels",
-	     "authors":"Yingbin Bai*, Erkun Yang*, Bo Han, Yanhua Yang, Jiatong Li, Yinian Mao, Gang Niu, Tongliang Liu",
-	     "conference":"Neurips 2021",
-	     "code":"",
+	     "authors":"Yingbin Bai, Erkun Yang, Bo Han, Yanhua Yang, Jiatong Li, Yinian Mao, Gang Niu, and Tongliang Liu",
+	     "conference":"NeurIPS 2021",
+	     "code":"https://github.com/tmllab/PES",
 	     "pdf":"https://arxiv.org/abs/2106.15853",
 	     "highlight":""
 	    }
