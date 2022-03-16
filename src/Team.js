@@ -44,8 +44,9 @@ import Shikun from './images/Shikun.jpg';
 import Xuan from './images/Xuan.jpg';
 import Runlin from './images/Runlin.jpg';
 import Nguyen from './images/Nguyen.jpg';
-
-
+import Yexin from './images/Yexin.jpg';
+import Muyang from './images/Muyang.png';
+import Huaxi from './images/Huaxi.jpeg';
 
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
@@ -76,7 +77,7 @@ class Team extends React.Component{
 		  <div className="col-md-3 col-12 m-hidden" style={{paddingBottom:"50px"}}>
 		    <button onClick={()=>this.scrollToAnchor('dir')} className="btn btn-outline-primary rounded-pill active"><Spacer amount={11}/>Director<Spacer amount={12}/></button> <br/> <br/>
                     {/* <button onClick={()=>this.scrollToAnchor('stra')} className="btn btn-outline-primary rounded-pill">Strategic collaborator</button> <br/> <br/> */}
-                     <button onClick={()=>this.scrollToAnchor('con')} className="btn btn-outline-primary rounded-pill"><Spacer amount={1}/>Research Affiliates<Spacer amount={2}/></button> <br/> <br/> 
+                     <button onClick={()=>this.scrollToAnchor('con')} className="btn btn-outline-primary rounded-pill"><Spacer amount={6}/>Postdoctoral<Spacer amount={7}/></button> <br/> <br/> 
 		    <button onClick={()=>this.scrollToAnchor('phd')} className="btn btn-outline-primary rounded-pill"><Spacer amount={6}/>PhD Students<Spacer amount={6}/></button> <br/> <br/> 
 		    <button onClick={()=>this.scrollToAnchor('master')} className="btn btn-outline-primary rounded-pill"><Spacer amount={3}/>Master Students<Spacer amount={4}/></button> <br/> <br/>
 		    <button onClick={()=>this.scrollToAnchor('honour')} className="btn btn-outline-primary rounded-pill"><Spacer amount={2}/>Honours Students<Spacer amount={2}/></button> <br/> <br/> 
@@ -99,26 +100,25 @@ class Team extends React.Component{
 		    {/* </div> */}
                     {/* <hr></hr><br/> */}
                     
-                    <h3 id="con">Research Affiliates</h3> <br/>
+                    <h3 id="con">Postdoctoral Researchers</h3> <br/>
                     <div className="row">
-                      <PersonLink img={Vinoth} name="Vinoth Nandakumar" link="https://sites.google.com/view/vinothmn/"/>
-		      <Person img={Michael} name="Michael Huang"  description="(Industry Partner)"/>
+		      <Person id="10" img={yuyao} name="Yu Yao"/>
+                      <Person img={Huaxi} name="Huaxi Huang" description="(Co-supervised with Dr Dadong Wang)"/>
 		    </div>
                     <hr></hr><br/>
                     
 		    <h3 id="phd">PhD Students</h3> <br/>
 		    <div className="row">
-		      <Person id="10" img={yuyao} name="Yu Yao"/>
                       <PersonLink img={sonhua} name="Songhua Wu" link="https://scifancier.github.io/"/>
-		      <Person id="12" img={yingbin} name="Yingbin Bai"/>
+		      <PersonLink  img={yingbin} name="Yingbin Bai" link="https://bybeye.github.io/"/> {/* id="12"  */}
 		      <Person id="13" img={chaojian} name="Chaojian Yu" />
                       <PersonLink img={xiaobo} name="Xiaobo Xia" link="https://xiaoboxia.github.io/"/>
+                      <PersonLink img={Vinoth} name="Vinoth Nandakumar" link="https://sites.google.com/view/vinothmn/"/>
                       <Person img={zhengning} name="Zhengning Wu"/>
                       <Person img={YuhaoWu} name="Yuhao Wu"/>
                       <Person img={Cong} name="Cong Lei"/>
                       <Person img={Xuan} name="Tong Xuan" description="(part-time)"/>
 
-		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(Co-supervised with Dr Alan Blair)"/>
 		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised with Prof Seokhee Hong)"/>
                       <PersonLink img={dawei} name="Dawei Zhou" description="(Co-supervised with Prof Nannan Wang)" link="https://dwdavidxd.github.io/"/>
                       <PersonLink img={Joshua} name="Joshua Kim" description="(Co-supervised with A/Prof Kalina Yacef)" link="http://www.joshuakim.io/"/>
@@ -128,9 +128,7 @@ class Team extends React.Component{
 		    <hr></hr><br/>
 		    <h3 id="master">Master Students</h3> <br/>
 		    <div className="row">
-		      <Person id="20" img={Kewei} name="Kewei Wang"/>
-                      <Person img={Zhaoqing} name="Zhaoqing Wang"/>
-                      <Person img={Pengqian} name="Pengqian Lu"/>
+                      <PersonLink img={Zhaoqing} name="Zhaoqing Wang" link="https://derrickwang005.github.io/"/>
                       <Person img={Nguyen} name="Duc Nguyen"/>
                       <Person img={Runlin} name="Runlin Lin"/>
 		    </div>
@@ -139,6 +137,8 @@ class Team extends React.Component{
 		    <div className="row">
                       <Person img={Jazlyn} name="Jazlyn Lin"/>
                       <Person img={Matthew} name="Matthew Raad"/>
+                      <Person img={Yexin} name="Yexin Mao"/>
+                      <Person img={Muyang} name="Muyang Li"/>
 		    </div>
 
 		    <hr></hr><br/>
@@ -147,12 +147,15 @@ class Team extends React.Component{
 		      <Person img={erkun} name="Erkun Yang (PhD)"/>
 		      <Person img={xinyu} name="Xiyu Yu (PhD)"/>
                       <PersonLink img={yuxuan} name="Yuxuan Du (PhD)"  link="https://yuxuan-du.github.io/"/>
+		      <Person id="16" img={xuefeng} name="Xuefeng Li" description="(PhD)"/>
 		      <Person img={chencheng} name="Cheng Chen (MPhil)"/>
                       <Person id="21" img={jialiang} name="Jialiang Shen (MPhil)"/>
+		      <Person id="20" img={Kewei} name="Kewei Wang (MPhil)"/>
+                      <PersonLink img={Pengqian} name="Pengqian Lu (MPhil)" link="https://pengqian-lu.github.io/" />
 		      <Person img={kangzhao} name="Kangzhao Xia (Honours)"/>
 		      <Person img={Yuhao} name="Yuhao Hu (Honours)"/>
 		      <Person img={jerry} name="Jerry Tan (Honours)"/>
-                      <Person img={James} name="James Wood (Honours)"/>
+                      <Person img={James} name="James Wood (Honours; University Medal)"/>
 		      <Person img={Jeremy} name="Jeremy Gillen (Honours)"/>
 		    </div>
 
