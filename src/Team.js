@@ -47,7 +47,18 @@ import Nguyen from './images/Nguyen.jpg';
 import Yexin from './images/Yexin.jpg';
 import Muyang from './images/Muyang.png';
 import Huaxi from './images/Huaxi.jpeg';
+import Waugh from './images/Waug.jpg';
 
+import Jiacheng from './images/Jiacheng.png';
+import Zhouyang from './images/Yang.jpg';
+import Junzhi from './images/Junzhi.png';
+import Kanghui from './images/Kanghui.png';
+import Huangzhuo from './images/Huangzhuo.png';
+import Yexiong from './images/Yexiong.png';
+// import Jianglin from './images/Jianglin.png';
+import Longrong from './images/Longrong.png';
+import Shiming from './images/Shiming.jpeg';
+import Xiaolong from './images/xiaolong.jpg';
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
 // import MingmingGong from './images/MingmingGong.png';
@@ -100,11 +111,12 @@ class Team extends React.Component{
 		    {/* </div> */}
                     {/* <hr></hr><br/> */}
                     
-                    <h3 id="con">Postdoctoral Researchers</h3> <br/>
+                    <h3 id="con">Postdoctoral Reseachers/Research Associates</h3> <br/>
                     <div className="row">
-		      <Person id="10" img={yuyao} name="Yu Yao"/>
-                      <Person img={Huaxi} name="Huaxi Huang" description="(Co-supervised with Dr Dadong Wang)"/>
-		    </div>
+		      			<Person id="10" img={yuyao} name="Yu Yao"/>
+                        <Person img={Huaxi} name="Huaxi Huang" description="(Co-supervised with Dr Dadong Wang)"/>
+                        <Person img={Xiaolong} name="Xiaolong Shi"/>
+		            </div>
                     <hr></hr><br/>
                     
 		    <h3 id="phd">PhD Students</h3> <br/>
@@ -117,7 +129,13 @@ class Team extends React.Component{
                       <Person img={zhengning} name="Zhengning Wu"/>
                       <Person img={YuhaoWu} name="Yuhao Wu"/>
                       <Person img={Cong} name="Cong Lei"/>
+                      <PersonLink img={Zhaoqing} name="Zhaoqing Wang" link="https://derrickwang005.github.io/"/>
                       <Person img={Xuan} name="Tong Xuan" description="(part-time)"/>
+
+                      <PersonLink img={Huangzhuo} name="Zhuo Huang" link="https://zhuohuangai.github.io/"/>
+                      <PersonLink img={Yexiong} name="Yexiong Lin" link="https://yexionglin.github.io/"/>
+                      <PersonLink img={Longrong} name="Longrong Yang" link="https://longrongyang.github.io/"/>
+                      <PersonLink img={Shiming} name="Shiming Chen (Visiting PhD student)" link="https://shiming-chen.github.io/"/>
 
 		      <Person id="17" img={shijun} name="Shijun Cai" description="(Co-supervised with Prof Seokhee Hong)"/>
                       <PersonLink img={dawei} name="Dawei Zhou" description="(Co-supervised with Prof Nannan Wang)" link="https://dwdavidxd.github.io/"/>
@@ -128,17 +146,17 @@ class Team extends React.Component{
 		    <hr></hr><br/>
 		    <h3 id="master">Master Students</h3> <br/>
 		    <div className="row">
-                      <PersonLink img={Zhaoqing} name="Zhaoqing Wang" link="https://derrickwang005.github.io/"/>
                       <Person img={Nguyen} name="Duc Nguyen"/>
                       <Person img={Runlin} name="Runlin Lin"/>
+                      <PersonLink img={Kanghui} name="Hui Kang" link="https://randydl.github.io/"/>
 		    </div>
 		    <hr></hr><br/>
 		    <h3 id="honour">Honours Students</h3> <br/>
 		    <div className="row">
-                      <Person img={Jazlyn} name="Jazlyn Lin"/>
-                      <Person img={Matthew} name="Matthew Raad"/>
-                      <Person img={Yexin} name="Yexin Mao"/>
                       <Person img={Muyang} name="Muyang Li"/>
+                      <Person img={Zhouyang} name="Yang Zhou"/>
+                      <Person img={Jiacheng} name="Jiacheng Zhang"/>
+                      <Person img={Junzhi} name="Junzhi Ning"/>
 		    </div>
 
 		    <hr></hr><br/>
@@ -157,6 +175,10 @@ class Team extends React.Component{
 		      <Person img={jerry} name="Jerry Tan (Honours)"/>
                       <Person img={James} name="James Wood (Honours; University Medal)"/>
 		      <Person img={Jeremy} name="Jeremy Gillen (Honours)"/>
+                      <Person img={Jazlyn} name="Jazlyn Lin (Honours)"/>
+                      <Person img={Matthew} name="Matthew Raad (Honours)"/>
+                      <Person img={Yexin} name="Yexin Mao (Honours)"/>
+                      <Person img={Waugh} name="Finnegan Waugh (Honours)"/>
 		    </div>
 
 		    <br/> <br/>
