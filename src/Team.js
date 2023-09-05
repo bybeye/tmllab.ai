@@ -58,7 +58,7 @@ import Yexiong from './images/Yexiong.png';
 // import Jianglin from './images/Jianglin.png';
 import Longrong from './images/Longrong.png';
 import Shiming from './images/Shiming.jpeg';
-
+import Xiaolong from './images/xiaolong.jpg';
 // import ChenGong from './images/ChenGong.png';
 // import GangNiu from './images/GangNiu.png';
 // import MingmingGong from './images/MingmingGong.png';
@@ -111,11 +111,12 @@ class Team extends React.Component{
 		    {/* </div> */}
                     {/* <hr></hr><br/> */}
                     
-                    <h3 id="con">Postdoctoral Researchers</h3> <br/>
+                    <h3 id="con">Postdoctoral Reseachers/Research Associates</h3> <br/>
                     <div className="row">
-		      <Person id="10" img={yuyao} name="Yu Yao"/>
-                      <Person img={Huaxi} name="Huaxi Huang" description="(Co-supervised with Dr Dadong Wang)"/>
-		    </div>
+		      			<Person id="10" img={yuyao} name="Yu Yao"/>
+                        <Person img={Huaxi} name="Huaxi Huang" description="(Co-supervised with Dr Dadong Wang)"/>
+                        <Person img={Xiaolong} name="Xiaolong Shi"/>
+		            </div>
                     <hr></hr><br/>
                     
 		    <h3 id="phd">PhD Students</h3> <br/>
